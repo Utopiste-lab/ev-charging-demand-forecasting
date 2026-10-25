@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
+*.zip
+*.tar.gz
+*.log
+*.local
