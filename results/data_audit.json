@@ -1,0 +1,279 @@
+{
+  "files": {
+    "session_start_times.csv": {
+      "rows": 59583,
+      "columns": [
+        "site",
+        "garage",
+        "session_start",
+        "file_name",
+        "file_path"
+      ],
+      "dtypes_read": {
+        "site": "str",
+        "garage": "str",
+        "session_start": "str",
+        "file_name": "str",
+        "file_path": "str"
+      },
+      "missing": {
+        "site": 0,
+        "garage": 0,
+        "session_start": 0,
+        "file_name": 0,
+        "file_path": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "421191469fe39042d1bc6b7d2aded6af30e25224afb329ded34b8ae76b09c1c9"
+    },
+    "data_summary.csv": {
+      "rows": 2,
+      "columns": [
+        "site",
+        "garage",
+        "file_count",
+        "parsed_sessions",
+        "failed_files",
+        "first_start",
+        "last_start"
+      ],
+      "dtypes_read": {
+        "site": "str",
+        "garage": "str",
+        "file_count": "int64",
+        "parsed_sessions": "int64",
+        "failed_files": "int64",
+        "first_start": "str",
+        "last_start": "str"
+      },
+      "missing": {
+        "site": 0,
+        "garage": 0,
+        "file_count": 0,
+        "parsed_sessions": 0,
+        "failed_files": 0,
+        "first_start": 0,
+        "last_start": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "b362a42f80eaf58cfdb4929209b5297efd01cb2095b1437abf44c7642109c3f6"
+    },
+    "unparsed_files.csv": {
+      "rows": 0,
+      "columns": [
+        "site",
+        "file_path",
+        "reason"
+      ],
+      "dtypes_read": {
+        "site": "object",
+        "file_path": "object",
+        "reason": "object"
+      },
+      "missing": {
+        "site": 0,
+        "file_path": 0,
+        "reason": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "003c0c3bd725c781d1db3595b51a21f3c1e37cfac525c94ec613c484f8f7cd4e"
+    },
+    "hourly_counts.csv": {
+      "rows": 41603,
+      "columns": [
+        "hour",
+        "session_starts",
+        "site"
+      ],
+      "dtypes_read": {
+        "hour": "str",
+        "session_starts": "int64",
+        "site": "str"
+      },
+      "missing": {
+        "hour": 0,
+        "session_starts": 0,
+        "site": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "344f5bbbc157fe91a69ce303f629906007feac9ff80952fee4d45579e9278588"
+    },
+    "hourly_summary.csv": {
+      "rows": 2,
+      "columns": [
+        "site",
+        "first_hour",
+        "last_hour",
+        "hours_in_series",
+        "zero_hours",
+        "nonzero_hours",
+        "total_session_starts",
+        "max_starts_in_one_hour"
+      ],
+      "dtypes_read": {
+        "site": "str",
+        "first_hour": "str",
+        "last_hour": "str",
+        "hours_in_series": "int64",
+        "zero_hours": "int64",
+        "nonzero_hours": "int64",
+        "total_session_starts": "int64",
+        "max_starts_in_one_hour": "int64"
+      },
+      "missing": {
+        "site": 0,
+        "first_hour": 0,
+        "last_hour": 0,
+        "hours_in_series": 0,
+        "zero_hours": 0,
+        "nonzero_hours": 0,
+        "total_session_starts": 0,
+        "max_starts_in_one_hour": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "cb7176150e14751920ecb4de8685c7c9f291a33b12922d77fd9b038a102337c0"
+    },
+    "long_zero_runs.csv": {
+      "rows": 97,
+      "columns": [
+        "is_zero",
+        "start_hour",
+        "end_hour",
+        "hours",
+        "site"
+      ],
+      "dtypes_read": {
+        "is_zero": "bool",
+        "start_hour": "str",
+        "end_hour": "str",
+        "hours": "int64",
+        "site": "str"
+      },
+      "missing": {
+        "is_zero": 0,
+        "start_hour": 0,
+        "end_hour": 0,
+        "hours": 0,
+        "site": 0
+      },
+      "duplicate_rows": 0,
+      "sha256": "50b72109c27cefba867860fbceaab2beeb1da9b379eaa0adc59048d5e72b81b4"
+    }
+  },
+  "hourly_recount_mismatches": 0,
+  "sites": {
+    "Caltech": {
+      "hours_in_series": 22728,
+      "zero_hours": 13379,
+      "nonzero_hours": 9349,
+      "total_session_starts": 31860,
+      "max_starts_in_one_hour": 193,
+      "first_hour": "2018-05-01 00:00:00",
+      "last_hour": "2020-12-02 23:00:00",
+      "zero_fraction": 0.588657162970785,
+      "long_zero_run_count": 53,
+      "long_zero_run_hours": 3202,
+      "longest_zero_run_hours": 287
+    },
+    "JPL": {
+      "hours_in_series": 18875,
+      "zero_hours": 12575,
+      "nonzero_hours": 6300,
+      "total_session_starts": 27723,
+      "max_starts_in_one_hour": 35,
+      "first_hour": "2018-10-08 13:00:00",
+      "last_hour": "2020-12-02 23:00:00",
+      "zero_fraction": 0.6662251655629139,
+      "long_zero_run_count": 44,
+      "long_zero_run_hours": 2501,
+      "longest_zero_run_hours": 550
+    }
+  },
+  "warnings": [
+    "Zero counts measure absence of records, not verified absence of demand; no coverage log supplied.",
+    "All zeros and extreme counts retained; no outcome-dependent test filtering.",
+    "Source timestamps are timezone-naive; preserve source clock. Raw spot checks show +00:00.",
+    "Filename/session-start proxy is not independently verified vehicle arrival time.",
+    "Boundary hours may be partially observed; demand regime changes limit generalization.",
+    "JPL audited only; no cross-site experiment in this stage."
+  ],
+  "experiment": {
+    "site": "Caltech",
+    "usable_n": 22560,
+    "warmup_hours": 168,
+    "split": "floor(0.70*n), floor(0.85*n); chronological; identical test targets",
+    "selected_alpha": 1000.0,
+    "selection_metric": "validation MAE",
+    "refit_validation": false,
+    "feature_names": [
+      "hour_1",
+      "hour_2",
+      "hour_3",
+      "hour_4",
+      "hour_5",
+      "hour_6",
+      "hour_7",
+      "hour_8",
+      "hour_9",
+      "hour_10",
+      "hour_11",
+      "hour_12",
+      "hour_13",
+      "hour_14",
+      "hour_15",
+      "hour_16",
+      "hour_17",
+      "hour_18",
+      "hour_19",
+      "hour_20",
+      "hour_21",
+      "hour_22",
+      "hour_23",
+      "weekday_1",
+      "weekday_2",
+      "weekday_3",
+      "weekday_4",
+      "weekday_5",
+      "weekday_6",
+      "weekend",
+      "lag_1",
+      "lag_24",
+      "lag_168",
+      "rolling_mean_24"
+    ],
+    "test_zero_fraction": 0.8682033096926713,
+    "test_long_zero_run_hours": 1015,
+    "target_definition": "y[t] in [t,t+1h); issue at t, latest completed y[t-1]",
+    "clock": "source timezone-naive; no conversion",
+    "split_statistics": {
+      "train": {
+        "n": 15791,
+        "start": "2018-05-08 00:00:00",
+        "end": "2020-02-24 22:00:00",
+        "mean": 1.900576277626496,
+        "zero_fraction": 0.46393515293521626
+      },
+      "validation": {
+        "n": 3385,
+        "start": "2020-02-24 23:00:00",
+        "end": "2020-07-14 23:00:00",
+        "mean": 0.21506646971935006,
+        "zero_fraction": 0.9036927621861152
+      },
+      "test": {
+        "n": 3384,
+        "start": "2020-07-15 00:00:00",
+        "end": "2020-12-02 23:00:00",
+        "mean": 0.17848699763593381,
+        "zero_fraction": 0.8682033096926713
+      }
+    }
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}
