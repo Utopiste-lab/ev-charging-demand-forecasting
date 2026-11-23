@@ -1,0 +1,17 @@
+version: full_v1.0
+seed: 422026
+batch_records: 128
+workers: 5
+grid_seconds: 5
+pilot_config: config/preprocessing.yaml
+expected_archives: {Caltech: 31860, JPL: 27723}
+sites:
+  Caltech: raw_data/caltech/California_Garage_01
+  JPL: raw_data/jpl/Arroyo_Garage_01
+observed_extreme_review_a: 80
+duplicate_screen_bin_seconds: 60
+duplicate_min_nonconstant_range_a: 0.5
+duplicate_raw_reread_cache_files: 48
+maximum_isolated_failure_fraction: 0.005
+validation_sample_per_site: 10
+

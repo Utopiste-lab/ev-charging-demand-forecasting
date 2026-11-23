@@ -1,0 +1,24 @@
+version: phase44-v1
+sites: [Caltech, JPL]
+seeds: [17, 29, 43]
+mask_seed: 442026
+architectures: [CNN, TCN, GRU, Transformer]
+prefix_minutes: 10
+step_seconds: 5
+embedding_dim: 64
+hidden_width: 32
+mask_ratio: 0.30
+sensitivity_ratios: [0.15, 0.30, 0.50]
+block_steps: [2, 12]
+epochs: 10
+patience: 3
+batch_size: 256
+learning_rate: 0.001
+weight_decay: 0.0001
+min_delta: 0.00005
+probe_alphas: [0.001, 0.01, 0.1, 1.0, 10.0]
+temperature: 0.15
+workers: 0
+device: auto
+amp: true
+

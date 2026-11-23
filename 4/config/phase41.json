@@ -1,0 +1,26 @@
+{
+  "seed": 412026,
+  "random_per_site": 26,
+  "extremes_per_tail": 2,
+  "max_samples": 60,
+  "max_uncompressed_bytes": 67108864,
+  "sites": {
+    "Caltech": "raw_data/caltech/California_Garage_01",
+    "JPL": "raw_data/jpl/Arroyo_Garage_01"
+  },
+  "prefix_minutes": [
+    5,
+    10
+  ],
+  "future_minutes": [
+    10,
+    30
+  ],
+  "min_prefix_points": 5,
+  "min_channel_fraction": 0.8,
+  "max_gap_seconds": 120,
+  "energy_drop_kwh": 0.0001,
+  "terminal_current_a": 0.5,
+  "terminal_power_kw": 0.1,
+  "nearby_filename_seconds": 60
+}

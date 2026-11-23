@@ -1,0 +1,23 @@
+dataset_version: pilot_v1
+seed: 422026
+representative_per_site: 300
+max_selected: 608
+max_archive_bytes: 67108864
+grids_seconds: [5, 10, 30]
+prefix_minutes: [5, 10]
+future_minutes: [10, 30]
+long_gap_seconds: 120
+max_interpolation_span_seconds: 30
+max_interpolated_bins: 1
+max_full_bins_per_grid: 300000
+min_observed_bins: 5
+strict_observed_fraction: 0.8
+inclusive_observed_fraction: 0.2
+future_observed_fraction: 0.7
+split_quantiles: [0.7, 0.85]
+duplicate_near_start_seconds: 120
+strong_overlap_fraction: 0.8
+strong_common_timestamp_fraction: 0.8
+strong_match_mae_a: 0.1
+strong_min_common_points: 20
+
