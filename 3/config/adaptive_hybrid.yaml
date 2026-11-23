@@ -1,0 +1,33 @@
+advanced_config: config/advanced_forecasting.yaml
+seed: 42
+gating_seeds: [7, 19, 42]
+oof_blocks: 4
+oof_sensitivity: [3, 5]
+oof_warmup_fraction: 0.45
+oof_inner_validation_hours: 504
+bootstrap: {replicates: 2500, blocks_hours: [168, 24]}
+rolling:
+  first_test_starts: ["2020-01-04 00:00:00", "2020-02-15 00:00:00", "2020-03-28 00:00:00"]
+  train_days: 365
+  validation_days: 42
+  test_days: 42
+  # Fixed subsets of the existing chronological search grids.
+  ridge_candidates: [100.0, 1000.0, 10000.0]
+  forest_candidate_indices: [0, 1, 6]
+  boosting_candidate_indices: [0, 3, 4]
+median_positive_forest: {n_estimators: 100, max_depth: 9, min_samples_leaf: 12}
+adaptation: {offset_l2: 0.10}
+static:
+  grid_resolution: 20
+  regularization: [0.0, 0.03, 0.15]
+rule:
+  probability_thresholds: [0.2, 0.35, 0.5, 0.65]
+  regime_min_oof_rows: 40
+gate:
+  smoothing: 0.01
+  max_iterations: 350
+  candidates:
+    - {hidden: 0, l2: 0.01}
+    - {hidden: 0, l2: 0.08}
+    - {hidden: 6, l2: 0.015}
+    - {hidden: 6, l2: 0.10}

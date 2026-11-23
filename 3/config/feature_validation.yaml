@@ -1,0 +1,5 @@
+data_view: data/processed/hourly_counts_v1.csv
+provenance: data/processed/data_provenance.json
+legacy_config: config/baseline_1h.yaml
+horizons_hours: [1, 3, 6, 24]
+boundary_policies: [exclude_partial, retain_sensitivity]

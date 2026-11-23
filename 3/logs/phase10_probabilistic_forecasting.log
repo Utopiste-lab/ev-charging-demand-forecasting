@@ -1,0 +1,403 @@
+Stage 3 closure / Experiment 09
+2026-11-20T00:31:26.2047414+08:00
+Source clock retained, timezone and operational coverage unknown.
+Primary test n=3383 per setting, 28-day official calibration and 14-day rolling calibration.
+There were 44 settings, including both exploratory source-calibrated directions and matched controls. Signed adjustments are all zero. Independent toy tests cover positive and negative adjustment and empty interval handling.
+No raw archive contents were opened. Raw paths, byte counts and last-write metadata were compared.
+All 11 new plots decoded and were visually reviewed. Existing figures stayed intact.
+First 09 launch found a same-named Experiment 08 helper on the import path. Resolved local module precedence before the first fit.
+Legacy strict floating-point comparisons surfaced tiny differences. Follow-up replay retained exact non-floating comparisons and a 2e-11 float tolerance.
+
+baseline.log
+Historical readback verified 1052 test/validation score rows and saved 20 constant-zero test settings.
+
+baseline_replay.log
+Historical readback verified 1052 test/validation score rows and saved 20 constant-zero test settings.
+Reproduced all four archived-audit and constant-zero files.
+
+replay_02_feature_validation.log
+2026-11-20T00:11:26.069719+08:00 Stage 3 Phase 3 feature and split validation
+Hourly view SHA-256 verified before and after: e068400dcfa4fbbf04ef37d336d3fd4c0a19a6464ff1348aff981cf0cb9d9a2f
+Source-clock hours: {'Caltech': 22728, 'JPL': 18875}
+Cross-site overlap: 2018-10-08 13:00:00 to 2020-12-02 23:00:00, 18875 hours
+PASS A Future perturbation and D direct target perturbation across 32 plans
+PASS B Timestamp and numerical feature availability across 628696 eligible rows
+PASS C Exact target windows, per-horizon release purge and shared cross-site calendar
+PASS E All historical 34 Caltech columns and 3,384 aligned predictions: {'Seasonal Naive': 0.0, 'Ridge Regression': 1.7763568394002505e-14}
+Published 144 feature rows and 96 split rows.
+Raw content reads: 0. Stage 2 archived forecasting source and predictions read only for test E.
+Replayed one historical Ridge fit with frozen settings. No new model fits or transfer training.
+
+replay_03_tree_models_1h.log
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.660019
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.356619
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.316020
+Traceback (most recent call last):
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\03_tree_models_1h\run_comparison.py", line 315, in <module>
+    main()
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\03_tree_models_1h\run_comparison.py", line 304, in main
+    verify_rerun(staged, ROOT)
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\03_tree_models_1h\run_comparison.py", line 226, in verify_rerun
+    pd.testing.assert_frame_equal(after[stable], before[stable], check_exact=True)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 220, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1347, in assert_frame_equal
+    assert_series_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 193, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1051, in assert_series_equal
+    assert_numpy_array_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 695, in assert_numpy_array_equal
+    _raise(left, right, err_msg)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 689, in _raise
+    raise_assert_detail(obj, msg, left, right, index_values=index_values)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 619, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame.iloc[:, 14] (column name="candidate_train_MAE_raw") are different
+
+DataFrame.iloc[:, 14] (column name="candidate_train_MAE_raw") values are different (33.33333 %)
+[index]: [0, 1, 2, 3, 4, 5]
+[left]:  [1.4043698543381886, 1.2062810355909528, 1.2062810355909528, 0.971710755149329, 1.0569992980055365, 1.0569992980055365]
+[right]: [1.4043698543381886, 1.2062810355909532, 1.2062810355909532, 0.971710755149329, 1.0569992980055365, 1.0569992980055365]
+
+replay_04_multi_horizon.log
+Caltech 1h
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.660019
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.356619
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.316020
+Caltech 3h
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.086448
+Random Forest: selected {"max_depth": 12, "max_features": 1.0, "min_samples_leaf": 4, "min_samples_split": 8, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.445309
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 4, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 0.85} at validation MAE 0.550433
+Caltech 6h
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.212669
+Random Forest: selected {"max_depth": null, "max_features": 0.5, "min_samples_leaf": 2, "min_samples_split": 4, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.563496
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 4, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 0.85} at validation MAE 0.749528
+Caltech 24h
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.970932
+Random Forest: selected {"max_depth": 6, "max_features": 0.75, "min_samples_leaf": 16, "min_samples_split": 24, "n_estimators": 120, "n_jobs": 4, "random_state": 42} at validation MAE 0.605423
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 2, "min_samples_leaf": 8, "min_samples_split": 16, "n_estimators": 150, "n_iter_no_change": null, "random_state": 42, "subsample": 0.8} at validation MAE 0.689926
+Traceback (most recent call last):
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\04_multi_horizon\run_multi_horizon.py", line 191, in <module>
+    main()
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\04_multi_horizon\run_multi_horizon.py", line 178, in main
+    compare_rerun(temp)
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\04_multi_horizon\run_multi_horizon.py", line 73, in compare_rerun
+    pd.testing.assert_frame_equal(original[keep], recreated[keep], check_exact=True)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 220, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1347, in assert_frame_equal
+    assert_series_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 193, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1051, in assert_series_equal
+    assert_numpy_array_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 695, in assert_numpy_array_equal
+    _raise(left, right, err_msg)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 689, in _raise
+    raise_assert_detail(obj, msg, left, right, index_values=index_values)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 619, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame.iloc[:, 14] (column name="candidate_train_MAE_raw") are different
+
+DataFrame.iloc[:, 14] (column name="candidate_train_MAE_raw") values are different (18.75 %)
+[index]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+[left]:  [1.4043698543381886, 1.2062810355909532, 0.971710755149329, 1.0569992980055365, 1.4041555808944635, 1.5214211436337246, 0.9803000092192723, 1.0962369888917658, 1.4037389100126743, 1.5529367638589147, 0.7487274602563486, 1.14646459499739, 1.4022484756097562, 1.3636820503829357, 1.1944392208418282, 1.21208758444953]
+[right]: [1.4043698543381886, 1.2062810355909528, 0.971710755149329, 1.0569992980055365, 1.4041555808944635, 1.5214211436337244, 0.9803000092192723, 1.0962369888917658, 1.4037389100126743, 1.5529367638589144, 0.7487274602563486, 1.14646459499739, 1.4022484756097562, 1.3636820503829357, 1.1944392208418282, 1.21208758444953]
+
+replay_05_cross_site_audit.log
+Caltech->JPL 1h: A–G passed
+JPL->Caltech 1h: A–G passed
+Caltech->JPL 3h: A–G passed
+JPL->Caltech 3h: A–G passed
+Caltech->JPL 6h: A–G passed
+JPL->Caltech 6h: A–G passed
+Caltech->JPL 24h: A–G passed
+JPL->Caltech 24h: A–G passed
+Reproduced all five CSV tables, four figure hashes and the design report.
+
+replay_06_cross_site_training.log
+Caltech->JPL 1h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 1000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 10, 'max_features': 0.75, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->Caltech 1h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 100.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+Caltech->Caltech 1h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 1000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 10, 'max_features': 0.75, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->JPL 1h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 100.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+Caltech->JPL 3h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->Caltech 3h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 3h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->JPL 3h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->JPL 6h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->Caltech 6h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 6h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->JPL 6h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->JPL 24h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->Caltech 24h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 24h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->JPL 24h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Traceback (most recent call last):
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\06_cross_site_training\run_cross_site.py", line 253, in <module>
+    main()
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\06_cross_site_training\run_cross_site.py", line 241, in main
+    verify_replay(temp)
+  File "C:\Users\Vicky\Desktop\ML project\3\experiments\06_cross_site_training\run_cross_site.py", line 94, in verify_replay
+    pd.testing.assert_frame_equal(one[stable], two[stable], check_exact=True)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 220, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1347, in assert_frame_equal
+    assert_series_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\util\_decorators.py", line 193, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 1051, in assert_series_equal
+    assert_numpy_array_equal(
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 695, in assert_numpy_array_equal
+    _raise(left, right, err_msg)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 689, in _raise
+    raise_assert_detail(obj, msg, left, right, index_values=index_values)
+  File "D:\Coding tools\py312\Lib\site-packages\pandas\_testing\asserters.py", line 619, in raise_assert_detail
+    raise AssertionError(msg)
+AssertionError: DataFrame.iloc[:, 10] (column name="test_MAE") are different
+
+DataFrame.iloc[:, 10] (column name="test_MAE") values are different (18.75 %)
+[index]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+[left]:  [0.665385752290866, 0.6864052824273851, 0.631230152666974, 0.6118273909522122, 0.27815548329884715, 0.5779555999594796, 0.3582070550563847, 0.376165153272954, 0.665385752290866, 0.9390288019384421, 0.9675132902060474, 0.9596904850832398, 0.27815548329884715, 1.2756454521376837, 0.9237439068191473, 0.8799350559854795, 0.665385752290866, 0.991244665581049, 0.9460557625994537, 0.9374790699898948, 0.27815548329884715, 1.3013151735547426, 1.0397558892188143, 1.0097643618706507, 0.665385752290866, 0.8363362760911949, 0.7883647792109706, 0.7232551645740808, 0.27815548329884715, 1.0999668576259025, 1.187172335940261, 1.1779379742336957]
+[right]: [0.665385752290866, 0.6864052824273837, 0.631230152666974, 0.6118273909522122, 0.27815548329884715, 0.57795559995948, 0.3582070550563847, 0.376165153272954, 0.665385752290866, 0.9390288019384416, 0.9675132902060474, 0.9596904850832398, 0.27815548329884715, 1.2756454521376837, 0.9237439068191473, 0.8799350559854795, 0.665385752290866, 0.9912446655810484, 0.9460557625994537, 0.9374790699898948, 0.27815548329884715, 1.3013151735547424, 1.0397558892188143, 1.0097643618706507, 0.665385752290866, 0.8363362760911944, 0.7883647792109706, 0.7232551645740808, 0.27815548329884715, 1.0999668576259025, 1.187172335940261, 1.1779379742336957]
+
+tolerant_03.log
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.660019
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.356619
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.316020
+LEGACY_TOLERANT_PASS: 6 tables, maximum float absolute delta 2.4868995751603507e-14; 5/5 regenerated plot hashes identical.
+Reproduced all six tables (excluding timings) and five figure hashes.
+            model prediction_variant  validation_MAE  test_MAE  test_RMSE   test_R2  test_negative_predictions
+   Seasonal Naive                raw        0.241950  0.278155   0.712417 -0.761252                          0
+ Ridge Regression                raw        0.660019  0.543987   0.814958 -1.304751                       1202
+ Ridge Regression        nonnegative        0.579314  0.464961   0.792302 -1.178387                          0
+    Random Forest                raw        0.356619  0.299418   0.569884 -0.127006                          0
+Gradient Boosting                raw        0.316020  0.294247   0.568010 -0.119604                        172
+Gradient Boosting        nonnegative        0.308562  0.293063   0.567935 -0.119308                          0
+
+tolerant_04.log
+Caltech 1h
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.660019
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.356619
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.316020
+Caltech 3h
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.086448
+Random Forest: selected {"max_depth": 12, "max_features": 1.0, "min_samples_leaf": 4, "min_samples_split": 8, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.445309
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 4, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 0.85} at validation MAE 0.550433
+Caltech 6h
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.212669
+Random Forest: selected {"max_depth": null, "max_features": 0.5, "min_samples_leaf": 2, "min_samples_split": 4, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.563496
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 4, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 0.85} at validation MAE 0.749528
+Caltech 24h
+Ridge Regression: selected {"alpha": 3000.0, "solver": "svd"} at validation MAE 0.970932
+Random Forest: selected {"max_depth": 6, "max_features": 0.75, "min_samples_leaf": 16, "min_samples_split": 24, "n_estimators": 120, "n_jobs": 4, "random_state": 42} at validation MAE 0.605423
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 2, "min_samples_leaf": 8, "min_samples_split": 16, "n_estimators": 150, "n_iter_no_change": null, "random_state": 42, "subsample": 0.8} at validation MAE 0.689926
+LEGACY_TOLERANT_PASS: 8 tables, maximum float absolute delta 3.0198066269804258e-14; 10/10 regenerated plot hashes identical.
+Replayed eight tables (excluding timings) and ten figure hashes.
+1h A–D leakage tests passed; train/validation/test=15790/3385/3383
+3h A–D leakage tests passed; train/validation/test=15786/3383/3383
+6h A–D leakage tests passed; train/validation/test=15780/3380/3383
+24h A–D leakage tests passed; train/validation/test=15744/3362/3383
+Official 1h replay passed. Max row-level absolute difference: 2.4868995751603507e-14
+Four horizons share identical test keys. Each horizon's 3 learned models share its refit key hash.
+Completed 96 candidate fits plus 12 final refits, 162252 saved forecasts and 10 figures.
+Caltech only. No Stage 2 or raw archive reads/writes and no transfer fit.
+ horizon_hours             model  test_MAE  test_RMSE   test_R2
+             1    Seasonal Naive  0.278155   0.712417 -0.761252
+             1  Ridge Regression  0.543987   0.814958 -1.304751
+             1     Random Forest  0.299418   0.569884 -0.127006
+             1 Gradient Boosting  0.294247   0.568010 -0.119604
+             3    Seasonal Naive  0.278155   0.712417 -0.761252
+             3  Ridge Regression  0.824737   1.246749 -4.394001
+             3     Random Forest  0.390595   0.841813 -1.459144
+             3 Gradient Boosting  0.403004   0.772396 -1.070299
+             6    Seasonal Naive  0.278155   0.712417 -0.761252
+             6  Ridge Regression  0.926026   1.344622 -5.274132
+             6     Random Forest  0.417097   0.897348 -1.794314
+             6 Gradient Boosting  0.480471   0.881842 -1.698576
+            24    Seasonal Naive  0.278155   0.712417 -0.761252
+            24  Ridge Regression  0.795967   1.120351 -3.355734
+            24     Random Forest  0.459774   0.771447 -1.065213
+            24 Gradient Boosting  0.495178   0.817273 -1.317861
+
+tolerant_06.log
+Caltech->JPL 1h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 1000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 10, 'max_features': 0.75, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->Caltech 1h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 100.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+Caltech->Caltech 1h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 1000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 10, 'max_features': 0.75, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->JPL 1h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 100.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+Caltech->JPL 3h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->Caltech 3h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 3h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->JPL 3h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->JPL 6h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->Caltech 6h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 6h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 3000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+JPL->JPL 6h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 30000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 12, 'max_features': 1.0, 'min_samples_leaf': 4, 'min_samples_split': 8, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->JPL 24h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->Caltech 24h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+Caltech->Caltech 24h complete, selection/refit site Caltech: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': 6, 'max_features': 0.75, 'min_samples_leaf': 16, 'min_samples_split': 24, 'n_estimators': 120, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.1, 'loss': 'squared_error', 'max_depth': 2, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0}}
+JPL->JPL 24h complete, selection/refit site JPL: {'Ridge Regression': {'alpha': 10000.0, 'solver': 'svd'}, 'Random Forest': {'max_depth': None, 'max_features': 0.5, 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 160, 'n_jobs': 4, 'random_state': 42}, 'Gradient Boosting': {'learning_rate': 0.05, 'loss': 'squared_error', 'max_depth': 4, 'min_samples_leaf': 6, 'min_samples_split': 12, 'n_estimators': 160, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 0.85}}
+LEGACY_TOLERANT_PASS: 12 tables, maximum float absolute delta 4.5474735088646412e-13; 11/11 regenerated plot hashes identical.
+Reproduced all 12 CSVs apart from timings and all 11 figure hashes.
+   direction  horizon_hours             model  test_MAE  test_RMSE    test_R2
+Caltech->JPL              1    Seasonal Naive  0.665386   1.388586   0.129323
+Caltech->JPL              1  Ridge Regression  0.686405   1.107445   0.446195
+Caltech->JPL              1     Random Forest  0.631230   1.137351   0.415882
+Caltech->JPL              1 Gradient Boosting  0.611827   1.081693   0.471652
+JPL->Caltech              1    Seasonal Naive  0.278155   0.712417  -0.761252
+JPL->Caltech              1  Ridge Regression  0.577956   0.838291  -1.438612
+JPL->Caltech              1     Random Forest  0.358207   0.645801  -0.447272
+JPL->Caltech              1 Gradient Boosting  0.376165   0.630365  -0.378914
+Caltech->JPL              3    Seasonal Naive  0.665386   1.388586   0.129323
+Caltech->JPL              3  Ridge Regression  0.939029   1.452627   0.047160
+Caltech->JPL              3     Random Forest  0.967513   1.922099  -0.668258
+Caltech->JPL              3 Gradient Boosting  0.959690   1.828280  -0.509375
+JPL->Caltech              3    Seasonal Naive  0.278155   0.712417  -0.761252
+JPL->Caltech              3  Ridge Regression  1.275645   1.620943  -8.117773
+JPL->Caltech              3     Random Forest  0.923744   2.644406 -23.266626
+JPL->Caltech              3 Gradient Boosting  0.879935   2.004686 -12.945878
+Caltech->JPL              6    Seasonal Naive  0.665386   1.388586   0.129323
+Caltech->JPL              6  Ridge Regression  0.991245   1.472030   0.021535
+Caltech->JPL              6     Random Forest  0.946056   1.782929  -0.435423
+Caltech->JPL              6 Gradient Boosting  0.937479   1.647612  -0.225807
+JPL->Caltech              6    Seasonal Naive  0.278155   0.712417  -0.761252
+JPL->Caltech              6  Ridge Regression  1.301315   1.647834  -8.422799
+JPL->Caltech              6     Random Forest  1.039756   2.971405 -29.639154
+JPL->Caltech              6 Gradient Boosting  1.009764   2.523122 -21.091720
+Caltech->JPL             24    Seasonal Naive  0.665386   1.388586   0.129323
+Caltech->JPL             24  Ridge Regression  0.836336   1.250237   0.294175
+Caltech->JPL             24     Random Forest  0.788365   1.343044   0.185497
+Caltech->JPL             24 Gradient Boosting  0.723255   1.226819   0.320370
+JPL->Caltech             24    Seasonal Naive  0.278155   0.712417  -0.761252
+JPL->Caltech             24  Ridge Regression  1.099967   1.495699  -6.763211
+JPL->Caltech             24     Random Forest  1.187172   2.890692 -27.997247
+JPL->Caltech             24 Gradient Boosting  1.177938   2.540093 -21.389908
+
+readback_07_advanced_forecasting.log
+Verified 270,420 new predictions, 200 comparison scores, 40 classification/magnitude rows, and 40 fit attestations.
+
+readback_08_adaptive_hybrid.log
+Independent readback verified 183,414 prediction rows, 665,112 weight rows, 44 split sets, expert/gating hashes, all score and transfer tables, and prior SHA-256 values.
+
+prob_run.log
+official Caltech full 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech full 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech full 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech full 24h n_cal=649 adj=0 n_test=3383 verified
+official JPL matched 1h n_cal=672 adj=0 n_test=3383 verified
+official JPL matched 3h n_cal=670 adj=0 n_test=3383 verified
+official JPL matched 6h n_cal=667 adj=0 n_test=3383 verified
+official JPL matched 24h n_cal=649 adj=0 n_test=3383 verified
+official Caltech matched 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech matched 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech matched 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech matched 24h n_cal=649 adj=0 n_test=3383 verified
+official Caltech->JPL 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech->JPL 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech->JPL 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech->JPL 24h n_cal=649 adj=0 n_test=3383 verified
+official JPL->Caltech 1h n_cal=672 adj=0 n_test=3383 verified
+official JPL->Caltech 3h n_cal=670 adj=0 n_test=3383 verified
+official JPL->Caltech 6h n_cal=667 adj=0 n_test=3383 verified
+official JPL->Caltech 24h n_cal=649 adj=0 n_test=3383 verified
+R1 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R1 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R1 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R1 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R1 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R1 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R1 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R1 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+R2 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R2 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R2 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R2 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R2 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R2 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R2 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R2 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+R3 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R3 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R3 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R3 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R3 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R3 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R3 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R3 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+Independently verified 113,026 calibration/test rows, signed CQR, alignment, split hashes, quantile ordering, selection loss and block-bootstrap metrics.
+Published 11 Experiment 09 artifacts.
+
+prob_independent.log
+Independently verified 113,026 calibration/test rows, signed CQR, alignment, split hashes, quantile ordering, selection loss and block-bootstrap metrics.
+
+prob_replay.log
+official Caltech full 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech full 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech full 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech full 24h n_cal=649 adj=0 n_test=3383 verified
+official JPL matched 1h n_cal=672 adj=0 n_test=3383 verified
+official JPL matched 3h n_cal=670 adj=0 n_test=3383 verified
+official JPL matched 6h n_cal=667 adj=0 n_test=3383 verified
+official JPL matched 24h n_cal=649 adj=0 n_test=3383 verified
+official Caltech matched 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech matched 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech matched 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech matched 24h n_cal=649 adj=0 n_test=3383 verified
+official Caltech->JPL 1h n_cal=672 adj=0 n_test=3383 verified
+official Caltech->JPL 3h n_cal=670 adj=0 n_test=3383 verified
+official Caltech->JPL 6h n_cal=667 adj=0 n_test=3383 verified
+official Caltech->JPL 24h n_cal=649 adj=0 n_test=3383 verified
+official JPL->Caltech 1h n_cal=672 adj=0 n_test=3383 verified
+official JPL->Caltech 3h n_cal=670 adj=0 n_test=3383 verified
+official JPL->Caltech 6h n_cal=667 adj=0 n_test=3383 verified
+official JPL->Caltech 24h n_cal=649 adj=0 n_test=3383 verified
+R1 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R1 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R1 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R1 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R1 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R1 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R1 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R1 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+R2 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R2 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R2 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R2 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R2 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R2 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R2 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R2 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+R3 Caltech full 1h n_cal=336 adj=0 n_test=1008 verified
+R3 Caltech full 3h n_cal=334 adj=0 n_test=1008 verified
+R3 Caltech full 6h n_cal=331 adj=0 n_test=1008 verified
+R3 Caltech full 24h n_cal=313 adj=0 n_test=1008 verified
+R3 JPL matched 1h n_cal=336 adj=0 n_test=1008 verified
+R3 JPL matched 3h n_cal=334 adj=0 n_test=1008 verified
+R3 JPL matched 6h n_cal=331 adj=0 n_test=1008 verified
+R3 JPL matched 24h n_cal=313 adj=0 n_test=1008 verified
+Independently verified 113,026 calibration/test rows, signed CQR, alignment, split hashes, quantile ordering, selection loss and block-bootstrap metrics.
+Clean poisoned-label replay reproduced 11 Experiment 09 artifacts.
+
+integration.log
+Published 24 consolidated tables, reports and plots.
+
+integration_replay.log
+Reproduced 24 consolidated tables, reports and plots.
+
+Execution environment
+{
+  "seed": 42,
+  "python": "3.12.10",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "scikit-learn": "1.8.0",
+  "scipy": "1.17.1",
+  "PyYAML": "6.0.3",
+  "matplotlib": "3.10.8"
+}

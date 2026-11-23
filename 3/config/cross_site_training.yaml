@@ -1,0 +1,11 @@
+audit_config: config/cross_site.yaml
+unified_config: config/tree_models_1h.yaml
+matched_references:
+  - Caltech
+  - JPL
+audit_outputs:
+  window: results/tables/cross_site_common_window.csv
+  split: results/tables/cross_site_split_summary.csv
+  features: results/tables/cross_site_feature_compatibility.csv
+  distributions: results/tables/cross_site_distribution_comparison.csv
+  checks: results/tables/cross_site_audit_checks.csv

@@ -1,0 +1,45 @@
+protocol_version: unified_boundary_aware_1h
+official_experiment_config: config/tree_models_1h.yaml
+data_contract: data_contract.yaml
+site: Caltech
+horizon_hours: 1
+forecast:
+  mode: rolling
+  issue_time: target interval start
+  horizon_ends_at: target interval end
+  observation_delay_hours: 0
+split:
+  rule: Chronological after warmup, with floor cut indices.
+  cut_fractions: [0.70, 0.85]
+  warmup_hours: 168
+  train: {start: "2018-05-08 00:00:00", end: "2020-02-24 22:00:00", n: 15791}
+  validation: {start: "2020-02-24 23:00:00", end: "2020-07-14 23:00:00", n: 3385}
+  test: {start: "2020-07-15 00:00:00", end: "2020-12-02 23:00:00", n: 3384}
+features:
+  calendar_alignment: target interval start
+  hours: {first_indicator: 1, last_indicator: 23}
+  weekdays: {first_indicator: 1, last_indicator: 6, convention: Monday is 0}
+  weekend_days: [5, 6]
+  lag_hours: [1, 24, 168]
+  rolling_mean: {shift_hours: 1, window_hours: 24, min_periods: 24}
+  feature_count: 34
+models:
+  seasonal_naive:
+    period_hours: 24
+  ridge:
+    scaler: StandardScaler
+    solver: svd
+    alpha_candidates: [0.1, 1.0, 10.0, 100.0, 1000.0, 3000.0, 10000.0, 30000.0]
+evaluation:
+  metrics: [MAE, RMSE, R2]
+  r2_definition: "1 - SSE / SST"
+  r2_undefined: NA
+  reference_atol: 1.0e-10
+historical_audit:
+  ridge_alpha: 1000.0
+  original_code:
+    path: Member3_outputs/train_baselines.py
+    sha256: 193320413cf89ca356367498df4c01bb3f5a571a1b982efe494b0d6e06cd2eca
+  predictions:
+    path: Member3_outputs/predictions.csv
+    sha256: 922489c2187ebf7cfa9b3e13ba457a3e028bc20ae6ae5d7677e9ce5c4882528c

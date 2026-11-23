@@ -1,0 +1,33 @@
+framework_config: config/feature_validation.yaml
+site: Caltech
+horizon_hours: 1
+random_state: 42
+selection_metric: MAE
+tie_breaker: first candidate in configured order
+final_refit: train_and_validation_labels_available_by_first_test_issue
+protocol: boundary_aware
+boundary_policy: exclude_partial
+split_summary: results/tables/temporal_split_summary.csv
+expected_test_samples: 3383
+random_forest:
+  fixed: {n_jobs: 4}
+  candidates:
+    - {n_estimators: 120, max_depth: 8, min_samples_split: 16, min_samples_leaf: 8, max_features: 0.5}
+    - {n_estimators: 160, max_depth: 10, min_samples_split: 12, min_samples_leaf: 6, max_features: 0.75}
+    - {n_estimators: 160, max_depth: 12, min_samples_split: 8, min_samples_leaf: 4, max_features: 0.5}
+    - {n_estimators: 200, max_depth: 16, min_samples_split: 6, min_samples_leaf: 3, max_features: 0.75}
+    - {n_estimators: 160, max_depth: null, min_samples_split: 4, min_samples_leaf: 2, max_features: 0.5}
+    - {n_estimators: 160, max_depth: 12, min_samples_split: 8, min_samples_leaf: 4, max_features: 1.0}
+    - {n_estimators: 120, max_depth: 6, min_samples_split: 24, min_samples_leaf: 16, max_features: 0.75}
+    - {n_estimators: 200, max_depth: 10, min_samples_split: 8, min_samples_leaf: 4, max_features: 0.5}
+gradient_boosting:
+  fixed: {loss: squared_error, n_iter_no_change: null}
+  candidates:
+    - {n_estimators: 120, learning_rate: 0.03, max_depth: 2, min_samples_split: 24, min_samples_leaf: 16, subsample: 1.0}
+    - {n_estimators: 200, learning_rate: 0.03, max_depth: 3, min_samples_split: 20, min_samples_leaf: 12, subsample: 0.8}
+    - {n_estimators: 150, learning_rate: 0.05, max_depth: 2, min_samples_split: 16, min_samples_leaf: 8, subsample: 0.8}
+    - {n_estimators: 160, learning_rate: 0.05, max_depth: 3, min_samples_split: 12, min_samples_leaf: 6, subsample: 1.0}
+    - {n_estimators: 100, learning_rate: 0.10, max_depth: 2, min_samples_split: 16, min_samples_leaf: 8, subsample: 1.0}
+    - {n_estimators: 160, learning_rate: 0.05, max_depth: 4, min_samples_split: 12, min_samples_leaf: 6, subsample: 0.85}
+    - {n_estimators: 220, learning_rate: 0.03, max_depth: 2, min_samples_split: 12, min_samples_leaf: 6, subsample: 0.9}
+    - {n_estimators: 100, learning_rate: 0.08, max_depth: 3, min_samples_split: 24, min_samples_leaf: 16, subsample: 0.85}

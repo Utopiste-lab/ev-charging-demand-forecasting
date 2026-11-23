@@ -1,0 +1,45 @@
+schema_version: 1
+view_version: v1
+target:
+  name: Hourly Recorded Session-Start Counts
+  definition: Count source sessions by the session-start time recorded in the archive filename.
+  interval: "[timestamp, timestamp + 1 hour)"
+  unit: recorded sessions per hour
+  source_record: One archived CSV represents one source session with multiple telemetry rows.
+clock:
+  basis: source_clock
+  timezone_status: unknown
+  conversion: none
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
+  step_hours: 1
+coverage:
+  status: unknown
+  zero_meaning: No source session start was recorded in the hour.
+  boundary_limitation: The first and last hours may have only partial observation coverage.
+  retain_all_counts: true
+source:
+  root_relative_to_stage3: ../2
+  files:
+    sessions:
+      path: member1_outputs/session_start_times.csv
+      sha256: 421191469fe39042d1bc6b7d2aded6af30e25224afb329ded34b8ae76b09c1c9
+    session_summary:
+      path: member1_outputs/data_summary.csv
+      sha256: b362a42f80eaf58cfdb4929209b5297efd01cb2095b1437abf44c7642109c3f6
+    unparsed:
+      path: member1_outputs/unparsed_files.csv
+      sha256: 003c0c3bd725c781d1db3595b51a21f3c1e37cfac525c94ec613c484f8f7cd4e
+    hourly:
+      path: member2_outputs/hourly_counts.csv
+      sha256: 344f5bbbc157fe91a69ce303f629906007feac9ff80952fee4d45579e9278588
+    hourly_summary:
+      path: member2_outputs/hourly_summary.csv
+      sha256: cb7176150e14751920ecb4de8685c7c9f291a33b12922d77fd9b038a102337c0
+    long_zero_runs:
+      path: member2_outputs/long_zero_runs.csv
+      sha256: 50b72109c27cefba867860fbceaab2beeb1da9b379eaa0adc59048d5e72b81b4
+sites:
+  Caltech:
+    garage: California_Garage_01
+  JPL:
+    garage: Arroyo_Garage_01

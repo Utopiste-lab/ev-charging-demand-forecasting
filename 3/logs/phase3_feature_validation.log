@@ -1,0 +1,11 @@
+2026-11-19T18:19:18.989443+08:00 Stage 3 Phase 3 feature and split validation
+Hourly view SHA-256 verified before and after: e068400dcfa4fbbf04ef37d336d3fd4c0a19a6464ff1348aff981cf0cb9d9a2f
+Source-clock hours: {'Caltech': 22728, 'JPL': 18875}
+Cross-site overlap: 2018-10-08 13:00:00 to 2020-12-02 23:00:00, 18875 hours
+PASS A Future perturbation and D direct target perturbation across 32 plans
+PASS B Timestamp and numerical feature availability across 628696 eligible rows
+PASS C Exact target windows, per-horizon release purge and shared cross-site calendar
+PASS E All historical 34 Caltech columns and 3,384 aligned predictions: {'Seasonal Naive': 0.0, 'Ridge Regression': 0.0}
+Published 144 feature rows and 96 split rows.
+Raw content reads: 0. Stage 2 reads and writes in runner: 0. Previous Stage 3 artifacts read-only.
+Replayed one historical Ridge fit with frozen settings. No new model fits or transfer training.

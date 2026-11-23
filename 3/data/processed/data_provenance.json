@@ -1,0 +1,101 @@
+{
+  "view_version": "v1",
+  "schema_version": 1,
+  "source_root": "C:\\Users\\Vicky\\Desktop\\ML project\\2",
+  "inputs": {
+    "sessions": {
+      "path": "member1_outputs/session_start_times.csv",
+      "sha256": "421191469fe39042d1bc6b7d2aded6af30e25224afb329ded34b8ae76b09c1c9"
+    },
+    "session_summary": {
+      "path": "member1_outputs/data_summary.csv",
+      "sha256": "b362a42f80eaf58cfdb4929209b5297efd01cb2095b1437abf44c7642109c3f6"
+    },
+    "unparsed": {
+      "path": "member1_outputs/unparsed_files.csv",
+      "sha256": "003c0c3bd725c781d1db3595b51a21f3c1e37cfac525c94ec613c484f8f7cd4e"
+    },
+    "hourly": {
+      "path": "member2_outputs/hourly_counts.csv",
+      "sha256": "344f5bbbc157fe91a69ce303f629906007feac9ff80952fee4d45579e9278588"
+    },
+    "hourly_summary": {
+      "path": "member2_outputs/hourly_summary.csv",
+      "sha256": "cb7176150e14751920ecb4de8685c7c9f291a33b12922d77fd9b038a102337c0"
+    },
+    "long_zero_runs": {
+      "path": "member2_outputs/long_zero_runs.csv",
+      "sha256": "50b72109c27cefba867860fbceaab2beeb1da9b379eaa0adc59048d5e72b81b4"
+    }
+  },
+  "configuration": {
+    "data_contract.yaml": "ecdf24c4a8d005fa013049c24b894ea1b74b184f7d19896c6385e9d4cba19813",
+    "baseline_1h.yaml": "7387aabaf97650b6164c56d46dcae7d56fae851bb61c0c07b0f3917ebb4d051f"
+  },
+  "target": {
+    "name": "Hourly Recorded Session-Start Counts",
+    "definition": "Count source sessions by the session-start time recorded in the archive filename.",
+    "interval": "[timestamp, timestamp + 1 hour)",
+    "unit": "recorded sessions per hour",
+    "source_record": "One archived CSV represents one source session with multiple telemetry rows."
+  },
+  "clock": {
+    "basis": "source_clock",
+    "timezone_status": "unknown",
+    "conversion": "none",
+    "timestamp_format": "%Y-%m-%d %H:%M:%S",
+    "step_hours": 1
+  },
+  "coverage": {
+    "status": "unknown",
+    "zero_meaning": "No source session start was recorded in the hour.",
+    "boundary_limitation": "The first and last hours may have only partial observation coverage.",
+    "retain_all_counts": true
+  },
+  "view": {
+    "file": "hourly_counts_v1.csv",
+    "rows": 41603,
+    "sha256": "e068400dcfa4fbbf04ef37d336d3fd4c0a19a6464ff1348aff981cf0cb9d9a2f",
+    "columns": [
+      "site",
+      "timestamp",
+      "session_start_count",
+      "clock_basis",
+      "timezone_status",
+      "coverage_status",
+      "is_first_hour",
+      "is_last_hour"
+    ]
+  },
+  "sites": {
+    "Caltech": {
+      "garage": "California_Garage_01",
+      "first_hour": "2018-05-01 00:00:00",
+      "last_hour": "2020-12-02 23:00:00",
+      "hours_in_series": 22728,
+      "zero_hours": 13379,
+      "nonzero_hours": 9349,
+      "total_session_starts": 31860,
+      "max_starts_in_one_hour": 193
+    },
+    "JPL": {
+      "garage": "Arroyo_Garage_01",
+      "first_hour": "2018-10-08 13:00:00",
+      "last_hour": "2020-12-02 23:00:00",
+      "hours_in_series": 18875,
+      "zero_hours": 12575,
+      "nonzero_hours": 6300,
+      "total_session_starts": 27723,
+      "max_starts_in_one_hour": 35
+    }
+  },
+  "validation": {
+    "timestamp_text_preserved": true,
+    "row_order_preserved": true,
+    "hourly_recount_mismatches": 0,
+    "zero_counts_and_peaks_preserved": true,
+    "stage2_inventory_and_sha256_unchanged": true,
+    "stage2_files_checked": 28,
+    "raw_files_opened": 0
+  }
+}

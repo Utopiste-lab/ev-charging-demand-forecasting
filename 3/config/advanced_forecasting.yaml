@@ -1,0 +1,24 @@
+cross_site_training: config/cross_site_training.yaml
+random_state: 42
+probability_threshold: 0.5
+calibration_bins: 10
+selection_metric: raw_validation_MAE
+hurdle:
+  classifiers:
+    - {family: logistic, C: 0.5}
+    - {family: forest, n_estimators: 120, max_depth: 8, min_samples_leaf: 8, max_features: 0.75}
+    - {family: boosting, n_estimators: 120, learning_rate: 0.05, max_depth: 2, min_samples_leaf: 8}
+  magnitudes:
+    - {family: ridge, alpha: 1000.0}
+    - {family: forest, n_estimators: 120, max_depth: 10, min_samples_leaf: 6, max_features: 0.75}
+    - {family: boosting, n_estimators: 120, learning_rate: 0.05, max_depth: 2, min_samples_leaf: 8}
+residual:
+  candidates:
+    - {family: ridge, alpha: 100.0}
+    - {family: ridge, alpha: 1000.0}
+    - {family: ridge, alpha: 3000.0}
+    - {family: ridge, alpha: 10000.0}
+    - {family: forest, n_estimators: 120, max_depth: 6, min_samples_leaf: 16, max_features: 0.75}
+    - {family: forest, n_estimators: 160, max_depth: 10, min_samples_leaf: 6, max_features: 0.75}
+    - {family: boosting, n_estimators: 120, learning_rate: 0.05, max_depth: 2, min_samples_leaf: 8}
+    - {family: boosting, n_estimators: 160, learning_rate: 0.05, max_depth: 3, min_samples_leaf: 6}

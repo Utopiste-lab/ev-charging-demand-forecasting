@@ -1,0 +1,10 @@
+seed: 42
+quantiles: [0.1, 0.5, 0.9]
+coverage_nominal: 0.8
+calibration_days: {official: 28, rolling: 14}
+cross_site: true
+bootstrap: {replicates: 2500, block_hours: [168, 24]}
+grid:
+  - {n_estimators: 100, max_depth: 2, learning_rate: 0.05, min_samples_leaf: 16}
+  - {n_estimators: 150, max_depth: 3, learning_rate: 0.05, min_samples_leaf: 8}
+  - {n_estimators: 120, max_depth: 2, learning_rate: 0.08, min_samples_leaf: 24}

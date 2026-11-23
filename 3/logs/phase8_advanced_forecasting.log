@@ -1,0 +1,44 @@
+2026-11-19T21:55:43.270686+08:00 Experiment 07 advanced forecasting.
+Dependency versions: {"PyYAML": "6.0.3", "matplotlib": "3.10.8", "numpy": "2.4.4", "pandas": "3.0.2", "python": "3.12.10", "scikit_learn": "1.8.0"}. Random state: 42
+07A passed all per-case saved-formula, score, fitting-hash and availability checks.
+07B passed all per-case saved-formula, score, fitting-hash and availability checks.
+07C passed all per-case saved-formula, score, fitting-hash and availability checks.
+20 settings, 40 refitted workflows, 340 candidate validation scores; 270,420 saved new forecasts.
+Independent saved checks passed: MAE/RMSE/R2/bias, classification/magnitude scores, component formulas, clipping and alignment.
+Protected 155 previous Stage 2/3 files. No raw archive reads and no official output writes.
+
+2026-11-19T22:09:23.9053940+08:00 Final verification after report replay hardening.
+The initial 155 protected files included 10 new Experiment 07 source/config files. The final prior-file manifest covers 145 previous files (28 Stage 2, 117 prior Stage 3).
+Independent readback recomputed all 120 official reference score rows and 80 matched transfer gaps, verified all 145 pre-experiment SHA-256 values, and decoded all 10 PNGs.
+Fresh-fit guards were checked for every configured estimator family. Every setting also checked the real-observation perturbation strictly before release.
+Verification-only replay completed with exit code 0. It did not replace the published predictions, metrics, or figures.
+07A Caltech full 1h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07A Caltech full 3h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07A Caltech full 6h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07A Caltech full 24h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'boosting', 'n_estimators': 160, 'learning_rate': 0.05, 'max_depth': 3, 'min_samples_leaf': 6}
+07B JPL matched 1h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}
+07B JPL matched 3h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07B JPL matched 6h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07B JPL matched 24h passed. Hurdle={'classifier': {'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07C Caltech matched 1h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech matched 3h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech matched 6h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech matched 24h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}
+07C Caltech->JPL 1h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech->JPL 3h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech->JPL 6h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'forest', 'n_estimators': 160, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}
+07C Caltech->JPL 24h passed. Hurdle={'classifier': {'family': 'forest', 'n_estimators': 120, 'max_depth': 8, 'min_samples_leaf': 8, 'max_features': 0.75}, 'magnitude': {'family': 'ridge', 'alpha': 1000.0}}; residual={'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}
+07C JPL->Caltech 1h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}
+07C JPL->Caltech 3h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07C JPL->Caltech 6h passed. Hurdle={'classifier': {'family': 'logistic', 'C': 0.5}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+07C JPL->Caltech 24h passed. Hurdle={'classifier': {'family': 'boosting', 'n_estimators': 120, 'learning_rate': 0.05, 'max_depth': 2, 'min_samples_leaf': 8}, 'magnitude': {'family': 'forest', 'n_estimators': 120, 'max_depth': 10, 'min_samples_leaf': 6, 'max_features': 0.75}}; residual={'family': 'ridge', 'alpha': 10000.0}
+Verified 270,420 new predictions, 200 comparison scores, 40 classification/magnitude rows, and 40 fit attestations.
+Replay with tampered evaluation-only labels reproduced all tables, charts and report.
+2026-11-19T22:09:07.460700+08:00 Experiment 07 advanced forecasting.
+Dependency versions: {"PyYAML": "6.0.3", "matplotlib": "3.10.8", "numpy": "2.4.4", "pandas": "3.0.2", "python": "3.12.10", "scikit_learn": "1.8.0", "scipy": "1.17.1"}. Random state: 42
+07A passed all per-case formula, regression/classification/magnitude score, fitting-hash and availability checks before proceeding.
+07B passed all per-case formula, regression/classification/magnitude score, fitting-hash and availability checks before proceeding.
+07C passed all per-case formula, regression/classification/magnitude score, fitting-hash and availability checks before proceeding.
+20 settings, 40 refitted workflows, 340 candidate validation scores; 270,420 saved new forecasts.
+Independent saved checks passed: MAE/RMSE/R2/bias, classification/magnitude scores, component formulas, clipping and alignment.
+Protected 145 previous Stage 2/3 files. No raw archive reads and no official output writes.

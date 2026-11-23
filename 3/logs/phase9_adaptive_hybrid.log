@@ -1,0 +1,489 @@
+Experiment 08 started 2026-11-19T15:25:46.677766+00:00
+Completed 2026-11-19T15:32:51.353026+00:00
+Versions: {"PyYAML": "6.0.3", "matplotlib": "3.10.8", "numpy": "2.4.4", "pandas": "3.0.2", "python": "3.12.10", "scikit-learn": "1.8.0", "scipy": "1.17.1"}
+Seeds: [7, 19, 42]
+Verified 39 new artifacts and 181 prior Stage 2/3 SHA-256 values.
+Supplement: three equal-length windows at both sites and 2500 paired block replicates.
+No raw archive reads.
+
+2026-11-19T23:44:04.4496090+08:00 Final validation
+Experiment 07 independent audit passed. All official fitting and test split hashes were checked before hybrid evaluation.
+Both analytic softmax gradients passed finite-difference checks. Four rolling candidates reached the configured cap. Extra optimization to 1000 iterations converged on all four, and their selection statuses were unchanged.
+The 14 PNGs decoded at 180 DPI and their layout was visually reviewed.
+The final reports were regenerated from saved tables to add the median-versus-zero diagnostic and clarification of rolling convergence.
+Both Experiment 08 reports reproduce from saved tables.
+
+Rolling supplement
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.026071
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.718921
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.761971
+Part I rolling R1 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.182413
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.929263
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.957659
+Part I rolling R1 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.215055
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.020549
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.034338
+Part I rolling R1 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.138439
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.915300
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.934721
+Part I rolling R1 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.327808
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.781935
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.834350
+Part I rolling R1 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.933776
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.372604
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.472545
+Part I rolling R1 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.940022
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.535896
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.532286
+Part I rolling R1 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.725397
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.349600
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.376474
+Part I rolling R1 JPL matched 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 0.914683
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.774099
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.795652
+Part I rolling R2 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.132643
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.841584
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.893607
+Part I rolling R2 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.172134
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.938572
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.962077
+Part I rolling R2 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.056185
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.858676
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.862480
+Part I rolling R2 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.342874
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.844971
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.883865
+Part I rolling R2 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.935147
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.274482
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.319514
+Part I rolling R2 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.970506
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.534120
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.455850
+Part I rolling R2 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.621109
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.036629
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.078459
+Part I rolling R2 JPL matched 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 0.819808
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.715600
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.737298
+Part I rolling R3 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.073908
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.808895
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.869839
+Part I rolling R3 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.119437
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.886612
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.926765
+Part I rolling R3 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.030380
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.877156
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.896309
+Part I rolling R3 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.199164
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.955010
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.967935
+Part I rolling R3 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.818188
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.308793
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.441697
+Part I rolling R3 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.824972
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.357963
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.406496
+Part I rolling R3 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.608977
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.177423
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.181157
+Part I rolling R3 JPL matched 24h verified
+
+Official Experiment 08
+official Caltech full 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.257248
+official Caltech full 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.293472
+official Caltech full 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.327065
+official Caltech full 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.292448
+official JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.528661
+official JPL matched 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.573223
+official JPL matched 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.591255
+official JPL matched 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.618722
+official Caltech matched 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.254577
+official Caltech matched 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.289271
+official Caltech matched 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.306236
+official Caltech matched 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.290654
+official Caltech->JPL 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.562580
+official Caltech->JPL 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.750836
+official Caltech->JPL 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.669295
+official Caltech->JPL 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.642616
+official JPL->Caltech 1h verified, selected expert=Residual clipped; adaptive test MAE=0.302821
+official JPL->Caltech 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.404945
+official JPL->Caltech 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.382196
+official JPL->Caltech 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.472528
+R1 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.720247
+R1 Caltech full 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.755200
+R1 Caltech full 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.781767
+R1 Caltech full 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.792840
+R1 JPL matched 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.795208
+R1 JPL matched 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.968110
+R1 JPL matched 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.999142
+R1 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=1.030546
+R2 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.662458
+R2 Caltech full 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.698748
+R2 Caltech full 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.705490
+R2 Caltech full 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.723861
+R2 JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.841498
+R2 JPL matched 3h verified, selected expert=Residual clipped; adaptive test MAE=0.931509
+R2 JPL matched 6h verified, selected expert=Residual clipped; adaptive test MAE=0.932235
+R2 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=1.025333
+R3 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.085990
+R3 Caltech full 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.104895
+R3 Caltech full 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.162294
+R3 Caltech full 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.143452
+R3 JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.289256
+R3 JPL matched 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.705373
+R3 JPL matched 6h verified, selected expert=Residual clipped; adaptive test MAE=0.591781
+R3 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.750390
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:48: PerformanceWarning: indexing past lexsort depth may impact performance.
+  block = splits.set_index(GROUP + ["partition"]).loc[key]
+C:\Users\Vicky\Desktop\ML project\3\experiments\08_adaptive_hybrid\verify_experiment.py:55: PerformanceWarning: indexing past lexsort depth may impact performance.
+  unique = fits.set_index(GROUP + ["component"]).loc[key]
+Independent readback verified 183,414 prediction rows, 665,112 weight rows, 44 split sets, expert/gating hashes, all score and transfer tables, and prior SHA-256 values.
+
+Independent expert-state checks
+Independent readback verified 183,414 prediction rows, 665,112 weight rows, 44 split sets, expert/gating hashes, all score and transfer tables, and prior SHA-256 values.
+Verified 12 source-by-horizon expert-state hashes across evaluation-label perturbation and inference.
+
+Optimizer sensitivity
+R1 JPL matched 6h | selected True -> True | validation MAE 1.192232407 -> 1.192381546 | official-procedure rolling test MAE 0.999142268; checked candidate 0.999447054 | converged at 500
+R2 JPL matched 3h | selected True -> True | validation MAE 0.955996230 -> 0.955965475 | official-procedure rolling test MAE 0.931508555; checked candidate 0.931462600 | converged at 415
+R2 JPL matched 6h | selected False -> False | validation MAE 1.031162496 -> 1.031935460 | official-procedure rolling test MAE 0.932235026; checked candidate 0.931912168 | converged at 862
+R3 JPL matched 6h | selected True -> True | validation MAE 0.920898049 -> 0.920977518 | official-procedure rolling test MAE 0.591781252; checked candidate 0.591372332 | converged at 776
+
+Complete clean-process replay
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.026071
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.718921
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.761971
+Part I rolling R1 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.182413
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.929263
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.957659
+Part I rolling R1 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.215055
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.020549
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.034338
+Part I rolling R1 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.138439
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.915300
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.934721
+Part I rolling R1 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.327808
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.781935
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.834350
+Part I rolling R1 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.933776
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.372604
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.472545
+Part I rolling R1 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.940022
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.535896
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.532286
+Part I rolling R1 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.725397
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.349600
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.376474
+Part I rolling R1 JPL matched 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 0.914683
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.774099
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.795652
+Part I rolling R2 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.132643
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.841584
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.893607
+Part I rolling R2 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.172134
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.938572
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.962077
+Part I rolling R2 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.056185
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.858676
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.862480
+Part I rolling R2 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.342874
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.844971
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.883865
+Part I rolling R2 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.935147
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.274482
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.319514
+Part I rolling R2 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.970506
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.534120
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.455850
+Part I rolling R2 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.621109
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.036629
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.078459
+Part I rolling R2 JPL matched 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 0.819808
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.715600
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.737298
+Part I rolling R3 Caltech full 1h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.073908
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.808895
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.869839
+Part I rolling R3 Caltech full 3h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.119437
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.886612
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.926765
+Part I rolling R3 Caltech full 6h verified
+Ridge Regression: selected {"alpha": 1000.0, "solver": "svd"} at validation MAE 1.030380
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.877156
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.896309
+Part I rolling R3 Caltech full 24h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.199164
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 0.955010
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 0.967935
+Part I rolling R3 JPL matched 1h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.818188
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.308793
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.441697
+Part I rolling R3 JPL matched 3h verified
+Ridge Regression: selected {"alpha": 10000.0, "solver": "svd"} at validation MAE 1.824972
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.357963
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.406496
+Part I rolling R3 JPL matched 6h verified
+Ridge Regression: selected {"alpha": 100.0, "solver": "svd"} at validation MAE 1.608977
+Random Forest: selected {"max_depth": 10, "max_features": 0.75, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_jobs": 4, "random_state": 42} at validation MAE 1.177423
+Gradient Boosting: selected {"learning_rate": 0.05, "loss": "squared_error", "max_depth": 3, "min_samples_leaf": 6, "min_samples_split": 12, "n_estimators": 160, "n_iter_no_change": null, "random_state": 42, "subsample": 1.0} at validation MAE 1.181157
+Part I rolling R3 JPL matched 24h verified
+official Caltech full 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.257248
+official Caltech full 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.293472
+official Caltech full 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.327065
+official Caltech full 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.292448
+official JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.528661
+official JPL matched 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.573223
+official JPL matched 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.591255
+official JPL matched 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.618722
+official Caltech matched 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.254577
+official Caltech matched 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.289271
+official Caltech matched 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.306236
+official Caltech matched 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.290654
+official Caltech->JPL 1h verified, selected expert=Seasonal Naive; adaptive test MAE=0.562580
+official Caltech->JPL 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.750836
+official Caltech->JPL 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.669295
+official Caltech->JPL 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.642616
+official JPL->Caltech 1h verified, selected expert=Residual clipped; adaptive test MAE=0.302821
+official JPL->Caltech 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.404945
+official JPL->Caltech 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.382196
+official JPL->Caltech 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.472528
+R1 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.720247
+R1 Caltech full 3h verified, selected expert=Seasonal Naive; adaptive test MAE=0.755200
+R1 Caltech full 6h verified, selected expert=Seasonal Naive; adaptive test MAE=0.781767
+R1 Caltech full 24h verified, selected expert=Seasonal Naive; adaptive test MAE=0.792840
+R1 JPL matched 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.795208
+R1 JPL matched 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.968110
+R1 JPL matched 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.999142
+R1 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=1.030546
+R2 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.662458
+R2 Caltech full 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.698748
+R2 Caltech full 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.705490
+R2 Caltech full 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.723861
+R2 JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.841498
+R2 JPL matched 3h verified, selected expert=Residual clipped; adaptive test MAE=0.931509
+R2 JPL matched 6h verified, selected expert=Residual clipped; adaptive test MAE=0.932235
+R2 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=1.025333
+R3 Caltech full 1h verified, selected expert=Hurdle clipped; adaptive test MAE=0.085990
+R3 Caltech full 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.104895
+R3 Caltech full 6h verified, selected expert=Hurdle clipped; adaptive test MAE=0.162294
+R3 Caltech full 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.143452
+R3 JPL matched 1h verified, selected expert=Residual clipped; adaptive test MAE=0.289256
+R3 JPL matched 3h verified, selected expert=Hurdle clipped; adaptive test MAE=0.705373
+R3 JPL matched 6h verified, selected expert=Residual clipped; adaptive test MAE=0.591781
+R3 JPL matched 24h verified, selected expert=Hurdle clipped; adaptive test MAE=0.750390
+Independent readback verified 183,414 prediction rows, 665,112 weight rows, 44 split sets, expert/gating hashes, all score and transfer tables, and prior SHA-256 values.
+Clean replay with poisoned evaluation labels agrees on all tables, plots and reports.

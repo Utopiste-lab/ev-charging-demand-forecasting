@@ -1,0 +1,10 @@
+official_one_hour: config/tree_models_1h.yaml
+site: Caltech
+boundary_policy: exclude_partial
+horizons_hours: [1, 3, 6, 24]
+reference:
+  metrics: results/metrics/tree_models_1h_comparison.csv
+  baseline_metrics: results/metrics/baseline_1h_unified.csv
+  predictions: results/tables/tree_models_1h_predictions.csv
+  trials: results/tables/tree_models_1h_hyperparameters.csv
+  training: results/tables/training_sample_verification_1h.csv

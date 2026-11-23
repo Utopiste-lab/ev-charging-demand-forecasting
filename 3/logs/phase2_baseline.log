@@ -1,0 +1,30 @@
+2026-11-19T18:08:18.240137+08:00 Phase 2 Caltech historical rolling 1h reproduction
+Read-only source: C:\Users\Vicky\Desktop\ML project\2
+Output root: C:\Users\Vicky\Desktop\ML project\3
+Environment: {"python": "3.12.10", "numpy": "2.4.4", "pandas": "3.0.2", "sklearn": "1.8.0", "pyyaml": "6.0.3"}
+Input and reference hashes verified against YAML before loading.
+Hourly recount: 41603 checked, 0 mismatches. Original timestamp text and counts retained.
+Session summary, hourly summary, unparsed-file summary, and 97 long zero runs checked.
+Caltech: {"garage": "California_Garage_01", "first_hour": "2018-05-01 00:00:00", "last_hour": "2020-12-02 23:00:00", "hours_in_series": 22728, "zero_hours": 13379, "nonzero_hours": 9349, "total_session_starts": 31860, "max_starts_in_one_hour": 193}
+JPL: {"garage": "Arroyo_Garage_01", "first_hour": "2018-10-08 13:00:00", "last_hour": "2020-12-02 23:00:00", "hours_in_series": 18875, "zero_hours": 12575, "nonzero_hours": 6300, "total_session_starts": 27723, "max_starts_in_one_hour": 35}
+Fixed 34 forecast features. Future-perturbation test at first test origin passed.
+Historical train/validation/test bounds and all validation scores matched.
+Validation: {"alpha": 0.1, "MAE": 0.6769508984104285, "RMSE": 1.0610780566454805}
+Validation: {"alpha": 1.0, "MAE": 0.6769353800137945, "RMSE": 1.0610675693489422}
+Validation: {"alpha": 10.0, "MAE": 0.6767807845063344, "RMSE": 1.0609632128348878}
+Validation: {"alpha": 100.0, "MAE": 0.6753096913308658, "RMSE": 1.0599683328925786}
+Validation: {"alpha": 1000.0, "MAE": 0.6658120471707973, "RMSE": 1.0532185873033766}
+Stored test alignment matches. Ridge max absolute difference 1.7763568394002505e-14.
+Constant-target R2 check passed with NA.
+Stage 2 snapshot matched before/after, 28 files checked. Raw content reads 0.
+Metrics (reference R2 recalculated from stored Stage 2 predictions):
+site,horizon_hours,model,prediction_variant,n,test_start,test_end,MAE,RMSE,R2,negative_predictions,reference_kind,reference_MAE,reference_RMSE,reference_R2,delta_MAE,delta_RMSE,delta_R2,ridge_alpha
+Caltech,1,Seasonal Naive,raw,3384,2020-07-15 00:00:00,2020-12-02 23:00:00,0.2786643026004728,0.7131407574614697,-0.7593649704187775,0,stage2_metrics_and_saved_predictions,0.2786643026004728,0.7131407574614697,-0.7593649704187775,0.0,0.0,0.0,NA
+Caltech,1,Ridge Regression,raw,3384,2020-07-15 00:00:00,2020-12-02 23:00:00,0.6709775370734634,0.9907522902648662,-2.395749103319704,1233,stage2_metrics_and_saved_predictions,0.6709775370734611,0.9907522902648627,-2.39574910331968,2.3314683517128287e-15,3.552713678800501e-15,-2.398081733190338e-14,1000.0
+Caltech,1,Ridge Regression,nonnegative,3384,2020-07-15 00:00:00,2020-12-02 23:00:00,0.5560703908102069,0.9563683586828234,-2.1641409620585157,0,clipped_saved_stage2_predictions,0.556070390810204,0.9563683586828197,-2.164140962058491,2.886579864025407e-15,3.774758283725532e-15,-2.4868995751603507e-14,1000.0
+No output paths outside Stage 3. Existing files are not overwritten.
+2026-11-19T18:10:14.8903052+08:00 Independent post-write QA passed.
+Read-back: all 41,603 (site, hour text, count) triples matched source row by row. View digest, source digests and per-site edge flags matched. Stage 1 deliverables matched their prior SHA-256 digests.
+All 6,768 prediction rows validated. Independent math.fsum recalculation confirmed MAE, RMSE and R2; both Ridge variants share all target keys and the clip is exact. Constant and singleton target checks returned NA.
+All 34 Caltech features matched the archived implementation column for column. Reran the final computations in memory with warnings treated as errors. Initial pandas set_index deprecation warning was resolved in the new runner by explicitly checking index uniqueness.
+A second default CLI invocation correctly refused to overwrite canonical outputs. No raw files were accessed.
