@@ -10,6 +10,9 @@ Validated on 2026-11-23 against repository base `1e9ebf9aa22e386eb9e5eefced5b75f
 | Official one-hour training replay | Six tables passed at absolute/relative tolerance 2e-11; maximum absolute numerical difference 2.8421709430404007e-14; five of five regenerated figure hashes identical |
 | Stage 2 historical training replay | Flat repository inputs reproduced the original 3,384-hour Seasonal Naive and Ridge MAE/RMSE |
 | Original hourly data | Byte hash retained; Git attributes prevent Windows line-ending conversion |
+| Fresh local clone with Windows automatic CRLF enabled | Publication manifest, one-hour scoring and all 32 feature/split plans passed |
+| Legacy input layout compatibility | Actual flat and component layouts produced identical audited data; ambiguous and missing layouts rejected |
+| Publication hygiene | Stage 3 Python syntax, all Markdown file links, file sizes and credential/private-workstation-path scan passed |
 
 One-hour retraining was checked with `python -B -X utf8 experiments/09_probabilistic_forecasting/replay_legacy_point.py 03` from `3/`. The wrapper runs the original trainer in temporary storage with the documented numerical tolerance and reports figure hashes separately. It does not replace official outputs. For read-only review use `verify_release.py` instead.
 
