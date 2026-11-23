@@ -1,0 +1,89 @@
+window,case,horizon_hours,partition,n,crossing_raw_n,crossing_raw_rate,crossing_after_n,negative_raw_rate,cqr_empty_repairs
+official,Caltech full,1,calibration,672,0,0.0,0,0.0,0
+official,Caltech full,1,test,3383,0,0.0,0,0.0,0
+official,Caltech full,3,calibration,670,0,0.0,0,0.0,0
+official,Caltech full,3,test,3383,0,0.0,0,0.0,0
+official,Caltech full,6,calibration,667,10,0.014992503748125937,0,0.014992503748125937,0
+official,Caltech full,6,test,3383,38,0.011232633757020397,0,0.011232633757020397,0
+official,Caltech full,24,calibration,649,0,0.0,0,0.0,0
+official,Caltech full,24,test,3383,0,0.0,0,0.0,0
+official,JPL matched,1,calibration,672,0,0.0,0,0.0,0
+official,JPL matched,1,test,3383,0,0.0,0,0.0,0
+official,JPL matched,3,calibration,670,0,0.0,0,0.0,0
+official,JPL matched,3,test,3383,5,0.0014779781259237363,0,0.0014779781259237363,0
+official,JPL matched,6,calibration,667,4,0.005997001499250375,0,0.005997001499250375,0
+official,JPL matched,6,test,3383,26,0.007685486254803429,0,0.007685486254803429,0
+official,JPL matched,24,calibration,649,0,0.0,0,0.0,0
+official,JPL matched,24,test,3383,6,0.0017735737511084836,0,0.0017735737511084836,0
+official,Caltech matched,1,calibration,672,0,0.0,0,0.0,0
+official,Caltech matched,1,test,3383,0,0.0,0,0.0,0
+official,Caltech matched,3,calibration,670,12,0.01791044776119403,0,0.01791044776119403,0
+official,Caltech matched,3,test,3383,71,0.020987289388117055,0,0.020987289388117055,0
+official,Caltech matched,6,calibration,667,27,0.04047976011994003,0,0.04047976011994003,0
+official,Caltech matched,6,test,3383,122,0.036062666272539165,0,0.036062666272539165,0
+official,Caltech matched,24,calibration,649,0,0.0,0,0.0,0
+official,Caltech matched,24,test,3383,0,0.0,0,0.0,0
+official,Caltech->JPL,1,calibration,672,0,0.0,0,0.0,0
+official,Caltech->JPL,1,test,3383,0,0.0,0,0.0,0
+official,Caltech->JPL,3,calibration,670,12,0.01791044776119403,0,0.01791044776119403,0
+official,Caltech->JPL,3,test,3383,26,0.007685486254803429,0,0.007685486254803429,0
+official,Caltech->JPL,6,calibration,667,27,0.04047976011994003,0,0.04047976011994003,0
+official,Caltech->JPL,6,test,3383,61,0.018031333136269583,0,0.018031333136269583,0
+official,Caltech->JPL,24,calibration,649,0,0.0,0,0.0,0
+official,Caltech->JPL,24,test,3383,0,0.0,0,0.0,0
+official,JPL->Caltech,1,calibration,672,0,0.0,0,0.0,0
+official,JPL->Caltech,1,test,3383,0,0.0,0,0.0,0
+official,JPL->Caltech,3,calibration,670,0,0.0,0,0.0,0
+official,JPL->Caltech,3,test,3383,13,0.0038427431274017146,0,0.0038427431274017146,0
+official,JPL->Caltech,6,calibration,667,4,0.005997001499250375,0,0.005997001499250375,0
+official,JPL->Caltech,6,test,3383,37,0.01093703813183565,0,0.01093703813183565,0
+official,JPL->Caltech,24,calibration,649,0,0.0,0,0.0,0
+official,JPL->Caltech,24,test,3383,30,0.008867868755542418,0,0.008867868755542418,0
+R1,Caltech full,1,calibration,336,0,0.0,0,0.0,0
+R1,Caltech full,1,test,1008,0,0.0,0,0.0,0
+R1,Caltech full,3,calibration,334,0,0.0,0,0.0,0
+R1,Caltech full,3,test,1008,0,0.0,0,0.0,0
+R1,Caltech full,6,calibration,331,0,0.0,0,0.0,0
+R1,Caltech full,6,test,1008,0,0.0,0,0.0,0
+R1,Caltech full,24,calibration,313,0,0.0,0,0.0,0
+R1,Caltech full,24,test,1008,0,0.0,0,0.0,0
+R1,JPL matched,1,calibration,336,0,0.0,0,0.0,0
+R1,JPL matched,1,test,1008,0,0.0,0,0.0,0
+R1,JPL matched,3,calibration,334,0,0.0,0,0.0,0
+R1,JPL matched,3,test,1008,3,0.002976190476190476,0,0.002976190476190476,0
+R1,JPL matched,6,calibration,331,4,0.012084592145015106,0,0.012084592145015106,0
+R1,JPL matched,6,test,1008,6,0.005952380952380952,0,0.005952380952380952,0
+R1,JPL matched,24,calibration,313,0,0.0,0,0.0,0
+R1,JPL matched,24,test,1008,6,0.005952380952380952,0,0.005952380952380952,0
+R2,Caltech full,1,calibration,336,0,0.0,0,0.0,0
+R2,Caltech full,1,test,1008,0,0.0,0,0.0,0
+R2,Caltech full,3,calibration,334,1,0.0029940119760479044,0,0.0029940119760479044,0
+R2,Caltech full,3,test,1008,1,0.000992063492063492,0,0.000992063492063492,0
+R2,Caltech full,6,calibration,331,3,0.00906344410876133,0,0.00906344410876133,0
+R2,Caltech full,6,test,1008,5,0.00496031746031746,0,0.00496031746031746,0
+R2,Caltech full,24,calibration,313,0,0.0,0,0.0,0
+R2,Caltech full,24,test,1008,0,0.0,0,0.0,0
+R2,JPL matched,1,calibration,336,0,0.0,0,0.0,0
+R2,JPL matched,1,test,1008,0,0.0,0,0.0,0
+R2,JPL matched,3,calibration,334,0,0.0,0,0.0,0
+R2,JPL matched,3,test,1008,0,0.0,0,0.0,0
+R2,JPL matched,6,calibration,331,0,0.0,0,0.0,0
+R2,JPL matched,6,test,1008,0,0.0,0,0.0,0
+R2,JPL matched,24,calibration,313,0,0.0,0,0.0,0
+R2,JPL matched,24,test,1008,0,0.0,0,0.0,0
+R3,Caltech full,1,calibration,336,0,0.0,0,0.0,0
+R3,Caltech full,1,test,1008,0,0.0,0,0.0,0
+R3,Caltech full,3,calibration,334,0,0.0,0,0.0,0
+R3,Caltech full,3,test,1008,0,0.0,0,0.0,0
+R3,Caltech full,6,calibration,331,1,0.0030211480362537764,0,0.0030211480362537764,0
+R3,Caltech full,6,test,1008,6,0.005952380952380952,0,0.005952380952380952,0
+R3,Caltech full,24,calibration,313,0,0.0,0,0.0,0
+R3,Caltech full,24,test,1008,0,0.0,0,0.0,0
+R3,JPL matched,1,calibration,336,0,0.0,0,0.0,0
+R3,JPL matched,1,test,1008,0,0.0,0,0.0,0
+R3,JPL matched,3,calibration,334,0,0.0,0,0.0,0
+R3,JPL matched,3,test,1008,0,0.0,0,0.0,0
+R3,JPL matched,6,calibration,331,0,0.0,0,0.0,0
+R3,JPL matched,6,test,1008,0,0.0,0,0.0,0
+R3,JPL matched,24,calibration,313,0,0.0,0,0.0,0
+R3,JPL matched,24,test,1008,0,0.0,0,0.0,0

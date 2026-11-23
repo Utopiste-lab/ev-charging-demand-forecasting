@@ -18,3 +18,7 @@
 **原精度结果。** `results/metrics/stage3_final/` 提供恒零比较、各设定的全部同键点结果、最佳 MAE/RMSE、匹配迁移差值、适应性对照、概率指标副本、滚动比较和局限。逐小时恒零、历史指标审查、输入 SHA-256、原始元数据盘点、复现审查与冻结清单位于 `results/tables/stage3_final/`。
 
 **概率细节。** `results/metrics/probabilistic_forecasting/` 为原精度点、分位数、区间、区块 bootstrap 与约束频率；`results/tables/probabilistic_forecasting/` 为逐行分位数、校准分数、候选预测、配置和各时间键哈希。图分别位于 `results/figures/probabilistic_forecasting/` 和 `results/figures/stage3_final/`。执行记录集中于 `logs/phase10_probabilistic_forecasting.log`。
+
+## GitHub 发布范围
+
+本索引的原始复验命令针对完整本地研究归档。GitHub 子集请先阅读 [Stage 3 发布入口](../README.md) 和 [数据与复现说明](../../docs/data-and-repro.md)。使用 `python -B -X utf8 verify_release.py --features` 可检查已发布数据、1h 分数和两站四跨度因果性，无需旧 `2/` 目录。大型逐时预测、校准明细和原始盘点文件未上传；需要它们的完整核验命令尚不能在此子集独立运行。

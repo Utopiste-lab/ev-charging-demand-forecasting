@@ -6,3 +6,30 @@ venv/
 *.tar.gz
 *.log
 *.local
+
+# Local environments and credentials
+.venv*/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+/work/
+*.whl
+*.csv.gz
+/raw_data/
+/data/raw/
+# Stage 3 full prediction artifacts are separately managed.
+/3/results/tables/**/*predictions*.csv
+!/3/results/tables/tree_models_1h_predictions.csv
+!/3/results/tables/baseline_predictions.csv
+/3/results/tables/**/*.npz
+/3/results/tables/stage3_final/raw_archive_metadata.csv
+# Stage 4 bulk artifacts
+/4/data/processed/pilot_v1/
+/4/data/processed/full_v1/**/*.npz
+/4/data/processed/full_v1/metadata/batch_*.csv
+/4/models/self_supervised_benchmark/runs/
+/4/results/tables/self_supervised_benchmark/cohorts/
+/4/results/tables/self_supervised_benchmark/evaluation_masks/
+/4/results/tables/self_supervised_benchmark/future_baselines/
+/4/results/tables/self_supervised_benchmark/simple/

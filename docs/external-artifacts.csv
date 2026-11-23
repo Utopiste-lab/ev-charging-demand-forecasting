@@ -1,0 +1,16 @@
+original_path,bytes,sha256,availability
+3/results/tables/adaptive_hybrid/adaptive_hybrid_predictions.csv,85375981,d69bcca90c4c597e18e89cfdc53f2259f40d3de21bae8187fb777bd868622f92,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/adaptive_hybrid/chronological_oof_predictions.csv,31976740,699c3cbdc8eaa0b8388d3628447d1f3632d7ba15b54a17ec098062b914b58273,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/adaptive_hybrid/gating_weight_predictions.csv,79006610,f4fac8142838c00fe36852a5fe77a26bc8fe98b383d3cc598e783506a2015495,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/adaptive_hybrid/protected_file_hashes.csv,20919,9526bcfd9c9a2f34da5199a1e96b35a40d129e2456cf110ae7804dcf2e485ee8,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/adaptive_hybrid/rolling_experiment07_predictions.csv,5990140,51ee25525092d11a337724c9f749c55fc1951a4312f9ab0072e9a656ec2a5214,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/advanced_forecasting/advanced_forecasting_predictions.csv,36300802,9637fb438daf2b0385a8eb185a746ec1ad70204438af7d44e51cb9e5e5881559,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/advanced_forecasting/hurdle_predictions.csv,11243083,afe63e108c81c835d90efdf1c256d40a351e192dd840fa2bfccba5c54e3cb852,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/advanced_forecasting/protected_file_hashes.csv,16177,90a9e131cc3dd2e1559ea206a4e08c35bf3119d2910db40d9f984896de4df941,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/advanced_forecasting/residual_learning_predictions.csv,9241497,e38393b84172b6ad80280e422f2b5f5d6e827b6e7f56857ed95eb7f2755225de,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/cross_site_predictions.csv,68612835,3315e8ba247d72bdfc794591d533b1f3fbb7beafd781df9e8fa7499045aeb415,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/multi_horizon_predictions.csv,27755941,5a75b0b5f5289cda517724afefc2b2847882337759619d2ccd7187f4043b29e1,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/probabilistic_forecasting/probabilistic_predictions.csv,29067813,20b0ff14a9ac3e353321d9d15bab57b59e4c6603c1784a7a5b71e86d52db7e3d,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/probabilistic_forecasting/tuning_predictions.csv,69036149,826ddde398177e63db8175eb897459f577fb6efe071b8d246457151e94cfd2b0,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/stage3_final/constant_zero_predictions.csv,5105076,1531d6498c631486292ec23cf9092a49b48af5ffad86c70f9e06340bbd25f4af,local-only; not uploaded; full replay requires this original artifact
+3/results/tables/stage3_final/raw_archive_metadata.csv,6436035,f0d600d38701b416244e4daf24799c5ae76112522adfdb7fd5403e6247fd855b,local-only; not uploaded; full replay requires this original artifact

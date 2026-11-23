@@ -1,0 +1,45 @@
+window,case,horizon_hours,source_site,target_site,n_calibration,rank_1_based,adjustment,nominal,calibration_sha256,frozen_before_first_test_issue
+official,Caltech full,1,Caltech,Caltech,672,539,0.0,0.8,e3e34215f6db7158f0d5787a1b3a65f938f0c8916b8d5da4f66bd3ea7624358d,True
+official,Caltech full,3,Caltech,Caltech,670,537,0.0,0.8,f473f90e87fc49fb8c69c206f2ccc0260b669284374360568317ef332404c85a,True
+official,Caltech full,6,Caltech,Caltech,667,535,0.0,0.8,c7671f50d2b33cc3e7e88661bd4a2a4ded7d2c5e307c6a09e8f2c53043d4010d,True
+official,Caltech full,24,Caltech,Caltech,649,520,0.0,0.8,b502476d9d1f809285485495d3df7c146a0d15093c0512f0736d4269b0494b7f,True
+official,JPL matched,1,JPL,JPL,672,539,0.0,0.8,e3e34215f6db7158f0d5787a1b3a65f938f0c8916b8d5da4f66bd3ea7624358d,True
+official,JPL matched,3,JPL,JPL,670,537,0.0,0.8,f473f90e87fc49fb8c69c206f2ccc0260b669284374360568317ef332404c85a,True
+official,JPL matched,6,JPL,JPL,667,535,0.0,0.8,c7671f50d2b33cc3e7e88661bd4a2a4ded7d2c5e307c6a09e8f2c53043d4010d,True
+official,JPL matched,24,JPL,JPL,649,520,0.0,0.8,b502476d9d1f809285485495d3df7c146a0d15093c0512f0736d4269b0494b7f,True
+official,Caltech matched,1,Caltech,Caltech,672,539,0.0,0.8,e3e34215f6db7158f0d5787a1b3a65f938f0c8916b8d5da4f66bd3ea7624358d,True
+official,Caltech matched,3,Caltech,Caltech,670,537,0.0,0.8,f473f90e87fc49fb8c69c206f2ccc0260b669284374360568317ef332404c85a,True
+official,Caltech matched,6,Caltech,Caltech,667,535,0.0,0.8,c7671f50d2b33cc3e7e88661bd4a2a4ded7d2c5e307c6a09e8f2c53043d4010d,True
+official,Caltech matched,24,Caltech,Caltech,649,520,0.0,0.8,b502476d9d1f809285485495d3df7c146a0d15093c0512f0736d4269b0494b7f,True
+official,Caltech->JPL,1,Caltech,JPL,672,539,0.0,0.8,e3e34215f6db7158f0d5787a1b3a65f938f0c8916b8d5da4f66bd3ea7624358d,True
+official,Caltech->JPL,3,Caltech,JPL,670,537,0.0,0.8,f473f90e87fc49fb8c69c206f2ccc0260b669284374360568317ef332404c85a,True
+official,Caltech->JPL,6,Caltech,JPL,667,535,0.0,0.8,c7671f50d2b33cc3e7e88661bd4a2a4ded7d2c5e307c6a09e8f2c53043d4010d,True
+official,Caltech->JPL,24,Caltech,JPL,649,520,0.0,0.8,b502476d9d1f809285485495d3df7c146a0d15093c0512f0736d4269b0494b7f,True
+official,JPL->Caltech,1,JPL,Caltech,672,539,0.0,0.8,e3e34215f6db7158f0d5787a1b3a65f938f0c8916b8d5da4f66bd3ea7624358d,True
+official,JPL->Caltech,3,JPL,Caltech,670,537,0.0,0.8,f473f90e87fc49fb8c69c206f2ccc0260b669284374360568317ef332404c85a,True
+official,JPL->Caltech,6,JPL,Caltech,667,535,0.0,0.8,c7671f50d2b33cc3e7e88661bd4a2a4ded7d2c5e307c6a09e8f2c53043d4010d,True
+official,JPL->Caltech,24,JPL,Caltech,649,520,0.0,0.8,b502476d9d1f809285485495d3df7c146a0d15093c0512f0736d4269b0494b7f,True
+R1,Caltech full,1,Caltech,Caltech,336,270,0.0,0.8,b312b42693be7b2184e45af5a1d2b6feae35989ab8cad20487e54bd80fcdad45,True
+R1,Caltech full,3,Caltech,Caltech,334,268,0.0,0.8,a4e3d048c1a0817d093e758c02dcf04046b9f9809550e552700ff5290c46087e,True
+R1,Caltech full,6,Caltech,Caltech,331,266,0.0,0.8,2e0f18cac6bc2f34275f2ff8c29eb3dfb325eb9228825e6ff0371a3a4baa3cc5,True
+R1,Caltech full,24,Caltech,Caltech,313,252,0.0,0.8,a82b3ced23c6c90c216deaad86ac99d00d4d17b6d46be909e9830db7ef6a0685,True
+R1,JPL matched,1,JPL,JPL,336,270,0.0,0.8,b312b42693be7b2184e45af5a1d2b6feae35989ab8cad20487e54bd80fcdad45,True
+R1,JPL matched,3,JPL,JPL,334,268,0.0,0.8,a4e3d048c1a0817d093e758c02dcf04046b9f9809550e552700ff5290c46087e,True
+R1,JPL matched,6,JPL,JPL,331,266,0.0,0.8,2e0f18cac6bc2f34275f2ff8c29eb3dfb325eb9228825e6ff0371a3a4baa3cc5,True
+R1,JPL matched,24,JPL,JPL,313,252,0.0,0.8,a82b3ced23c6c90c216deaad86ac99d00d4d17b6d46be909e9830db7ef6a0685,True
+R2,Caltech full,1,Caltech,Caltech,336,270,0.0,0.8,abb74cd808e5fa5ee5394313c3a811a78a6068935de82324d0cf61bf2b5eec62,True
+R2,Caltech full,3,Caltech,Caltech,334,268,0.0,0.8,43fc456f3ed36d70641cd3fc3f548c843b494bec4468ec8372f3a6f0673859c5,True
+R2,Caltech full,6,Caltech,Caltech,331,266,0.0,0.8,927ff84c0c529ebe050cac2cc6cb016f964908952184381479076eb5fe5d0bb8,True
+R2,Caltech full,24,Caltech,Caltech,313,252,0.0,0.8,57b2b7b2caf1149301db671be28f03126ea96171ca1e52a4ecd269af53924008,True
+R2,JPL matched,1,JPL,JPL,336,270,0.0,0.8,abb74cd808e5fa5ee5394313c3a811a78a6068935de82324d0cf61bf2b5eec62,True
+R2,JPL matched,3,JPL,JPL,334,268,0.0,0.8,43fc456f3ed36d70641cd3fc3f548c843b494bec4468ec8372f3a6f0673859c5,True
+R2,JPL matched,6,JPL,JPL,331,266,0.0,0.8,927ff84c0c529ebe050cac2cc6cb016f964908952184381479076eb5fe5d0bb8,True
+R2,JPL matched,24,JPL,JPL,313,252,0.0,0.8,57b2b7b2caf1149301db671be28f03126ea96171ca1e52a4ecd269af53924008,True
+R3,Caltech full,1,Caltech,Caltech,336,270,0.0,0.8,1e2e1862f52da09ed203255126e37c881b0e6e6660b20693ef8522a55dbd44e4,True
+R3,Caltech full,3,Caltech,Caltech,334,268,0.0,0.8,9ed3adcfe0ca2e55619e137b7e16828dd75781eb504c63a00c43cfcde781ab0f,True
+R3,Caltech full,6,Caltech,Caltech,331,266,0.0,0.8,e549bfc85b618c33ebf7658205f13ac6e1e0b920a38d3b5e51f2aacc7ed3b47c,True
+R3,Caltech full,24,Caltech,Caltech,313,252,0.0,0.8,77df3952e203f0b435f4984e131fe82e6cfb655ad742f20e8c19407e56c175a1,True
+R3,JPL matched,1,JPL,JPL,336,270,0.0,0.8,1e2e1862f52da09ed203255126e37c881b0e6e6660b20693ef8522a55dbd44e4,True
+R3,JPL matched,3,JPL,JPL,334,268,0.0,0.8,9ed3adcfe0ca2e55619e137b7e16828dd75781eb504c63a00c43cfcde781ab0f,True
+R3,JPL matched,6,JPL,JPL,331,266,0.0,0.8,e549bfc85b618c33ebf7658205f13ac6e1e0b920a38d3b5e51f2aacc7ed3b47c,True
+R3,JPL matched,24,JPL,JPL,313,252,0.0,0.8,77df3952e203f0b435f4984e131fe82e6cfb655ad742f20e8c19407e56c175a1,True

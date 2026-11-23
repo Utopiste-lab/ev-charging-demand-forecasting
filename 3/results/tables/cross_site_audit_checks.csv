@@ -1,0 +1,57 @@
+direction,horizon_hours,test,result,evidence
+Caltech->JPL,1,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+Caltech->JPL,1,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+Caltech->JPL,1,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 0 rows.
+Caltech->JPL,1,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+Caltech->JPL,1,E,PASS,Source-only fit row labels and features checked. 7297 source labels differ from the corresponding target site's counts.
+Caltech->JPL,1,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+Caltech->JPL,1,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+JPL->Caltech,1,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+JPL->Caltech,1,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+JPL->Caltech,1,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 0 rows.
+JPL->Caltech,1,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+JPL->Caltech,1,E,PASS,Source-only fit row labels and features checked. 7297 source labels differ from the corresponding target site's counts.
+JPL->Caltech,1,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+JPL->Caltech,1,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+Caltech->JPL,3,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+Caltech->JPL,3,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+Caltech->JPL,3,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 2 rows.
+Caltech->JPL,3,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+Caltech->JPL,3,E,PASS,Source-only fit row labels and features checked. 7294 source labels differ from the corresponding target site's counts.
+Caltech->JPL,3,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+Caltech->JPL,3,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+JPL->Caltech,3,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+JPL->Caltech,3,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+JPL->Caltech,3,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 2 rows.
+JPL->Caltech,3,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+JPL->Caltech,3,E,PASS,Source-only fit row labels and features checked. 7294 source labels differ from the corresponding target site's counts.
+JPL->Caltech,3,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+JPL->Caltech,3,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+Caltech->JPL,6,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+Caltech->JPL,6,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+Caltech->JPL,6,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 5 rows.
+Caltech->JPL,6,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+Caltech->JPL,6,E,PASS,Source-only fit row labels and features checked. 7289 source labels differ from the corresponding target site's counts.
+Caltech->JPL,6,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+Caltech->JPL,6,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+JPL->Caltech,6,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+JPL->Caltech,6,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+JPL->Caltech,6,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 5 rows.
+JPL->Caltech,6,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+JPL->Caltech,6,E,PASS,Source-only fit row labels and features checked. 7289 source labels differ from the corresponding target site's counts.
+JPL->Caltech,6,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+JPL->Caltech,6,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+Caltech->JPL,24,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+Caltech->JPL,24,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+Caltech->JPL,24,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 23 rows.
+Caltech->JPL,24,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+Caltech->JPL,24,E,PASS,Source-only fit row labels and features checked. 7263 source labels differ from the corresponding target site's counts.
+Caltech->JPL,24,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+Caltech->JPL,24,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."
+JPL->Caltech,24,A,PASS,Mutated all 3383 target test labels. Source fit/validation/refit payloads stayed identical.
+JPL->Caltech,24,B,PASS,Independently reconstructed history and known calendar inputs on 3383 target rows. Future and current-target perturbations did not change inputs at the checked origin.
+JPL->Caltech,24,C,PASS,Source training/validation release checked at the next partition's first issue. Both purges removed 23 rows.
+JPL->Caltech,24,D,PASS,Identical 3383 target hours in both directions and the published same-site test calendar.
+JPL->Caltech,24,E,PASS,Source-only fit row labels and features checked. 7263 source labels differ from the corresponding target site's counts.
+JPL->Caltech,24,F,PASS,Target-site count at target−24h checked for all 3383 hours. 1216 values differ from the source-site alternative.
+JPL->Caltech,24,G,PASS,"Same 34 ordered columns, dtypes, source-clock calendar and demand definitions. No nonfinite eligible values or site identifier in X."

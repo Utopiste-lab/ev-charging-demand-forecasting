@@ -1,0 +1,529 @@
+window,case,horizon_hours,source_site,target_site,model,candidate,objective,validation_loss,parameters,selected
+official,Caltech full,1,Caltech,Caltech,P10,1,pinball,0.024880206413564324,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,1,Caltech,Caltech,P10,2,pinball,0.024622313185435486,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,1,Caltech,Caltech,P10,3,pinball,0.024880206413564324,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,1,Caltech,Caltech,P50,1,pinball,0.11633343572839755,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,1,Caltech,Caltech,P50,2,pinball,0.10089265365567242,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,1,Caltech,Caltech,P50,3,pinball,0.11026523573526952,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,1,Caltech,Caltech,P90,1,pinball,0.1404150676907578,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,1,Caltech,Caltech,P90,2,pinball,0.13682823583736184,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,1,Caltech,Caltech,P90,3,pinball,0.13565148853304887,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.4363589859711941,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.3259639065387084,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.38405206670552683,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,3,Caltech,Caltech,P10,1,pinball,0.024898561416451498,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech full,3,Caltech,Caltech,P10,2,pinball,0.02572273651345411,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,3,Caltech,Caltech,P10,3,pinball,0.024898561416451498,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,3,Caltech,Caltech,P50,1,pinball,0.15937105657106512,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech full,3,Caltech,Caltech,P50,2,pinball,0.167793025874257,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,3,Caltech,Caltech,P50,3,pinball,0.16023655213817187,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,3,Caltech,Caltech,P90,1,pinball,0.21970253404266515,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,3,Caltech,Caltech,P90,2,pinball,0.19729416180891515,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,3,Caltech,Caltech,P90,3,pinball,0.20553127296778492,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.8165191356577123,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.6393186634301409,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.7302644493170894,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,6,Caltech,Caltech,P10,1,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech full,6,Caltech,Caltech,P10,2,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,6,Caltech,Caltech,P10,3,pinball,0.0249261447562777,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,6,Caltech,Caltech,P50,1,pinball,0.4108032104937756,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,6,Caltech,Caltech,P50,2,pinball,0.33801585730049216,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,6,Caltech,Caltech,P50,3,pinball,0.36996376066866393,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,6,Caltech,Caltech,P90,1,pinball,0.3198501765376673,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,6,Caltech,Caltech,P90,2,pinball,0.27035403412200437,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,6,Caltech,Caltech,P90,3,pinball,0.284000145199209,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.234448715985941,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.96125686588397,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,3,MAE,1.0777875261290735,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,24,Caltech,Caltech,P10,1,pinball,0.0273102144329658,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,24,Caltech,Caltech,P10,2,pinball,0.02550171255915513,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,24,Caltech,Caltech,P10,3,pinball,0.027323319395498136,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,24,Caltech,Caltech,P50,1,pinball,0.132722015993481,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,24,Caltech,Caltech,P50,2,pinball,0.12096114657207967,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech full,24,Caltech,Caltech,P50,3,pinball,0.12896388531661543,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech full,24,Caltech,Caltech,P90,1,pinball,0.19532257938962375,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,24,Caltech,Caltech,P90,2,pinball,0.2006681379827043,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,24,Caltech,Caltech,P90,3,pinball,0.19128056954500575,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.7331272373793274,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.7521172502962667,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.7161189779566882,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,JPL matched,1,JPL,JPL,P10,1,pinball,0.05934389974198304,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,1,JPL,JPL,P10,2,pinball,0.05928492086365707,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,1,JPL,JPL,P10,3,pinball,0.05934389974198304,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,1,JPL,JPL,P50,1,pinball,0.2967194987099152,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,1,JPL,JPL,P50,2,pinball,0.2967194987099152,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,1,JPL,JPL,P50,3,pinball,0.2967194987099152,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,1,JPL,JPL,P90,1,pinball,0.16640252075592143,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,1,JPL,JPL,P90,2,pinball,0.16274802427212173,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,1,JPL,JPL,P90,3,pinball,0.16693060821243572,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,1,JPL,JPL,Point GB pre-calibration,1,MAE,0.626750197780832,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,1,JPL,JPL,Point GB pre-calibration,2,MAE,0.578874666447664,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,1,JPL,JPL,Point GB pre-calibration,3,MAE,0.5724457989937961,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,JPL matched,3,JPL,JPL,P10,1,pinball,0.059387679822943566,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,3,JPL,JPL,P10,2,pinball,0.059387679822943566,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,3,JPL,JPL,P10,3,pinball,0.059387679822943566,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,3,JPL,JPL,P50,1,pinball,0.2969383991147178,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,3,JPL,JPL,P50,2,pinball,0.2969383991147178,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,3,JPL,JPL,P50,3,pinball,0.2969383991147178,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,3,JPL,JPL,P90,1,pinball,0.3918059298794708,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,3,JPL,JPL,P90,2,pinball,0.34826062534485325,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,3,JPL,JPL,P90,3,pinball,0.396672649028397,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,3,JPL,JPL,Point GB pre-calibration,1,MAE,1.4032067158620347,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,3,JPL,JPL,Point GB pre-calibration,2,MAE,1.2682339286867697,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,3,JPL,JPL,Point GB pre-calibration,3,MAE,1.40993771258327,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,6,JPL,JPL,P10,1,pinball,0.05930576070901035,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,6,JPL,JPL,P10,2,pinball,0.05930576070901035,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,6,JPL,JPL,P10,3,pinball,0.05930576070901035,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,6,JPL,JPL,P50,1,pinball,0.2965288035450517,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,6,JPL,JPL,P50,2,pinball,0.2965288035450517,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,6,JPL,JPL,P50,3,pinball,0.2965288035450517,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,6,JPL,JPL,P90,1,pinball,0.44645351525478255,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,6,JPL,JPL,P90,2,pinball,0.38843695756786156,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,6,JPL,JPL,P90,3,pinball,0.4379417522927569,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,6,JPL,JPL,Point GB pre-calibration,1,MAE,1.4643882555044645,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,6,JPL,JPL,Point GB pre-calibration,2,MAE,1.2564411865097784,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,6,JPL,JPL,Point GB pre-calibration,3,MAE,1.3755473543398171,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,24,JPL,JPL,P10,1,pinball,0.05903345724907064,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,24,JPL,JPL,P10,2,pinball,0.05903345724907064,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,24,JPL,JPL,P10,3,pinball,0.05903345724907064,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,24,JPL,JPL,P50,1,pinball,0.29516728624535316,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,24,JPL,JPL,P50,2,pinball,0.29516728624535316,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,24,JPL,JPL,P50,3,pinball,0.29516728624535316,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,24,JPL,JPL,P90,1,pinball,0.3266781810348595,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL matched,24,JPL,JPL,P90,2,pinball,0.30276772008572694,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL matched,24,JPL,JPL,P90,3,pinball,0.3299309932497669,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL matched,24,JPL,JPL,Point GB pre-calibration,1,MAE,1.199658938416763,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL matched,24,JPL,JPL,Point GB pre-calibration,2,MAE,1.2080616638951844,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL matched,24,JPL,JPL,Point GB pre-calibration,3,MAE,1.2495782269441988,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,1,Caltech,Caltech,P10,1,pinball,0.024880206413564324,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,1,Caltech,Caltech,P10,2,pinball,0.02508100033436052,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,1,Caltech,Caltech,P10,3,pinball,0.024880206413564324,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,1,Caltech,Caltech,P50,1,pinball,0.1244010320678216,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,1,Caltech,Caltech,P50,2,pinball,0.1244010320678216,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,1,Caltech,Caltech,P50,3,pinball,0.1244010320678216,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,1,Caltech,Caltech,P90,1,pinball,0.14028358409259362,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,1,Caltech,Caltech,P90,2,pinball,0.13829939379670603,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech matched,1,Caltech,Caltech,P90,3,pinball,0.14037721475165205,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,1,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.37925598311927256,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,1,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.35987848392435035,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,1,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.3285263784805793,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech matched,3,Caltech,Caltech,P10,1,pinball,0.024898561416451498,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,3,Caltech,Caltech,P10,2,pinball,0.024898561416451498,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,3,Caltech,Caltech,P10,3,pinball,0.024898561416451498,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,3,Caltech,Caltech,P50,1,pinball,0.12449280708225748,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,3,Caltech,Caltech,P50,2,pinball,0.12449280708225748,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,3,Caltech,Caltech,P50,3,pinball,0.12449280708225748,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,3,Caltech,Caltech,P90,1,pinball,0.23431708177500465,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,3,Caltech,Caltech,P90,2,pinball,0.2016452290727232,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech matched,3,Caltech,Caltech,P90,3,pinball,0.22287997243770383,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,3,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.7969037492664295,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,3,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.6321629294257682,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech matched,3,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.7032608649548399,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,6,Caltech,Caltech,P10,1,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,6,Caltech,Caltech,P10,2,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,6,Caltech,Caltech,P10,3,pinball,0.0249261447562777,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,6,Caltech,Caltech,P50,1,pinball,0.12463072378138848,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,6,Caltech,Caltech,P50,2,pinball,0.12463072378138848,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,6,Caltech,Caltech,P50,3,pinball,0.12463072378138848,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,6,Caltech,Caltech,P90,1,pinball,0.30650178441301423,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,6,Caltech,Caltech,P90,2,pinball,0.25847656361602184,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech matched,6,Caltech,Caltech,P90,3,pinball,0.27058811160786295,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,6,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.0723378240064196,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,6,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8002248300459166,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech matched,6,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.8914450757056336,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,24,Caltech,Caltech,P10,1,pinball,0.025092936802973982,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,24,Caltech,Caltech,P10,2,pinball,0.025092936802973982,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,24,Caltech,Caltech,P10,3,pinball,0.025092936802973982,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,24,Caltech,Caltech,P50,1,pinball,0.12546468401486988,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech matched,24,Caltech,Caltech,P50,2,pinball,0.12546468401486988,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,24,Caltech,Caltech,P50,3,pinball,0.12546468401486988,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech matched,24,Caltech,Caltech,P90,1,pinball,0.18786002087507497,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,24,Caltech,Caltech,P90,2,pinball,0.19099586967202614,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,24,Caltech,Caltech,P90,3,pinball,0.18592023763101018,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech matched,24,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.7414083976234136,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech matched,24,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.7358853002236204,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech matched,24,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.7059416621264203,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech->JPL,1,Caltech,JPL,P10,1,pinball,0.024880206413564324,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,1,Caltech,JPL,P10,2,pinball,0.02508100033436052,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,1,Caltech,JPL,P10,3,pinball,0.024880206413564324,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,1,Caltech,JPL,P50,1,pinball,0.1244010320678216,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,1,Caltech,JPL,P50,2,pinball,0.1244010320678216,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,1,Caltech,JPL,P50,3,pinball,0.1244010320678216,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,1,Caltech,JPL,P90,1,pinball,0.14028358409259362,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,1,Caltech,JPL,P90,2,pinball,0.13829939379670603,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech->JPL,1,Caltech,JPL,P90,3,pinball,0.14037721475165205,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,1,Caltech,JPL,Point GB pre-calibration,1,MAE,0.37925598311927256,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,1,Caltech,JPL,Point GB pre-calibration,2,MAE,0.35987848392435035,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,1,Caltech,JPL,Point GB pre-calibration,3,MAE,0.3285263784805793,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech->JPL,3,Caltech,JPL,P10,1,pinball,0.024898561416451498,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,3,Caltech,JPL,P10,2,pinball,0.024898561416451498,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,3,Caltech,JPL,P10,3,pinball,0.024898561416451498,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,3,Caltech,JPL,P50,1,pinball,0.12449280708225748,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,3,Caltech,JPL,P50,2,pinball,0.12449280708225748,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,3,Caltech,JPL,P50,3,pinball,0.12449280708225748,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,3,Caltech,JPL,P90,1,pinball,0.23431708177500465,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,3,Caltech,JPL,P90,2,pinball,0.2016452290727232,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech->JPL,3,Caltech,JPL,P90,3,pinball,0.22287997243770383,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,3,Caltech,JPL,Point GB pre-calibration,1,MAE,0.7969037492664295,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,3,Caltech,JPL,Point GB pre-calibration,2,MAE,0.6321629294257682,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech->JPL,3,Caltech,JPL,Point GB pre-calibration,3,MAE,0.7032608649548399,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,6,Caltech,JPL,P10,1,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,6,Caltech,JPL,P10,2,pinball,0.0249261447562777,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,6,Caltech,JPL,P10,3,pinball,0.0249261447562777,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,6,Caltech,JPL,P50,1,pinball,0.12463072378138848,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,6,Caltech,JPL,P50,2,pinball,0.12463072378138848,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,6,Caltech,JPL,P50,3,pinball,0.12463072378138848,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,6,Caltech,JPL,P90,1,pinball,0.30650178441301423,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,6,Caltech,JPL,P90,2,pinball,0.25847656361602184,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech->JPL,6,Caltech,JPL,P90,3,pinball,0.27058811160786295,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,6,Caltech,JPL,Point GB pre-calibration,1,MAE,1.0723378240064196,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,6,Caltech,JPL,Point GB pre-calibration,2,MAE,0.8002248300459166,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,Caltech->JPL,6,Caltech,JPL,Point GB pre-calibration,3,MAE,0.8914450757056336,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,24,Caltech,JPL,P10,1,pinball,0.025092936802973982,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,24,Caltech,JPL,P10,2,pinball,0.025092936802973982,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,24,Caltech,JPL,P10,3,pinball,0.025092936802973982,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,24,Caltech,JPL,P50,1,pinball,0.12546468401486988,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,Caltech->JPL,24,Caltech,JPL,P50,2,pinball,0.12546468401486988,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,24,Caltech,JPL,P50,3,pinball,0.12546468401486988,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,Caltech->JPL,24,Caltech,JPL,P90,1,pinball,0.18786002087507497,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,24,Caltech,JPL,P90,2,pinball,0.19099586967202614,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,24,Caltech,JPL,P90,3,pinball,0.18592023763101018,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,Caltech->JPL,24,Caltech,JPL,Point GB pre-calibration,1,MAE,0.7414083976234136,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,Caltech->JPL,24,Caltech,JPL,Point GB pre-calibration,2,MAE,0.7358853002236204,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,Caltech->JPL,24,Caltech,JPL,Point GB pre-calibration,3,MAE,0.7059416621264203,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,JPL->Caltech,1,JPL,Caltech,P10,1,pinball,0.05934389974198304,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,1,JPL,Caltech,P10,2,pinball,0.05928492086365707,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,1,JPL,Caltech,P10,3,pinball,0.05934389974198304,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,1,JPL,Caltech,P50,1,pinball,0.2967194987099152,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,1,JPL,Caltech,P50,2,pinball,0.2967194987099152,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,1,JPL,Caltech,P50,3,pinball,0.2967194987099152,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,1,JPL,Caltech,P90,1,pinball,0.16640252075592143,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,1,JPL,Caltech,P90,2,pinball,0.16274802427212173,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,1,JPL,Caltech,P90,3,pinball,0.16693060821243572,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,1,JPL,Caltech,Point GB pre-calibration,1,MAE,0.626750197780832,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,1,JPL,Caltech,Point GB pre-calibration,2,MAE,0.578874666447664,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,1,JPL,Caltech,Point GB pre-calibration,3,MAE,0.5724457989937961,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+official,JPL->Caltech,3,JPL,Caltech,P10,1,pinball,0.059387679822943566,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,3,JPL,Caltech,P10,2,pinball,0.059387679822943566,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,3,JPL,Caltech,P10,3,pinball,0.059387679822943566,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,3,JPL,Caltech,P50,1,pinball,0.2969383991147178,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,3,JPL,Caltech,P50,2,pinball,0.2969383991147178,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,3,JPL,Caltech,P50,3,pinball,0.2969383991147178,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,3,JPL,Caltech,P90,1,pinball,0.3918059298794708,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,3,JPL,Caltech,P90,2,pinball,0.34826062534485325,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,3,JPL,Caltech,P90,3,pinball,0.396672649028397,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,3,JPL,Caltech,Point GB pre-calibration,1,MAE,1.4032067158620347,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,3,JPL,Caltech,Point GB pre-calibration,2,MAE,1.2682339286867697,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,3,JPL,Caltech,Point GB pre-calibration,3,MAE,1.40993771258327,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,6,JPL,Caltech,P10,1,pinball,0.05930576070901035,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,6,JPL,Caltech,P10,2,pinball,0.05930576070901035,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,6,JPL,Caltech,P10,3,pinball,0.05930576070901035,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,6,JPL,Caltech,P50,1,pinball,0.2965288035450517,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,6,JPL,Caltech,P50,2,pinball,0.2965288035450517,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,6,JPL,Caltech,P50,3,pinball,0.2965288035450517,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,6,JPL,Caltech,P90,1,pinball,0.44645351525478255,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,6,JPL,Caltech,P90,2,pinball,0.38843695756786156,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,6,JPL,Caltech,P90,3,pinball,0.4379417522927569,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,6,JPL,Caltech,Point GB pre-calibration,1,MAE,1.4643882555044645,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,6,JPL,Caltech,Point GB pre-calibration,2,MAE,1.2564411865097784,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,6,JPL,Caltech,Point GB pre-calibration,3,MAE,1.3755473543398171,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,24,JPL,Caltech,P10,1,pinball,0.05903345724907064,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,24,JPL,Caltech,P10,2,pinball,0.05903345724907064,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,24,JPL,Caltech,P10,3,pinball,0.05903345724907064,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,24,JPL,Caltech,P50,1,pinball,0.29516728624535316,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,24,JPL,Caltech,P50,2,pinball,0.29516728624535316,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,24,JPL,Caltech,P50,3,pinball,0.29516728624535316,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,24,JPL,Caltech,P90,1,pinball,0.3266781810348595,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+official,JPL->Caltech,24,JPL,Caltech,P90,2,pinball,0.30276772008572694,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+official,JPL->Caltech,24,JPL,Caltech,P90,3,pinball,0.3299309932497669,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+official,JPL->Caltech,24,JPL,Caltech,Point GB pre-calibration,1,MAE,1.199658938416763,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+official,JPL->Caltech,24,JPL,Caltech,Point GB pre-calibration,2,MAE,1.2080616638951844,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+official,JPL->Caltech,24,JPL,Caltech,Point GB pre-calibration,3,MAE,1.2495782269441988,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,1,Caltech,Caltech,P10,1,pinball,0.11220238095238096,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,1,Caltech,Caltech,P10,2,pinball,0.11220238095238096,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,1,Caltech,Caltech,P10,3,pinball,0.11220238095238096,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,1,Caltech,Caltech,P50,1,pinball,0.5610119047619048,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,1,Caltech,Caltech,P50,2,pinball,0.5610119047619048,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,1,Caltech,Caltech,P50,3,pinball,0.5610119047619048,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,1,Caltech,Caltech,P90,1,pinball,0.2615463752199307,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,1,Caltech,Caltech,P90,2,pinball,0.24843174508537375,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,1,Caltech,Caltech,P90,3,pinball,0.2600614930597956,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.9187172885330751,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8515975736789583,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.8814844496097839,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,3,Caltech,Caltech,P10,1,pinball,0.11223880597014928,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,3,Caltech,Caltech,P10,2,pinball,0.11223880597014928,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,3,Caltech,Caltech,P10,3,pinball,0.11223880597014928,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,3,Caltech,Caltech,P50,1,pinball,0.5611940298507463,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,3,Caltech,Caltech,P50,2,pinball,0.5611940298507463,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,3,Caltech,Caltech,P50,3,pinball,0.5611940298507463,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,3,Caltech,Caltech,P90,1,pinball,0.3528124665480319,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,3,Caltech,Caltech,P90,2,pinball,0.3191241797474051,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,3,Caltech,Caltech,P90,3,pinball,0.340359339231536,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.1379478995312817,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,2,MAE,1.038606683269176,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,3,MAE,1.0705347338528217,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,6,Caltech,Caltech,P10,1,pinball,0.1122938530734633,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,6,Caltech,Caltech,P10,2,pinball,0.1122938530734633,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,6,Caltech,Caltech,P10,3,pinball,0.1122938530734633,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,6,Caltech,Caltech,P50,1,pinball,0.5614692653673163,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,6,Caltech,Caltech,P50,2,pinball,0.5614692653673163,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,6,Caltech,Caltech,P50,3,pinball,0.5614692653673163,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,6,Caltech,Caltech,P90,1,pinball,0.37555678351145516,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,6,Caltech,Caltech,P90,2,pinball,0.3234615097514539,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,6,Caltech,Caltech,P90,3,pinball,0.3409212803911407,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.224195921256949,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,2,MAE,1.0772322843647433,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,3,MAE,1.1130633459330075,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,24,Caltech,Caltech,P10,1,pinball,0.11263482280431435,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,24,Caltech,Caltech,P10,2,pinball,0.11263482280431435,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,24,Caltech,Caltech,P10,3,pinball,0.11263482280431435,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,24,Caltech,Caltech,P50,1,pinball,0.5631741140215717,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,Caltech full,24,Caltech,Caltech,P50,2,pinball,0.5631741140215717,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,Caltech full,24,Caltech,Caltech,P50,3,pinball,0.5631741140215717,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,24,Caltech,Caltech,P90,1,pinball,0.3116594931791659,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,24,Caltech,Caltech,P90,2,pinball,0.29647921810213057,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,24,Caltech,Caltech,P90,3,pinball,0.2983586983429906,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.0291700376042736,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.9636819749104116,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.9787748570379421,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,1,JPL,JPL,P10,1,pinball,0.14717261904761905,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,1,JPL,JPL,P10,2,pinball,0.14717261904761905,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,1,JPL,JPL,P10,3,pinball,0.14717261904761905,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,1,JPL,JPL,P50,1,pinball,0.7358630952380952,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,1,JPL,JPL,P50,2,pinball,0.7358630952380952,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,1,JPL,JPL,P50,3,pinball,0.7358630952380952,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,1,JPL,JPL,P90,1,pinball,0.32061824326308475,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,1,JPL,JPL,P90,2,pinball,0.2790647254682011,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,1,JPL,JPL,P90,3,pinball,0.319884615578849,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,1,JPL,JPL,Point GB pre-calibration,1,MAE,1.0027804053593028,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,1,JPL,JPL,Point GB pre-calibration,2,MAE,0.8032761994435633,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,1,JPL,JPL,Point GB pre-calibration,3,MAE,0.9058621399472357,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,3,JPL,JPL,P10,1,pinball,0.1474626865671642,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,3,JPL,JPL,P10,2,pinball,0.1474626865671642,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,3,JPL,JPL,P10,3,pinball,0.1474626865671642,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,3,JPL,JPL,P50,1,pinball,0.7373134328358208,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,3,JPL,JPL,P50,2,pinball,0.7373134328358208,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,3,JPL,JPL,P50,3,pinball,0.7373134328358208,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,3,JPL,JPL,P90,1,pinball,0.5472690887278179,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,3,JPL,JPL,P90,2,pinball,0.39893395557694306,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,3,JPL,JPL,P90,3,pinball,0.4255198288018356,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,3,JPL,JPL,Point GB pre-calibration,1,MAE,1.6605154870628103,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,3,JPL,JPL,Point GB pre-calibration,2,MAE,1.402502851607096,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,3,JPL,JPL,Point GB pre-calibration,3,MAE,1.599069623050919,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,6,JPL,JPL,P10,1,pinball,0.14752623688155922,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,6,JPL,JPL,P10,2,pinball,0.14752623688155922,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,6,JPL,JPL,P10,3,pinball,0.14752623688155922,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,6,JPL,JPL,P50,1,pinball,0.7376311844077961,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,6,JPL,JPL,P50,2,pinball,0.7376311844077961,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,6,JPL,JPL,P50,3,pinball,0.7376311844077961,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,6,JPL,JPL,P90,1,pinball,0.48375760921960503,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,6,JPL,JPL,P90,2,pinball,0.4085268091671347,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,6,JPL,JPL,P90,3,pinball,0.4537571745467944,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,6,JPL,JPL,Point GB pre-calibration,1,MAE,1.6169408616955065,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,6,JPL,JPL,Point GB pre-calibration,2,MAE,1.4857842943053075,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,6,JPL,JPL,Point GB pre-calibration,3,MAE,1.543990255072704,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,24,JPL,JPL,P10,1,pinball,0.14930662557781202,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,24,JPL,JPL,P10,2,pinball,0.14930662557781202,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,24,JPL,JPL,P10,3,pinball,0.14930662557781202,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,24,JPL,JPL,P50,1,pinball,0.7465331278890601,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R1,JPL matched,24,JPL,JPL,P50,2,pinball,0.7465331278890601,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R1,JPL matched,24,JPL,JPL,P50,3,pinball,0.7465331278890601,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,24,JPL,JPL,P90,1,pinball,0.4113809277094565,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,24,JPL,JPL,P90,2,pinball,0.3994743368564703,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,24,JPL,JPL,P90,3,pinball,0.41061803291829047,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R1,JPL matched,24,JPL,JPL,Point GB pre-calibration,1,MAE,1.4069664120890097,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R1,JPL matched,24,JPL,JPL,Point GB pre-calibration,2,MAE,1.2807031460126308,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R1,JPL matched,24,JPL,JPL,Point GB pre-calibration,3,MAE,1.3902585373388263,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,1,Caltech,Caltech,P10,1,pinball,0.12842261904761906,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,1,Caltech,Caltech,P10,2,pinball,0.12842261904761906,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,1,Caltech,Caltech,P10,3,pinball,0.12842261904761906,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,1,Caltech,Caltech,P50,1,pinball,0.6421130952380952,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,1,Caltech,Caltech,P50,2,pinball,0.6421130952380952,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,1,Caltech,Caltech,P50,3,pinball,0.6421130952380952,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,1,Caltech,Caltech,P90,1,pinball,0.2889211400524158,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,1,Caltech,Caltech,P90,2,pinball,0.27919381964626244,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,1,Caltech,Caltech,P90,3,pinball,0.28925441278209074,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.8683728634664486,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8065647800343734,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.8301805884967847,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,3,Caltech,Caltech,P10,1,pinball,0.12865671641791046,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,3,Caltech,Caltech,P10,2,pinball,0.12865671641791046,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,3,Caltech,Caltech,P10,3,pinball,0.12865671641791046,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,3,Caltech,Caltech,P50,1,pinball,0.6432835820895523,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,3,Caltech,Caltech,P50,2,pinball,0.6432835820895523,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,3,Caltech,Caltech,P50,3,pinball,0.6432835820895523,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,3,Caltech,Caltech,P90,1,pinball,0.3378986832836738,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,3,Caltech,Caltech,P90,2,pinball,0.3021641307254545,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,3,Caltech,Caltech,P90,3,pinball,0.3290506606107963,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.0123646953609573,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8986679587355862,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.9286887073153663,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,6,Caltech,Caltech,P10,1,pinball,0.12803598200899552,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,6,Caltech,Caltech,P10,2,pinball,0.12803598200899552,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,6,Caltech,Caltech,P10,3,pinball,0.12803598200899552,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,6,Caltech,Caltech,P50,1,pinball,0.6401799100449775,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,6,Caltech,Caltech,P50,2,pinball,0.6401799100449775,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,6,Caltech,Caltech,P50,3,pinball,0.6401799100449775,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,6,Caltech,Caltech,P90,1,pinball,0.35387168173870215,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,6,Caltech,Caltech,P90,2,pinball,0.3013927427096269,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,6,Caltech,Caltech,P90,3,pinball,0.31565505860552373,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.128184222624765,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.96281599804553,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,3,MAE,1.002820994994106,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,24,Caltech,Caltech,P10,1,pinball,0.12696456086286595,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,24,Caltech,Caltech,P10,2,pinball,0.12696456086286595,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,24,Caltech,Caltech,P10,3,pinball,0.12696456086286595,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,24,Caltech,Caltech,P50,1,pinball,0.6348228043143297,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,Caltech full,24,Caltech,Caltech,P50,2,pinball,0.6348228043143297,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,Caltech full,24,Caltech,Caltech,P50,3,pinball,0.6348228043143297,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,24,Caltech,Caltech,P90,1,pinball,0.28575845972588315,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,24,Caltech,Caltech,P90,2,pinball,0.268734795264709,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,24,Caltech,Caltech,P90,3,pinball,0.27631125790084854,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.9362433009765128,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8615777487115456,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.8842707572451628,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,1,JPL,JPL,P10,1,pinball,0.20818452380952382,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,1,JPL,JPL,P10,2,pinball,0.20818452380952382,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,1,JPL,JPL,P10,3,pinball,0.20818452380952382,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,1,JPL,JPL,P50,1,pinball,1.040922619047619,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,1,JPL,JPL,P50,2,pinball,1.040922619047619,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,1,JPL,JPL,P50,3,pinball,1.040922619047619,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,1,JPL,JPL,P90,1,pinball,0.3684816572069292,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,1,JPL,JPL,P90,2,pinball,0.32873395104803554,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,1,JPL,JPL,P90,3,pinball,0.3638215620807945,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,1,JPL,JPL,Point GB pre-calibration,1,MAE,1.1171526247404766,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,1,JPL,JPL,Point GB pre-calibration,2,MAE,0.9455924262437805,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,1,JPL,JPL,Point GB pre-calibration,3,MAE,1.032010557385373,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,3,JPL,JPL,P10,1,pinball,0.20880597014925378,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,3,JPL,JPL,P10,2,pinball,0.20880597014925378,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,3,JPL,JPL,P10,3,pinball,0.20880597014925378,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,3,JPL,JPL,P50,1,pinball,1.0440298507462686,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,3,JPL,JPL,P50,2,pinball,1.0440298507462686,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,3,JPL,JPL,P50,3,pinball,1.0440298507462686,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,3,JPL,JPL,P90,1,pinball,0.5996870587675381,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,3,JPL,JPL,P90,2,pinball,0.41321393685271623,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,3,JPL,JPL,P90,3,pinball,0.43708352031958597,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,3,JPL,JPL,Point GB pre-calibration,1,MAE,1.5645352349623733,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,3,JPL,JPL,Point GB pre-calibration,2,MAE,1.3345619195972749,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,3,JPL,JPL,Point GB pre-calibration,3,MAE,1.4866831155088012,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,6,JPL,JPL,P10,1,pinball,0.20824587706146933,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,6,JPL,JPL,P10,2,pinball,0.20824587706146933,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,6,JPL,JPL,P10,3,pinball,0.20824587706146933,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,6,JPL,JPL,P50,1,pinball,1.0412293853073464,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,6,JPL,JPL,P50,2,pinball,1.0412293853073464,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,6,JPL,JPL,P50,3,pinball,1.0412293853073464,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,6,JPL,JPL,P90,1,pinball,0.5656630755453698,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,6,JPL,JPL,P90,2,pinball,0.40822185602341055,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,6,JPL,JPL,P90,3,pinball,0.5370888263559753,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,6,JPL,JPL,Point GB pre-calibration,1,MAE,1.6034819382175876,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,6,JPL,JPL,Point GB pre-calibration,2,MAE,1.4688475170241835,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,6,JPL,JPL,Point GB pre-calibration,3,MAE,1.480301979289039,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,24,JPL,JPL,P10,1,pinball,0.20924499229583976,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,24,JPL,JPL,P10,2,pinball,0.20924499229583976,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,24,JPL,JPL,P10,3,pinball,0.20924499229583976,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,24,JPL,JPL,P50,1,pinball,1.0462249614791987,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R2,JPL matched,24,JPL,JPL,P50,2,pinball,1.0462249614791987,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R2,JPL matched,24,JPL,JPL,P50,3,pinball,1.0462249614791987,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,24,JPL,JPL,P90,1,pinball,0.387709026706498,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,24,JPL,JPL,P90,2,pinball,0.33850182102352244,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,24,JPL,JPL,P90,3,pinball,0.38538428015420034,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R2,JPL matched,24,JPL,JPL,Point GB pre-calibration,1,MAE,1.2651288423559972,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R2,JPL matched,24,JPL,JPL,Point GB pre-calibration,2,MAE,1.0522995712056467,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R2,JPL matched,24,JPL,JPL,Point GB pre-calibration,3,MAE,1.202431388819806,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,1,Caltech,Caltech,P10,1,pinball,0.12678571428571428,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,1,Caltech,Caltech,P10,2,pinball,0.12678571428571428,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,1,Caltech,Caltech,P10,3,pinball,0.12678571428571428,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,1,Caltech,Caltech,P50,1,pinball,0.6339285714285714,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,1,Caltech,Caltech,P50,2,pinball,0.6339285714285714,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,1,Caltech,Caltech,P50,3,pinball,0.6339285714285714,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,1,Caltech,Caltech,P90,1,pinball,0.29842673032358064,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,1,Caltech,Caltech,P90,2,pinball,0.286403284781748,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,1,Caltech,Caltech,P90,3,pinball,0.2959076687214503,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,1,MAE,0.9311084859854807,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.8910842174325715,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,1,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.9098911688491571,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,3,Caltech,Caltech,P10,1,pinball,0.12701492537313433,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,3,Caltech,Caltech,P10,2,pinball,0.12701492537313433,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,3,Caltech,Caltech,P10,3,pinball,0.12701492537313433,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,3,Caltech,Caltech,P50,1,pinball,0.6350746268656716,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,3,Caltech,Caltech,P50,2,pinball,0.6350746268656716,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,3,Caltech,Caltech,P50,3,pinball,0.6350746268656716,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,3,Caltech,Caltech,P90,1,pinball,0.35258661766065374,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,3,Caltech,Caltech,P90,2,pinball,0.30106330515020935,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,3,Caltech,Caltech,P90,3,pinball,0.3319867484839729,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.0345127953540665,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.9550257886570229,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,3,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.9767091743888708,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,6,Caltech,Caltech,P10,1,pinball,0.12743628185907047,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,6,Caltech,Caltech,P10,2,pinball,0.12743628185907047,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,6,Caltech,Caltech,P10,3,pinball,0.12743628185907047,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,6,Caltech,Caltech,P50,1,pinball,0.6371814092953523,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,6,Caltech,Caltech,P50,2,pinball,0.6371814092953523,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,6,Caltech,Caltech,P50,3,pinball,0.6371814092953523,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,6,Caltech,Caltech,P90,1,pinball,0.3711644962549682,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,6,Caltech,Caltech,P90,2,pinball,0.330898097951293,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,6,Caltech,Caltech,P90,3,pinball,0.3387924567108052,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.137752391583634,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,2,MAE,1.0008540510287016,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,6,Caltech,Caltech,Point GB pre-calibration,3,MAE,1.0361588314576955,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,24,Caltech,Caltech,P10,1,pinball,0.12942989214175654,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,24,Caltech,Caltech,P10,2,pinball,0.12942989214175654,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,24,Caltech,Caltech,P10,3,pinball,0.12942989214175654,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,24,Caltech,Caltech,P50,1,pinball,0.6471494607087828,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,Caltech full,24,Caltech,Caltech,P50,2,pinball,0.6471494607087828,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,Caltech full,24,Caltech,Caltech,P50,3,pinball,0.6471494607087828,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,24,Caltech,Caltech,P90,1,pinball,0.32763493942999417,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,24,Caltech,Caltech,P90,2,pinball,0.30840036341703564,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,24,Caltech,Caltech,P90,3,pinball,0.32151562237859493,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,1,MAE,1.0096504792827334,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,2,MAE,0.9304142216879911,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,Caltech full,24,Caltech,Caltech,Point GB pre-calibration,3,MAE,0.9557778771237226,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,1,JPL,JPL,P10,1,pinball,0.19419642857142858,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,1,JPL,JPL,P10,2,pinball,0.19419642857142858,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,1,JPL,JPL,P10,3,pinball,0.19419642857142858,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,1,JPL,JPL,P50,1,pinball,0.9709821428571429,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,1,JPL,JPL,P50,2,pinball,0.9709821428571429,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,1,JPL,JPL,P50,3,pinball,0.9709821428571429,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,1,JPL,JPL,P90,1,pinball,0.3451959811592601,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,1,JPL,JPL,P90,2,pinball,0.3272796174446851,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,1,JPL,JPL,P90,3,pinball,0.34326766567017714,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,1,JPL,JPL,Point GB pre-calibration,1,MAE,1.1780549943898992,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,1,JPL,JPL,Point GB pre-calibration,2,MAE,1.0411429283687947,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,1,JPL,JPL,Point GB pre-calibration,3,MAE,1.125530491196297,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,3,JPL,JPL,P10,1,pinball,0.1947761194029851,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,3,JPL,JPL,P10,2,pinball,0.1947761194029851,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,3,JPL,JPL,P10,3,pinball,0.1947761194029851,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,3,JPL,JPL,P50,1,pinball,0.9738805970149254,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,3,JPL,JPL,P50,2,pinball,0.9738805970149254,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,3,JPL,JPL,P50,3,pinball,0.9738805970149254,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,3,JPL,JPL,P90,1,pinball,0.4955998843363402,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,3,JPL,JPL,P90,2,pinball,0.3963242191719351,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,3,JPL,JPL,P90,3,pinball,0.3911187542448683,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",True
+R3,JPL matched,3,JPL,JPL,Point GB pre-calibration,1,MAE,1.6431672530289294,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,3,JPL,JPL,Point GB pre-calibration,2,MAE,1.4077938119198352,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,3,JPL,JPL,Point GB pre-calibration,3,MAE,1.5699252587386354,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,6,JPL,JPL,P10,1,pinball,0.19475262368815596,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,6,JPL,JPL,P10,2,pinball,0.19475262368815596,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,6,JPL,JPL,P10,3,pinball,0.19475262368815596,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,6,JPL,JPL,P50,1,pinball,0.9737631184407796,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,6,JPL,JPL,P50,2,pinball,0.9737631184407796,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,6,JPL,JPL,P50,3,pinball,0.9737631184407796,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,6,JPL,JPL,P90,1,pinball,0.5746491842537816,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,6,JPL,JPL,P90,2,pinball,0.40959833638416787,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,6,JPL,JPL,P90,3,pinball,0.46918259786640315,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,6,JPL,JPL,Point GB pre-calibration,1,MAE,1.6729573063465026,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,6,JPL,JPL,Point GB pre-calibration,2,MAE,1.4550682205250194,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,6,JPL,JPL,Point GB pre-calibration,3,MAE,1.5349733968792698,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,24,JPL,JPL,P10,1,pinball,0.19799691833590138,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,24,JPL,JPL,P10,2,pinball,0.19799691833590138,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,24,JPL,JPL,P10,3,pinball,0.19799691833590138,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,24,JPL,JPL,P50,1,pinball,0.9899845916795069,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",True
+R3,JPL matched,24,JPL,JPL,P50,2,pinball,0.9899845916795069,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",False
+R3,JPL matched,24,JPL,JPL,P50,3,pinball,0.9899845916795069,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,24,JPL,JPL,P90,1,pinball,0.4162260038358013,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,24,JPL,JPL,P90,2,pinball,0.39806617217687973,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,24,JPL,JPL,P90,3,pinball,0.4104013178881969,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False
+R3,JPL matched,24,JPL,JPL,Point GB pre-calibration,1,MAE,1.3603864910759682,"{""learning_rate"": 0.05, ""max_depth"": 2, ""min_samples_leaf"": 16, ""n_estimators"": 100}",False
+R3,JPL matched,24,JPL,JPL,Point GB pre-calibration,2,MAE,1.165990277928181,"{""learning_rate"": 0.05, ""max_depth"": 3, ""min_samples_leaf"": 8, ""n_estimators"": 150}",True
+R3,JPL matched,24,JPL,JPL,Point GB pre-calibration,3,MAE,1.28503997953586,"{""learning_rate"": 0.08, ""max_depth"": 2, ""min_samples_leaf"": 24, ""n_estimators"": 120}",False

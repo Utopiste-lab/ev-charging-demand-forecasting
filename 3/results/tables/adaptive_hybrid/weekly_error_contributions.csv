@@ -1,0 +1,1693 @@
+window,case,horizon_hours,source_site,target_site,model,week,start,n,loss_difference_sum,win_hours
+official,Caltech full,1,Caltech,Caltech,Adaptive full,0,2020-07-15,168,0.5429060266006722,10
+official,Caltech full,1,Caltech,Caltech,Adaptive full,1,2020-07-22,168,1.4622554311350546,0
+official,Caltech full,1,Caltech,Caltech,Adaptive full,2,2020-07-29,168,-0.6366895396084128,19
+official,Caltech full,1,Caltech,Caltech,Adaptive full,3,2020-08-05,168,-0.40071346370379257,23
+official,Caltech full,1,Caltech,Caltech,Adaptive full,4,2020-08-12,168,-1.554881945251795,23
+official,Caltech full,1,Caltech,Caltech,Adaptive full,5,2020-08-19,168,-2.403166623624348,32
+official,Caltech full,1,Caltech,Caltech,Adaptive full,6,2020-08-26,168,-3.4576919621855082,39
+official,Caltech full,1,Caltech,Caltech,Adaptive full,7,2020-09-02,168,-2.749823496073394,23
+official,Caltech full,1,Caltech,Caltech,Adaptive full,8,2020-09-09,168,-10.87545286327715,59
+official,Caltech full,1,Caltech,Caltech,Adaptive full,9,2020-09-16,168,-2.874289497963737,36
+official,Caltech full,1,Caltech,Caltech,Adaptive full,10,2020-09-23,168,-1.3906894524020523,29
+official,Caltech full,1,Caltech,Caltech,Adaptive full,11,2020-09-30,168,-0.010994583522926371,12
+official,Caltech full,1,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-8.071325311547014,10
+official,Caltech full,1,Caltech,Caltech,Adaptive full,13,2020-10-14,168,0.05265948120946273,39
+official,Caltech full,1,Caltech,Caltech,Adaptive full,14,2020-10-21,168,-4.326473182843838,62
+official,Caltech full,1,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-2.728767501316206,50
+official,Caltech full,1,Caltech,Caltech,Adaptive full,16,2020-11-04,168,-7.199549023987597,38
+official,Caltech full,1,Caltech,Caltech,Adaptive full,17,2020-11-11,168,-5.201892235093548,42
+official,Caltech full,1,Caltech,Caltech,Adaptive full,18,2020-11-18,168,-8.579009301950768,50
+official,Caltech full,1,Caltech,Caltech,Adaptive full,19,2020-11-25,168,-6.004631446984554,51
+official,Caltech full,1,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-4.321437923425209,11
+official,Caltech full,1,Caltech,Caltech,Static optimized,0,2020-07-15,168,6.666584780450771,10
+official,Caltech full,1,Caltech,Caltech,Static optimized,1,2020-07-22,168,5.6042890977769435,0
+official,Caltech full,1,Caltech,Caltech,Static optimized,2,2020-07-29,168,-0.24107713296112276,19
+official,Caltech full,1,Caltech,Caltech,Static optimized,3,2020-08-05,168,2.1677528353093276,23
+official,Caltech full,1,Caltech,Caltech,Static optimized,4,2020-08-12,168,-0.49153873941593607,23
+official,Caltech full,1,Caltech,Caltech,Static optimized,5,2020-08-19,168,1.6224708178934133,32
+official,Caltech full,1,Caltech,Caltech,Static optimized,6,2020-08-26,168,-1.5225700995649885,39
+official,Caltech full,1,Caltech,Caltech,Static optimized,7,2020-09-02,168,3.2655424874813166,23
+official,Caltech full,1,Caltech,Caltech,Static optimized,8,2020-09-09,168,-10.284360453136385,60
+official,Caltech full,1,Caltech,Caltech,Static optimized,9,2020-09-16,168,6.078904118346473,36
+official,Caltech full,1,Caltech,Caltech,Static optimized,10,2020-09-23,168,4.95228688838582,29
+official,Caltech full,1,Caltech,Caltech,Static optimized,11,2020-09-30,168,2.2182439036568367,12
+official,Caltech full,1,Caltech,Caltech,Static optimized,12,2020-10-07,168,-4.183365784110871,10
+official,Caltech full,1,Caltech,Caltech,Static optimized,13,2020-10-14,168,7.90343758590436,39
+official,Caltech full,1,Caltech,Caltech,Static optimized,14,2020-10-21,168,-2.076433696118157,61
+official,Caltech full,1,Caltech,Caltech,Static optimized,15,2020-10-28,168,4.862067359697982,49
+official,Caltech full,1,Caltech,Caltech,Static optimized,16,2020-11-04,168,7.407538800285777,38
+official,Caltech full,1,Caltech,Caltech,Static optimized,17,2020-11-11,168,0.8960466271676788,41
+official,Caltech full,1,Caltech,Caltech,Static optimized,18,2020-11-18,168,-7.3744398743909585,50
+official,Caltech full,1,Caltech,Caltech,Static optimized,19,2020-11-25,168,-0.769795484034907,51
+official,Caltech full,1,Caltech,Caltech,Static optimized,20,2020-12-02,23,-6.641816210428438,11
+official,Caltech full,1,Caltech,Caltech,Rule gate,0,2020-07-15,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,1,2020-07-22,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,2,2020-07-29,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,3,2020-08-05,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,4,2020-08-12,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,5,2020-08-19,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,6,2020-08-26,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,7,2020-09-02,168,1.9597982580703404,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,8,2020-09-09,168,6.344701966633135,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,9,2020-09-16,168,2.2347376142318396,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,10,2020-09-23,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,11,2020-09-30,168,0.0,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,12,2020-10-07,168,1.7320100107578913,0
+official,Caltech full,1,Caltech,Caltech,Rule gate,13,2020-10-14,168,-0.1444918787654066,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,14,2020-10-21,168,-1.4021997815935072,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,15,2020-10-28,168,5.723989165548372,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,16,2020-11-04,168,2.0407973339912853,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,17,2020-11-11,168,0.0783867096611468,2
+official,Caltech full,1,Caltech,Caltech,Rule gate,18,2020-11-18,168,-0.5935785823744464,1
+official,Caltech full,1,Caltech,Caltech,Rule gate,19,2020-11-25,168,-3.3824255851970135,4
+official,Caltech full,1,Caltech,Caltech,Rule gate,20,2020-12-02,23,-3.5339163209076316,4
+official,Caltech full,3,Caltech,Caltech,Adaptive full,0,2020-07-15,168,1.3811144690132358,11
+official,Caltech full,3,Caltech,Caltech,Adaptive full,1,2020-07-22,168,2.052679507169213,0
+official,Caltech full,3,Caltech,Caltech,Adaptive full,2,2020-07-29,168,0.9795867612315678,18
+official,Caltech full,3,Caltech,Caltech,Adaptive full,3,2020-08-05,168,0.3427163267621544,22
+official,Caltech full,3,Caltech,Caltech,Adaptive full,4,2020-08-12,168,-1.2688692843630696,23
+official,Caltech full,3,Caltech,Caltech,Adaptive full,5,2020-08-19,168,-0.1331983774767347,30
+official,Caltech full,3,Caltech,Caltech,Adaptive full,6,2020-08-26,168,-2.1252641123459743,36
+official,Caltech full,3,Caltech,Caltech,Adaptive full,7,2020-09-02,168,10.335911249041791,23
+official,Caltech full,3,Caltech,Caltech,Adaptive full,8,2020-09-09,168,3.8446097844048355,57
+official,Caltech full,3,Caltech,Caltech,Adaptive full,9,2020-09-16,168,0.05522141737638575,34
+official,Caltech full,3,Caltech,Caltech,Adaptive full,10,2020-09-23,168,2.087418199721577,26
+official,Caltech full,3,Caltech,Caltech,Adaptive full,11,2020-09-30,168,1.2334324329122877,12
+official,Caltech full,3,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-6.621156831070852,10
+official,Caltech full,3,Caltech,Caltech,Adaptive full,13,2020-10-14,168,8.048738726766262,38
+official,Caltech full,3,Caltech,Caltech,Adaptive full,14,2020-10-21,168,5.174560255002489,59
+official,Caltech full,3,Caltech,Caltech,Adaptive full,15,2020-10-28,168,2.664167698336061,53
+official,Caltech full,3,Caltech,Caltech,Adaptive full,16,2020-11-04,168,8.587699113204625,36
+official,Caltech full,3,Caltech,Caltech,Adaptive full,17,2020-11-11,168,11.105040069358093,42
+official,Caltech full,3,Caltech,Caltech,Adaptive full,18,2020-11-18,168,2.85755763475046,48
+official,Caltech full,3,Caltech,Caltech,Adaptive full,19,2020-11-25,168,4.1106601203767585,47
+official,Caltech full,3,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-2.897738073750533,9
+official,Caltech full,3,Caltech,Caltech,Static optimized,0,2020-07-15,168,10.664517540626015,10
+official,Caltech full,3,Caltech,Caltech,Static optimized,1,2020-07-22,168,7.0021737071391925,0
+official,Caltech full,3,Caltech,Caltech,Static optimized,2,2020-07-29,168,4.936558916646282,19
+official,Caltech full,3,Caltech,Caltech,Static optimized,3,2020-08-05,168,4.186171023290509,23
+official,Caltech full,3,Caltech,Caltech,Static optimized,4,2020-08-12,168,1.868998118016831,23
+official,Caltech full,3,Caltech,Caltech,Static optimized,5,2020-08-19,168,4.033580489426755,31
+official,Caltech full,3,Caltech,Caltech,Static optimized,6,2020-08-26,168,3.2833128239390064,37
+official,Caltech full,3,Caltech,Caltech,Static optimized,7,2020-09-02,168,20.04213966122587,23
+official,Caltech full,3,Caltech,Caltech,Static optimized,8,2020-09-09,168,18.53316561648419,56
+official,Caltech full,3,Caltech,Caltech,Static optimized,9,2020-09-16,168,11.032078026809236,34
+official,Caltech full,3,Caltech,Caltech,Static optimized,10,2020-09-23,168,10.539257283271345,27
+official,Caltech full,3,Caltech,Caltech,Static optimized,11,2020-09-30,168,5.406173068674354,12
+official,Caltech full,3,Caltech,Caltech,Static optimized,12,2020-10-07,168,2.410347294928683,10
+official,Caltech full,3,Caltech,Caltech,Static optimized,13,2020-10-14,168,17.876826251811046,38
+official,Caltech full,3,Caltech,Caltech,Static optimized,14,2020-10-21,168,13.326717550277184,59
+official,Caltech full,3,Caltech,Caltech,Static optimized,15,2020-10-28,168,15.23359270511022,53
+official,Caltech full,3,Caltech,Caltech,Static optimized,16,2020-11-04,168,28.63148346410731,35
+official,Caltech full,3,Caltech,Caltech,Static optimized,17,2020-11-11,168,25.90580412829106,42
+official,Caltech full,3,Caltech,Caltech,Static optimized,18,2020-11-18,168,12.470848302499592,48
+official,Caltech full,3,Caltech,Caltech,Static optimized,19,2020-11-25,168,17.488364024359953,47
+official,Caltech full,3,Caltech,Caltech,Static optimized,20,2020-12-02,23,0.07497699383518197,7
+official,Caltech full,3,Caltech,Caltech,Rule gate,0,2020-07-15,168,6.460634701590164,10
+official,Caltech full,3,Caltech,Caltech,Rule gate,1,2020-07-22,168,4.553636508693909,0
+official,Caltech full,3,Caltech,Caltech,Rule gate,2,2020-07-29,168,3.2374339736069944,19
+official,Caltech full,3,Caltech,Caltech,Rule gate,3,2020-08-05,168,2.695084337216587,23
+official,Caltech full,3,Caltech,Caltech,Rule gate,4,2020-08-12,168,1.4137417616688697,23
+official,Caltech full,3,Caltech,Caltech,Rule gate,5,2020-08-19,168,2.8254513055031136,31
+official,Caltech full,3,Caltech,Caltech,Rule gate,6,2020-08-26,168,1.652915420192305,37
+official,Caltech full,3,Caltech,Caltech,Rule gate,7,2020-09-02,168,16.181368971716658,23
+official,Caltech full,3,Caltech,Caltech,Rule gate,8,2020-09-09,168,19.550538617119045,57
+official,Caltech full,3,Caltech,Caltech,Rule gate,9,2020-09-16,168,7.070131728163998,33
+official,Caltech full,3,Caltech,Caltech,Rule gate,10,2020-09-23,168,5.759193387918334,27
+official,Caltech full,3,Caltech,Caltech,Rule gate,11,2020-09-30,168,3.5988753832162965,12
+official,Caltech full,3,Caltech,Caltech,Rule gate,12,2020-10-07,168,1.9458698647148829,10
+official,Caltech full,3,Caltech,Caltech,Rule gate,13,2020-10-14,168,12.667544192284689,38
+official,Caltech full,3,Caltech,Caltech,Rule gate,14,2020-10-21,168,10.370787257574312,59
+official,Caltech full,3,Caltech,Caltech,Rule gate,15,2020-10-28,168,14.895389455878492,53
+official,Caltech full,3,Caltech,Caltech,Rule gate,16,2020-11-04,168,20.32133267703805,35
+official,Caltech full,3,Caltech,Caltech,Rule gate,17,2020-11-11,168,23.7641985112119,42
+official,Caltech full,3,Caltech,Caltech,Rule gate,18,2020-11-18,168,11.434880367515328,48
+official,Caltech full,3,Caltech,Caltech,Rule gate,19,2020-11-25,168,15.20395701636332,47
+official,Caltech full,3,Caltech,Caltech,Rule gate,20,2020-12-02,23,0.24530321504953778,8
+official,Caltech full,6,Caltech,Caltech,Adaptive full,0,2020-07-15,168,12.409063632198434,10
+official,Caltech full,6,Caltech,Caltech,Adaptive full,1,2020-07-22,168,15.834099342235486,0
+official,Caltech full,6,Caltech,Caltech,Adaptive full,2,2020-07-29,168,7.479298791894143,17
+official,Caltech full,6,Caltech,Caltech,Adaptive full,3,2020-08-05,168,8.73580131956316,21
+official,Caltech full,6,Caltech,Caltech,Adaptive full,4,2020-08-12,168,7.1481525557544,20
+official,Caltech full,6,Caltech,Caltech,Adaptive full,5,2020-08-19,168,6.094970901609258,29
+official,Caltech full,6,Caltech,Caltech,Adaptive full,6,2020-08-26,168,6.390994418031441,35
+official,Caltech full,6,Caltech,Caltech,Adaptive full,7,2020-09-02,168,19.177065228512685,22
+official,Caltech full,6,Caltech,Caltech,Adaptive full,8,2020-09-09,168,5.862180072037181,56
+official,Caltech full,6,Caltech,Caltech,Adaptive full,9,2020-09-16,168,5.601628003325052,33
+official,Caltech full,6,Caltech,Caltech,Adaptive full,10,2020-09-23,168,9.665972277221927,26
+official,Caltech full,6,Caltech,Caltech,Adaptive full,11,2020-09-30,168,14.31742973668209,11
+official,Caltech full,6,Caltech,Caltech,Adaptive full,12,2020-10-07,168,4.299130027001832,10
+official,Caltech full,6,Caltech,Caltech,Adaptive full,13,2020-10-14,168,13.336730823047331,38
+official,Caltech full,6,Caltech,Caltech,Adaptive full,14,2020-10-21,168,3.7399119344887013,59
+official,Caltech full,6,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-1.337771155549786,51
+official,Caltech full,6,Caltech,Caltech,Adaptive full,16,2020-11-04,168,7.999353259481426,35
+official,Caltech full,6,Caltech,Caltech,Adaptive full,17,2020-11-11,168,12.402110777498114,42
+official,Caltech full,6,Caltech,Caltech,Adaptive full,18,2020-11-18,168,7.559495537158659,45
+official,Caltech full,6,Caltech,Caltech,Adaptive full,19,2020-11-25,168,0.9873595413045421,46
+official,Caltech full,6,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-2.2416722202158272,9
+official,Caltech full,6,Caltech,Caltech,Static optimized,0,2020-07-15,168,28.59923595930461,9
+official,Caltech full,6,Caltech,Caltech,Static optimized,1,2020-07-22,168,34.217331934398054,0
+official,Caltech full,6,Caltech,Caltech,Static optimized,2,2020-07-29,168,20.255155723322915,18
+official,Caltech full,6,Caltech,Caltech,Static optimized,3,2020-08-05,168,19.205477405208338,22
+official,Caltech full,6,Caltech,Caltech,Static optimized,4,2020-08-12,168,18.024792800534115,20
+official,Caltech full,6,Caltech,Caltech,Static optimized,5,2020-08-19,168,14.040735161416825,30
+official,Caltech full,6,Caltech,Caltech,Static optimized,6,2020-08-26,168,11.678454148346889,36
+official,Caltech full,6,Caltech,Caltech,Static optimized,7,2020-09-02,168,25.911054632662456,22
+official,Caltech full,6,Caltech,Caltech,Static optimized,8,2020-09-09,168,11.717017411171685,57
+official,Caltech full,6,Caltech,Caltech,Static optimized,9,2020-09-16,168,14.89043333110067,33
+official,Caltech full,6,Caltech,Caltech,Static optimized,10,2020-09-23,168,18.212820349511134,27
+official,Caltech full,6,Caltech,Caltech,Static optimized,11,2020-09-30,168,27.98682749061672,12
+official,Caltech full,6,Caltech,Caltech,Static optimized,12,2020-10-07,168,24.028901866543748,10
+official,Caltech full,6,Caltech,Caltech,Static optimized,13,2020-10-14,168,20.14917640007878,38
+official,Caltech full,6,Caltech,Caltech,Static optimized,14,2020-10-21,168,6.15458659723536,59
+official,Caltech full,6,Caltech,Caltech,Static optimized,15,2020-10-28,168,3.9590056297910086,51
+official,Caltech full,6,Caltech,Caltech,Static optimized,16,2020-11-04,168,18.852866639179023,35
+official,Caltech full,6,Caltech,Caltech,Static optimized,17,2020-11-11,168,20.355803090673845,42
+official,Caltech full,6,Caltech,Caltech,Static optimized,18,2020-11-18,168,8.897283654214903,45
+official,Caltech full,6,Caltech,Caltech,Static optimized,19,2020-11-25,168,6.65819654236185,45
+official,Caltech full,6,Caltech,Caltech,Static optimized,20,2020-12-02,23,-2.8606483386987827,9
+official,Caltech full,6,Caltech,Caltech,Rule gate,0,2020-07-15,168,16.05047236545171,9
+official,Caltech full,6,Caltech,Caltech,Rule gate,1,2020-07-22,168,19.029614547504956,0
+official,Caltech full,6,Caltech,Caltech,Rule gate,2,2020-07-29,168,13.19405671297305,16
+official,Caltech full,6,Caltech,Caltech,Rule gate,3,2020-08-05,168,12.53895650606924,21
+official,Caltech full,6,Caltech,Caltech,Rule gate,4,2020-08-12,168,10.99983698689056,19
+official,Caltech full,6,Caltech,Caltech,Rule gate,5,2020-08-19,168,10.275534845859509,28
+official,Caltech full,6,Caltech,Caltech,Rule gate,6,2020-08-26,168,8.424938111209393,35
+official,Caltech full,6,Caltech,Caltech,Rule gate,7,2020-09-02,168,23.076116140107175,22
+official,Caltech full,6,Caltech,Caltech,Rule gate,8,2020-09-09,168,7.916713502433454,56
+official,Caltech full,6,Caltech,Caltech,Rule gate,9,2020-09-16,168,10.230462921759681,31
+official,Caltech full,6,Caltech,Caltech,Rule gate,10,2020-09-23,168,10.87203750590801,25
+official,Caltech full,6,Caltech,Caltech,Rule gate,11,2020-09-30,168,15.984477605074208,12
+official,Caltech full,6,Caltech,Caltech,Rule gate,12,2020-10-07,168,14.54271884046819,10
+official,Caltech full,6,Caltech,Caltech,Rule gate,13,2020-10-14,168,14.885297627640913,38
+official,Caltech full,6,Caltech,Caltech,Rule gate,14,2020-10-21,168,4.990940742888847,58
+official,Caltech full,6,Caltech,Caltech,Rule gate,15,2020-10-28,168,3.305868182007422,51
+official,Caltech full,6,Caltech,Caltech,Rule gate,16,2020-11-04,168,15.859624944172484,35
+official,Caltech full,6,Caltech,Caltech,Rule gate,17,2020-11-11,168,19.311894496962815,42
+official,Caltech full,6,Caltech,Caltech,Rule gate,18,2020-11-18,168,9.969184351028506,45
+official,Caltech full,6,Caltech,Caltech,Rule gate,19,2020-11-25,168,5.825606050360626,45
+official,Caltech full,6,Caltech,Caltech,Rule gate,20,2020-12-02,23,-1.6521612713004545,9
+official,Caltech full,24,Caltech,Caltech,Adaptive full,0,2020-07-15,168,2.2261780953581614,11
+official,Caltech full,24,Caltech,Caltech,Adaptive full,1,2020-07-22,168,4.445502652917757,0
+official,Caltech full,24,Caltech,Caltech,Adaptive full,2,2020-07-29,168,1.5825754278821904,18
+official,Caltech full,24,Caltech,Caltech,Adaptive full,3,2020-08-05,168,2.0715695262248475,21
+official,Caltech full,24,Caltech,Caltech,Adaptive full,4,2020-08-12,168,2.0317626524276027,21
+official,Caltech full,24,Caltech,Caltech,Adaptive full,5,2020-08-19,168,5.962942346020149,21
+official,Caltech full,24,Caltech,Caltech,Adaptive full,6,2020-08-26,168,6.068008024206259,32
+official,Caltech full,24,Caltech,Caltech,Adaptive full,7,2020-09-02,168,1.3250723265431428,20
+official,Caltech full,24,Caltech,Caltech,Adaptive full,8,2020-09-09,168,2.0254156092214717,52
+official,Caltech full,24,Caltech,Caltech,Adaptive full,9,2020-09-16,168,1.6659932674983624,29
+official,Caltech full,24,Caltech,Caltech,Adaptive full,10,2020-09-23,168,3.326049936650965,22
+official,Caltech full,24,Caltech,Caltech,Adaptive full,11,2020-09-30,168,3.536248195771112,10
+official,Caltech full,24,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-4.877099415859563,10
+official,Caltech full,24,Caltech,Caltech,Adaptive full,13,2020-10-14,168,3.765069953463926,37
+official,Caltech full,24,Caltech,Caltech,Adaptive full,14,2020-10-21,168,2.383587856086109,47
+official,Caltech full,24,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-0.7024821294272434,47
+official,Caltech full,24,Caltech,Caltech,Adaptive full,16,2020-11-04,168,1.6136382694223559,32
+official,Caltech full,24,Caltech,Caltech,Adaptive full,17,2020-11-11,168,2.540172248391554,37
+official,Caltech full,24,Caltech,Caltech,Adaptive full,18,2020-11-18,168,3.0416352931565402,42
+official,Caltech full,24,Caltech,Caltech,Adaptive full,19,2020-11-25,168,6.893074345406205,40
+official,Caltech full,24,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-2.572847523035221,8
+official,Caltech full,24,Caltech,Caltech,Static optimized,0,2020-07-15,168,10.785013601717788,10
+official,Caltech full,24,Caltech,Caltech,Static optimized,1,2020-07-22,168,8.531803683487997,0
+official,Caltech full,24,Caltech,Caltech,Static optimized,2,2020-07-29,168,1.5137396490255761,18
+official,Caltech full,24,Caltech,Caltech,Static optimized,3,2020-08-05,168,3.3873054794687016,21
+official,Caltech full,24,Caltech,Caltech,Static optimized,4,2020-08-12,168,3.795084616904859,22
+official,Caltech full,24,Caltech,Caltech,Static optimized,5,2020-08-19,168,12.174632502020142,23
+official,Caltech full,24,Caltech,Caltech,Static optimized,6,2020-08-26,168,12.057309491407526,30
+official,Caltech full,24,Caltech,Caltech,Static optimized,7,2020-09-02,168,7.375409459336589,20
+official,Caltech full,24,Caltech,Caltech,Static optimized,8,2020-09-09,168,4.9741053951315735,49
+official,Caltech full,24,Caltech,Caltech,Static optimized,9,2020-09-16,168,12.049875238023644,31
+official,Caltech full,24,Caltech,Caltech,Static optimized,10,2020-09-23,168,11.088357332187702,25
+official,Caltech full,24,Caltech,Caltech,Static optimized,11,2020-09-30,168,6.977597429128863,10
+official,Caltech full,24,Caltech,Caltech,Static optimized,12,2020-10-07,168,2.038887096326645,8
+official,Caltech full,24,Caltech,Caltech,Static optimized,13,2020-10-14,168,6.993713865341812,35
+official,Caltech full,24,Caltech,Caltech,Static optimized,14,2020-10-21,168,11.99524862739469,49
+official,Caltech full,24,Caltech,Caltech,Static optimized,15,2020-10-28,168,8.12268362035866,47
+official,Caltech full,24,Caltech,Caltech,Static optimized,16,2020-11-04,168,17.20394771780139,33
+official,Caltech full,24,Caltech,Caltech,Static optimized,17,2020-11-11,168,13.137595913596291,38
+official,Caltech full,24,Caltech,Caltech,Static optimized,18,2020-11-18,168,9.634710125682199,41
+official,Caltech full,24,Caltech,Caltech,Static optimized,19,2020-11-25,168,17.666836589897486,39
+official,Caltech full,24,Caltech,Caltech,Static optimized,20,2020-12-02,23,-2.9312397415289135,8
+official,Caltech full,24,Caltech,Caltech,Rule gate,0,2020-07-15,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,1,2020-07-22,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,2,2020-07-29,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,3,2020-08-05,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,4,2020-08-12,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,5,2020-08-19,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,6,2020-08-26,168,1.196094600535473,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,7,2020-09-02,168,-3.4206229953496203,2
+official,Caltech full,24,Caltech,Caltech,Rule gate,8,2020-09-09,168,0.5159924342666642,3
+official,Caltech full,24,Caltech,Caltech,Rule gate,9,2020-09-16,168,-1.7485092496884735,2
+official,Caltech full,24,Caltech,Caltech,Rule gate,10,2020-09-23,168,0.8805679254636662,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,11,2020-09-30,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,12,2020-10-07,168,0.0,0
+official,Caltech full,24,Caltech,Caltech,Rule gate,13,2020-10-14,168,3.270827694174164,1
+official,Caltech full,24,Caltech,Caltech,Rule gate,14,2020-10-21,168,0.390178934170719,1
+official,Caltech full,24,Caltech,Caltech,Rule gate,15,2020-10-28,168,-0.15295808109024844,2
+official,Caltech full,24,Caltech,Caltech,Rule gate,16,2020-11-04,168,-4.363490293753626,5
+official,Caltech full,24,Caltech,Caltech,Rule gate,17,2020-11-11,168,-1.905236707816083,3
+official,Caltech full,24,Caltech,Caltech,Rule gate,18,2020-11-18,168,1.7863356762506168,2
+official,Caltech full,24,Caltech,Caltech,Rule gate,19,2020-11-25,168,2.9831193525990902,2
+official,Caltech full,24,Caltech,Caltech,Rule gate,20,2020-12-02,23,-0.2502527148370155,1
+official,JPL matched,1,JPL,JPL,Adaptive full,0,2020-07-15,168,-19.716237777244714,41
+official,JPL matched,1,JPL,JPL,Adaptive full,1,2020-07-22,168,-20.321175401096603,44
+official,JPL matched,1,JPL,JPL,Adaptive full,2,2020-07-29,168,-29.684682941128116,49
+official,JPL matched,1,JPL,JPL,Adaptive full,3,2020-08-05,168,-19.212732348606284,41
+official,JPL matched,1,JPL,JPL,Adaptive full,4,2020-08-12,168,-20.78029068622375,49
+official,JPL matched,1,JPL,JPL,Adaptive full,5,2020-08-19,168,-32.61599332091753,52
+official,JPL matched,1,JPL,JPL,Adaptive full,6,2020-08-26,168,-31.547397416192325,54
+official,JPL matched,1,JPL,JPL,Adaptive full,7,2020-09-02,168,-21.839986193475774,48
+official,JPL matched,1,JPL,JPL,Adaptive full,8,2020-09-09,168,-5.2525767180107135,37
+official,JPL matched,1,JPL,JPL,Adaptive full,9,2020-09-16,168,-15.367859477321588,47
+official,JPL matched,1,JPL,JPL,Adaptive full,10,2020-09-23,168,-22.943928811158724,51
+official,JPL matched,1,JPL,JPL,Adaptive full,11,2020-09-30,168,-33.36570930962322,55
+official,JPL matched,1,JPL,JPL,Adaptive full,12,2020-10-07,168,-16.968561127141452,42
+official,JPL matched,1,JPL,JPL,Adaptive full,13,2020-10-14,168,-45.1784849351433,55
+official,JPL matched,1,JPL,JPL,Adaptive full,14,2020-10-21,168,-21.452990928246017,55
+official,JPL matched,1,JPL,JPL,Adaptive full,15,2020-10-28,168,-24.071534261875193,50
+official,JPL matched,1,JPL,JPL,Adaptive full,16,2020-11-04,168,-19.79185897142192,55
+official,JPL matched,1,JPL,JPL,Adaptive full,17,2020-11-11,168,-21.858823530831955,49
+official,JPL matched,1,JPL,JPL,Adaptive full,18,2020-11-18,168,-31.532566542777648,53
+official,JPL matched,1,JPL,JPL,Adaptive full,19,2020-11-25,168,-7.962760774862449,40
+official,JPL matched,1,JPL,JPL,Adaptive full,20,2020-12-02,23,-1.0732577723513885,4
+official,JPL matched,1,JPL,JPL,Static optimized,0,2020-07-15,168,-13.794100001358382,41
+official,JPL matched,1,JPL,JPL,Static optimized,1,2020-07-22,168,-17.403436497015818,43
+official,JPL matched,1,JPL,JPL,Static optimized,2,2020-07-29,168,-27.495427430172274,50
+official,JPL matched,1,JPL,JPL,Static optimized,3,2020-08-05,168,-16.555036380078413,43
+official,JPL matched,1,JPL,JPL,Static optimized,4,2020-08-12,168,-21.81292842477415,49
+official,JPL matched,1,JPL,JPL,Static optimized,5,2020-08-19,168,-29.934000802718035,50
+official,JPL matched,1,JPL,JPL,Static optimized,6,2020-08-26,168,-25.43112262301319,52
+official,JPL matched,1,JPL,JPL,Static optimized,7,2020-09-02,168,-20.174848960633035,48
+official,JPL matched,1,JPL,JPL,Static optimized,8,2020-09-09,168,-0.8743958201480724,36
+official,JPL matched,1,JPL,JPL,Static optimized,9,2020-09-16,168,-12.462762722554068,47
+official,JPL matched,1,JPL,JPL,Static optimized,10,2020-09-23,168,-20.914909587874924,49
+official,JPL matched,1,JPL,JPL,Static optimized,11,2020-09-30,168,-30.963668070505793,54
+official,JPL matched,1,JPL,JPL,Static optimized,12,2020-10-07,168,-8.905487170486232,43
+official,JPL matched,1,JPL,JPL,Static optimized,13,2020-10-14,168,-46.00931030496476,54
+official,JPL matched,1,JPL,JPL,Static optimized,14,2020-10-21,168,-19.755306896746127,54
+official,JPL matched,1,JPL,JPL,Static optimized,15,2020-10-28,168,-23.16053934248778,48
+official,JPL matched,1,JPL,JPL,Static optimized,16,2020-11-04,168,-18.09260590432553,54
+official,JPL matched,1,JPL,JPL,Static optimized,17,2020-11-11,168,-16.62350861210544,46
+official,JPL matched,1,JPL,JPL,Static optimized,18,2020-11-18,168,-29.70411163518036,52
+official,JPL matched,1,JPL,JPL,Static optimized,19,2020-11-25,168,-2.7518767561467152,39
+official,JPL matched,1,JPL,JPL,Static optimized,20,2020-12-02,23,-0.2523527046674252,4
+official,JPL matched,1,JPL,JPL,Rule gate,0,2020-07-15,168,-15.631720764758178,41
+official,JPL matched,1,JPL,JPL,Rule gate,1,2020-07-22,168,-20.711232247422636,44
+official,JPL matched,1,JPL,JPL,Rule gate,2,2020-07-29,168,-30.032225949613277,50
+official,JPL matched,1,JPL,JPL,Rule gate,3,2020-08-05,168,-19.64001326584387,43
+official,JPL matched,1,JPL,JPL,Rule gate,4,2020-08-12,168,-24.563971772094394,49
+official,JPL matched,1,JPL,JPL,Rule gate,5,2020-08-19,168,-32.36571736791335,50
+official,JPL matched,1,JPL,JPL,Rule gate,6,2020-08-26,168,-27.92837585772017,51
+official,JPL matched,1,JPL,JPL,Rule gate,7,2020-09-02,168,-23.959000064632118,49
+official,JPL matched,1,JPL,JPL,Rule gate,8,2020-09-09,168,-2.110508748774034,35
+official,JPL matched,1,JPL,JPL,Rule gate,9,2020-09-16,168,-18.062040124910308,47
+official,JPL matched,1,JPL,JPL,Rule gate,10,2020-09-23,168,-24.654836419190502,48
+official,JPL matched,1,JPL,JPL,Rule gate,11,2020-09-30,168,-34.60173536928265,54
+official,JPL matched,1,JPL,JPL,Rule gate,12,2020-10-07,168,-12.000190331432485,42
+official,JPL matched,1,JPL,JPL,Rule gate,13,2020-10-14,168,-48.36850967185154,53
+official,JPL matched,1,JPL,JPL,Rule gate,14,2020-10-21,168,-20.875634374803415,54
+official,JPL matched,1,JPL,JPL,Rule gate,15,2020-10-28,168,-26.18544422091356,49
+official,JPL matched,1,JPL,JPL,Rule gate,16,2020-11-04,168,-22.66209207286581,53
+official,JPL matched,1,JPL,JPL,Rule gate,17,2020-11-11,168,-17.730479550931946,45
+official,JPL matched,1,JPL,JPL,Rule gate,18,2020-11-18,168,-33.298944128767104,52
+official,JPL matched,1,JPL,JPL,Rule gate,19,2020-11-25,168,-6.0582325317153956,38
+official,JPL matched,1,JPL,JPL,Rule gate,20,2020-12-02,23,-0.33690604472133345,5
+official,JPL matched,3,JPL,JPL,Adaptive full,0,2020-07-15,168,-10.261251984083742,44
+official,JPL matched,3,JPL,JPL,Adaptive full,1,2020-07-22,168,-19.55154964925683,49
+official,JPL matched,3,JPL,JPL,Adaptive full,2,2020-07-29,168,-11.53290981723227,46
+official,JPL matched,3,JPL,JPL,Adaptive full,3,2020-08-05,168,-18.857634575383713,49
+official,JPL matched,3,JPL,JPL,Adaptive full,4,2020-08-12,168,-14.03904254546616,48
+official,JPL matched,3,JPL,JPL,Adaptive full,5,2020-08-19,168,-24.4963291380665,52
+official,JPL matched,3,JPL,JPL,Adaptive full,6,2020-08-26,168,-19.19448215882269,51
+official,JPL matched,3,JPL,JPL,Adaptive full,7,2020-09-02,168,-11.508728859412725,51
+official,JPL matched,3,JPL,JPL,Adaptive full,8,2020-09-09,168,7.56886826534099,31
+official,JPL matched,3,JPL,JPL,Adaptive full,9,2020-09-16,168,-11.319376799906076,47
+official,JPL matched,3,JPL,JPL,Adaptive full,10,2020-09-23,168,-18.368622693843587,50
+official,JPL matched,3,JPL,JPL,Adaptive full,11,2020-09-30,168,-23.824887397645544,56
+official,JPL matched,3,JPL,JPL,Adaptive full,12,2020-10-07,168,-11.93193582337109,44
+official,JPL matched,3,JPL,JPL,Adaptive full,13,2020-10-14,168,-28.596250674073993,56
+official,JPL matched,3,JPL,JPL,Adaptive full,14,2020-10-21,168,-16.86695156927415,53
+official,JPL matched,3,JPL,JPL,Adaptive full,15,2020-10-28,168,-21.288679678597752,55
+official,JPL matched,3,JPL,JPL,Adaptive full,16,2020-11-04,168,-17.562510378615954,57
+official,JPL matched,3,JPL,JPL,Adaptive full,17,2020-11-11,168,-20.2556271307773,47
+official,JPL matched,3,JPL,JPL,Adaptive full,18,2020-11-18,168,-19.50740472823257,49
+official,JPL matched,3,JPL,JPL,Adaptive full,19,2020-11-25,168,-1.7748425581152794,36
+official,JPL matched,3,JPL,JPL,Adaptive full,20,2020-12-02,23,1.3822635226399806,5
+official,JPL matched,3,JPL,JPL,Static optimized,0,2020-07-15,168,-5.152500859026495,44
+official,JPL matched,3,JPL,JPL,Static optimized,1,2020-07-22,168,-8.597891278516162,48
+official,JPL matched,3,JPL,JPL,Static optimized,2,2020-07-29,168,-8.042726446052061,48
+official,JPL matched,3,JPL,JPL,Static optimized,3,2020-08-05,168,-13.178784865813155,44
+official,JPL matched,3,JPL,JPL,Static optimized,4,2020-08-12,168,-10.621819775956933,51
+official,JPL matched,3,JPL,JPL,Static optimized,5,2020-08-19,168,-20.762926589299525,53
+official,JPL matched,3,JPL,JPL,Static optimized,6,2020-08-26,168,-11.658453180963257,50
+official,JPL matched,3,JPL,JPL,Static optimized,7,2020-09-02,168,4.578208859544711,49
+official,JPL matched,3,JPL,JPL,Static optimized,8,2020-09-09,168,19.51979171323108,31
+official,JPL matched,3,JPL,JPL,Static optimized,9,2020-09-16,168,3.2646479617879027,45
+official,JPL matched,3,JPL,JPL,Static optimized,10,2020-09-23,168,-5.990351858126494,48
+official,JPL matched,3,JPL,JPL,Static optimized,11,2020-09-30,168,-16.513273244749218,58
+official,JPL matched,3,JPL,JPL,Static optimized,12,2020-10-07,168,-5.00380975399041,44
+official,JPL matched,3,JPL,JPL,Static optimized,13,2020-10-14,168,-22.778994894909616,54
+official,JPL matched,3,JPL,JPL,Static optimized,14,2020-10-21,168,-12.00320286028575,53
+official,JPL matched,3,JPL,JPL,Static optimized,15,2020-10-28,168,-2.7323368225537346,53
+official,JPL matched,3,JPL,JPL,Static optimized,16,2020-11-04,168,-2.1827466523951795,57
+official,JPL matched,3,JPL,JPL,Static optimized,17,2020-11-11,168,-9.088729595841,50
+official,JPL matched,3,JPL,JPL,Static optimized,18,2020-11-18,168,-7.598280153112248,51
+official,JPL matched,3,JPL,JPL,Static optimized,19,2020-11-25,168,18.343956186488185,33
+official,JPL matched,3,JPL,JPL,Static optimized,20,2020-12-02,23,2.3860788460657885,6
+official,JPL matched,3,JPL,JPL,Rule gate,0,2020-07-15,168,-17.420881162155982,42
+official,JPL matched,3,JPL,JPL,Rule gate,1,2020-07-22,168,-21.581749450552728,49
+official,JPL matched,3,JPL,JPL,Rule gate,2,2020-07-29,168,-20.38282426076651,47
+official,JPL matched,3,JPL,JPL,Rule gate,3,2020-08-05,168,-25.79272575242513,44
+official,JPL matched,3,JPL,JPL,Rule gate,4,2020-08-12,168,-19.91164831784688,51
+official,JPL matched,3,JPL,JPL,Rule gate,5,2020-08-19,168,-31.07755797364473,53
+official,JPL matched,3,JPL,JPL,Rule gate,6,2020-08-26,168,-20.960285023995283,50
+official,JPL matched,3,JPL,JPL,Rule gate,7,2020-09-02,168,-7.59456592903657,48
+official,JPL matched,3,JPL,JPL,Rule gate,8,2020-09-09,168,7.310441567542824,31
+official,JPL matched,3,JPL,JPL,Rule gate,9,2020-09-16,168,-16.468510950110087,45
+official,JPL matched,3,JPL,JPL,Rule gate,10,2020-09-23,168,-18.349482766355152,45
+official,JPL matched,3,JPL,JPL,Rule gate,11,2020-09-30,168,-28.079593917482516,57
+official,JPL matched,3,JPL,JPL,Rule gate,12,2020-10-07,168,-13.97026719942419,44
+official,JPL matched,3,JPL,JPL,Rule gate,13,2020-10-14,168,-30.448176277232466,54
+official,JPL matched,3,JPL,JPL,Rule gate,14,2020-10-21,168,-19.6106320341337,53
+official,JPL matched,3,JPL,JPL,Rule gate,15,2020-10-28,168,-16.54185038772482,52
+official,JPL matched,3,JPL,JPL,Rule gate,16,2020-11-04,168,-15.75816148177691,57
+official,JPL matched,3,JPL,JPL,Rule gate,17,2020-11-11,168,-15.07090990505617,50
+official,JPL matched,3,JPL,JPL,Rule gate,18,2020-11-18,168,-21.356782859626687,52
+official,JPL matched,3,JPL,JPL,Rule gate,19,2020-11-25,168,4.713396848909011,33
+official,JPL matched,3,JPL,JPL,Rule gate,20,2020-12-02,23,0.49922509358384176,6
+official,JPL matched,6,JPL,JPL,Adaptive full,0,2020-07-15,168,-6.688300944759554,43
+official,JPL matched,6,JPL,JPL,Adaptive full,1,2020-07-22,168,-18.96010719429757,49
+official,JPL matched,6,JPL,JPL,Adaptive full,2,2020-07-29,168,-8.458530650349635,48
+official,JPL matched,6,JPL,JPL,Adaptive full,3,2020-08-05,168,-16.617547075417942,42
+official,JPL matched,6,JPL,JPL,Adaptive full,4,2020-08-12,168,-7.6740102943458295,52
+official,JPL matched,6,JPL,JPL,Adaptive full,5,2020-08-19,168,-21.30558431046436,51
+official,JPL matched,6,JPL,JPL,Adaptive full,6,2020-08-26,168,-11.719489167934114,50
+official,JPL matched,6,JPL,JPL,Adaptive full,7,2020-09-02,168,-8.909384618757997,48
+official,JPL matched,6,JPL,JPL,Adaptive full,8,2020-09-09,168,8.04404670999729,35
+official,JPL matched,6,JPL,JPL,Adaptive full,9,2020-09-16,168,-9.466869088719113,45
+official,JPL matched,6,JPL,JPL,Adaptive full,10,2020-09-23,168,-13.166980973868732,48
+official,JPL matched,6,JPL,JPL,Adaptive full,11,2020-09-30,168,-25.18507268612612,60
+official,JPL matched,6,JPL,JPL,Adaptive full,12,2020-10-07,168,-7.433068948928929,47
+official,JPL matched,6,JPL,JPL,Adaptive full,13,2020-10-14,168,-26.185056644118433,55
+official,JPL matched,6,JPL,JPL,Adaptive full,14,2020-10-21,168,-13.555343037566033,54
+official,JPL matched,6,JPL,JPL,Adaptive full,15,2020-10-28,168,-16.385822809818837,54
+official,JPL matched,6,JPL,JPL,Adaptive full,16,2020-11-04,168,-18.319548337930236,56
+official,JPL matched,6,JPL,JPL,Adaptive full,17,2020-11-11,168,-16.845382860994032,50
+official,JPL matched,6,JPL,JPL,Adaptive full,18,2020-11-18,168,-15.097921010971474,49
+official,JPL matched,6,JPL,JPL,Adaptive full,19,2020-11-25,168,1.8857674254904349,35
+official,JPL matched,6,JPL,JPL,Adaptive full,20,2020-12-02,23,1.2613218282420964,5
+official,JPL matched,6,JPL,JPL,Static optimized,0,2020-07-15,168,-3.6438043129299125,41
+official,JPL matched,6,JPL,JPL,Static optimized,1,2020-07-22,168,-3.812018957862067,48
+official,JPL matched,6,JPL,JPL,Static optimized,2,2020-07-29,168,-5.8598475572681314,49
+official,JPL matched,6,JPL,JPL,Static optimized,3,2020-08-05,168,-11.518296030069216,40
+official,JPL matched,6,JPL,JPL,Static optimized,4,2020-08-12,168,-9.012462769821788,51
+official,JPL matched,6,JPL,JPL,Static optimized,5,2020-08-19,168,-12.297662642841566,52
+official,JPL matched,6,JPL,JPL,Static optimized,6,2020-08-26,168,-7.738905692653619,51
+official,JPL matched,6,JPL,JPL,Static optimized,7,2020-09-02,168,3.608806843765553,49
+official,JPL matched,6,JPL,JPL,Static optimized,8,2020-09-09,168,21.375977541796654,32
+official,JPL matched,6,JPL,JPL,Static optimized,9,2020-09-16,168,6.027558856790419,46
+official,JPL matched,6,JPL,JPL,Static optimized,10,2020-09-23,168,-6.6410362756036285,49
+official,JPL matched,6,JPL,JPL,Static optimized,11,2020-09-30,168,-18.707788444974515,55
+official,JPL matched,6,JPL,JPL,Static optimized,12,2020-10-07,168,-5.278787311432067,45
+official,JPL matched,6,JPL,JPL,Static optimized,13,2020-10-14,168,-15.978802461813107,55
+official,JPL matched,6,JPL,JPL,Static optimized,14,2020-10-21,168,-12.984331939528445,56
+official,JPL matched,6,JPL,JPL,Static optimized,15,2020-10-28,168,2.140621264804823,52
+official,JPL matched,6,JPL,JPL,Static optimized,16,2020-11-04,168,-5.767169301966389,57
+official,JPL matched,6,JPL,JPL,Static optimized,17,2020-11-11,168,-4.253108000096349,51
+official,JPL matched,6,JPL,JPL,Static optimized,18,2020-11-18,168,-2.706153599112779,51
+official,JPL matched,6,JPL,JPL,Static optimized,19,2020-11-25,168,23.777403579320364,33
+official,JPL matched,6,JPL,JPL,Static optimized,20,2020-12-02,23,2.430239877763846,6
+official,JPL matched,6,JPL,JPL,Rule gate,0,2020-07-15,168,-6.466721649850108,41
+official,JPL matched,6,JPL,JPL,Rule gate,1,2020-07-22,168,-8.696968427529113,50
+official,JPL matched,6,JPL,JPL,Rule gate,2,2020-07-29,168,-8.333548583633092,50
+official,JPL matched,6,JPL,JPL,Rule gate,3,2020-08-05,168,-15.306717686047982,41
+official,JPL matched,6,JPL,JPL,Rule gate,4,2020-08-12,168,-10.702316567478922,51
+official,JPL matched,6,JPL,JPL,Rule gate,5,2020-08-19,168,-16.414250711549727,52
+official,JPL matched,6,JPL,JPL,Rule gate,6,2020-08-26,168,-10.467784637266282,49
+official,JPL matched,6,JPL,JPL,Rule gate,7,2020-09-02,168,-0.6635824132118013,50
+official,JPL matched,6,JPL,JPL,Rule gate,8,2020-09-09,168,18.080519673130773,30
+official,JPL matched,6,JPL,JPL,Rule gate,9,2020-09-16,168,-1.364143523858944,45
+official,JPL matched,6,JPL,JPL,Rule gate,10,2020-09-23,168,-10.274247320135643,46
+official,JPL matched,6,JPL,JPL,Rule gate,11,2020-09-30,168,-20.775961149226017,55
+official,JPL matched,6,JPL,JPL,Rule gate,12,2020-10-07,168,-7.585062912379426,44
+official,JPL matched,6,JPL,JPL,Rule gate,13,2020-10-14,168,-18.209317371242026,54
+official,JPL matched,6,JPL,JPL,Rule gate,14,2020-10-21,168,-13.558217650752564,54
+official,JPL matched,6,JPL,JPL,Rule gate,15,2020-10-28,168,-5.377711834509784,51
+official,JPL matched,6,JPL,JPL,Rule gate,16,2020-11-04,168,-10.051384561260294,57
+official,JPL matched,6,JPL,JPL,Rule gate,17,2020-11-11,168,-6.1847593425708185,52
+official,JPL matched,6,JPL,JPL,Rule gate,18,2020-11-18,168,-7.146732939366975,51
+official,JPL matched,6,JPL,JPL,Rule gate,19,2020-11-25,168,17.459150189126937,33
+official,JPL matched,6,JPL,JPL,Rule gate,20,2020-12-02,23,2.071101154089179,6
+official,JPL matched,24,JPL,JPL,Adaptive full,0,2020-07-15,168,-6.4762207993440075,40
+official,JPL matched,24,JPL,JPL,Adaptive full,1,2020-07-22,168,-13.2467027034155,47
+official,JPL matched,24,JPL,JPL,Adaptive full,2,2020-07-29,168,-6.6790504485757225,46
+official,JPL matched,24,JPL,JPL,Adaptive full,3,2020-08-05,168,-15.765326028820466,46
+official,JPL matched,24,JPL,JPL,Adaptive full,4,2020-08-12,168,-8.884430545024482,49
+official,JPL matched,24,JPL,JPL,Adaptive full,5,2020-08-19,168,-17.900060797895385,51
+official,JPL matched,24,JPL,JPL,Adaptive full,6,2020-08-26,168,-6.590960108978473,47
+official,JPL matched,24,JPL,JPL,Adaptive full,7,2020-09-02,168,-5.7981526240178916,45
+official,JPL matched,24,JPL,JPL,Adaptive full,8,2020-09-09,168,17.833488770981166,29
+official,JPL matched,24,JPL,JPL,Adaptive full,9,2020-09-16,168,-6.108432106394266,47
+official,JPL matched,24,JPL,JPL,Adaptive full,10,2020-09-23,168,-9.056495102317013,45
+official,JPL matched,24,JPL,JPL,Adaptive full,11,2020-09-30,168,-22.049656234069037,53
+official,JPL matched,24,JPL,JPL,Adaptive full,12,2020-10-07,168,-3.9523984834706036,41
+official,JPL matched,24,JPL,JPL,Adaptive full,13,2020-10-14,168,-22.494992090280817,54
+official,JPL matched,24,JPL,JPL,Adaptive full,14,2020-10-21,168,-10.839715348370168,53
+official,JPL matched,24,JPL,JPL,Adaptive full,15,2020-10-28,168,-15.70961666670069,52
+official,JPL matched,24,JPL,JPL,Adaptive full,16,2020-11-04,168,-7.929218580405796,52
+official,JPL matched,24,JPL,JPL,Adaptive full,17,2020-11-11,168,-8.72140464702536,49
+official,JPL matched,24,JPL,JPL,Adaptive full,18,2020-11-18,168,-4.230002035899854,45
+official,JPL matched,24,JPL,JPL,Adaptive full,19,2020-11-25,168,15.932338404477981,30
+official,JPL matched,24,JPL,JPL,Adaptive full,20,2020-12-02,23,0.8043045211406513,6
+official,JPL matched,24,JPL,JPL,Static optimized,0,2020-07-15,168,13.278702937007736,40
+official,JPL matched,24,JPL,JPL,Static optimized,1,2020-07-22,168,4.152739306994148,47
+official,JPL matched,24,JPL,JPL,Static optimized,2,2020-07-29,168,9.763269247752248,47
+official,JPL matched,24,JPL,JPL,Static optimized,3,2020-08-05,168,1.9723232311078798,45
+official,JPL matched,24,JPL,JPL,Static optimized,4,2020-08-12,168,3.454381464208528,52
+official,JPL matched,24,JPL,JPL,Static optimized,5,2020-08-19,168,-2.4751856034517825,48
+official,JPL matched,24,JPL,JPL,Static optimized,6,2020-08-26,168,4.561581202031159,47
+official,JPL matched,24,JPL,JPL,Static optimized,7,2020-09-02,168,15.575664014272549,48
+official,JPL matched,24,JPL,JPL,Static optimized,8,2020-09-09,168,49.81080012555626,27
+official,JPL matched,24,JPL,JPL,Static optimized,9,2020-09-16,168,27.942480159791096,46
+official,JPL matched,24,JPL,JPL,Static optimized,10,2020-09-23,168,5.323525922592621,47
+official,JPL matched,24,JPL,JPL,Static optimized,11,2020-09-30,168,-7.7471571750533315,53
+official,JPL matched,24,JPL,JPL,Static optimized,12,2020-10-07,168,14.415714491245518,38
+official,JPL matched,24,JPL,JPL,Static optimized,13,2020-10-14,168,-7.5468873625547985,55
+official,JPL matched,24,JPL,JPL,Static optimized,14,2020-10-21,168,5.478079633309639,51
+official,JPL matched,24,JPL,JPL,Static optimized,15,2020-10-28,168,8.894147351048616,51
+official,JPL matched,24,JPL,JPL,Static optimized,16,2020-11-04,168,10.389243712784902,53
+official,JPL matched,24,JPL,JPL,Static optimized,17,2020-11-11,168,8.755082406584059,49
+official,JPL matched,24,JPL,JPL,Static optimized,18,2020-11-18,168,11.697440987983024,46
+official,JPL matched,24,JPL,JPL,Static optimized,19,2020-11-25,168,52.422383087154515,31
+official,JPL matched,24,JPL,JPL,Static optimized,20,2020-12-02,23,5.633131533626744,5
+official,JPL matched,24,JPL,JPL,Rule gate,0,2020-07-15,168,4.905632259647663,41
+official,JPL matched,24,JPL,JPL,Rule gate,1,2020-07-22,168,-4.654565294804692,47
+official,JPL matched,24,JPL,JPL,Rule gate,2,2020-07-29,168,1.9948509052361896,45
+official,JPL matched,24,JPL,JPL,Rule gate,3,2020-08-05,168,-5.589099913336854,45
+official,JPL matched,24,JPL,JPL,Rule gate,4,2020-08-12,168,-7.74642538462172,53
+official,JPL matched,24,JPL,JPL,Rule gate,5,2020-08-19,168,-11.687325784540196,48
+official,JPL matched,24,JPL,JPL,Rule gate,6,2020-08-26,168,-5.392741672878261,47
+official,JPL matched,24,JPL,JPL,Rule gate,7,2020-09-02,168,7.626492143846652,48
+official,JPL matched,24,JPL,JPL,Rule gate,8,2020-09-09,168,36.70807525772652,27
+official,JPL matched,24,JPL,JPL,Rule gate,9,2020-09-16,168,20.207412672375305,46
+official,JPL matched,24,JPL,JPL,Rule gate,10,2020-09-23,168,-3.39763393757198,47
+official,JPL matched,24,JPL,JPL,Rule gate,11,2020-09-30,168,-14.970933717691672,52
+official,JPL matched,24,JPL,JPL,Rule gate,12,2020-10-07,168,6.67744100636925,38
+official,JPL matched,24,JPL,JPL,Rule gate,13,2020-10-14,168,-11.988269986356222,54
+official,JPL matched,24,JPL,JPL,Rule gate,14,2020-10-21,168,-0.9911429671886296,51
+official,JPL matched,24,JPL,JPL,Rule gate,15,2020-10-28,168,4.4971692863348665,50
+official,JPL matched,24,JPL,JPL,Rule gate,16,2020-11-04,168,3.4401173206446582,53
+official,JPL matched,24,JPL,JPL,Rule gate,17,2020-11-11,168,2.156149172031579,49
+official,JPL matched,24,JPL,JPL,Rule gate,18,2020-11-18,168,2.998328758249872,46
+official,JPL matched,24,JPL,JPL,Rule gate,19,2020-11-25,168,43.176440763540924,31
+official,JPL matched,24,JPL,JPL,Rule gate,20,2020-12-02,23,4.554770925025341,5
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,0,2020-07-15,168,0.6170807462828907,10
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,1,2020-07-22,168,1.1815028075147946,0
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,2,2020-07-29,168,-1.0214420899222096,19
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,3,2020-08-05,168,-0.7059247448226166,23
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,4,2020-08-12,168,-2.229981327866645,23
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,5,2020-08-19,168,-2.517909115450628,32
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,6,2020-08-26,168,-3.8841135054316602,39
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,7,2020-09-02,168,-2.4559262496683774,23
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,8,2020-09-09,168,-12.087628036328704,59
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,9,2020-09-16,168,-4.098518031906794,36
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,10,2020-09-23,168,-1.9731113647761604,29
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,11,2020-09-30,168,-0.5997389241865041,12
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-8.807527369594164,10
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,13,2020-10-14,168,-0.5935908351432316,39
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,14,2020-10-21,168,-4.590571910194178,62
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-2.457100219012757,49
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,16,2020-11-04,168,-6.976083232422189,39
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,17,2020-11-11,168,-6.696665034932267,42
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,18,2020-11-18,168,-8.19655214838908,51
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,19,2020-11-25,168,-7.040226358744286,51
+official,Caltech matched,1,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-4.632316392893195,11
+official,Caltech matched,1,Caltech,Caltech,Static optimized,0,2020-07-15,168,10.410704511544377,10
+official,Caltech matched,1,Caltech,Caltech,Static optimized,1,2020-07-22,168,6.8009805181685525,0
+official,Caltech matched,1,Caltech,Caltech,Static optimized,2,2020-07-29,168,1.8754790954547929,19
+official,Caltech matched,1,Caltech,Caltech,Static optimized,3,2020-08-05,168,3.28608484861829,23
+official,Caltech matched,1,Caltech,Caltech,Static optimized,4,2020-08-12,168,1.8529376000361542,23
+official,Caltech matched,1,Caltech,Caltech,Static optimized,5,2020-08-19,168,3.66276870256534,32
+official,Caltech matched,1,Caltech,Caltech,Static optimized,6,2020-08-26,168,1.018314952343098,39
+official,Caltech matched,1,Caltech,Caltech,Static optimized,7,2020-09-02,168,6.849484084663388,23
+official,Caltech matched,1,Caltech,Caltech,Static optimized,8,2020-09-09,168,-8.796668381385526,60
+official,Caltech matched,1,Caltech,Caltech,Static optimized,9,2020-09-16,168,5.19867141468189,36
+official,Caltech matched,1,Caltech,Caltech,Static optimized,10,2020-09-23,168,4.79425099924511,29
+official,Caltech matched,1,Caltech,Caltech,Static optimized,11,2020-09-30,168,3.9130261255538326,12
+official,Caltech matched,1,Caltech,Caltech,Static optimized,12,2020-10-07,168,-2.007752868287053,10
+official,Caltech matched,1,Caltech,Caltech,Static optimized,13,2020-10-14,168,7.736151468441694,39
+official,Caltech matched,1,Caltech,Caltech,Static optimized,14,2020-10-21,168,-1.6758631656343006,62
+official,Caltech matched,1,Caltech,Caltech,Static optimized,15,2020-10-28,168,5.408753225063735,49
+official,Caltech matched,1,Caltech,Caltech,Static optimized,16,2020-11-04,168,9.362486948595501,39
+official,Caltech matched,1,Caltech,Caltech,Static optimized,17,2020-11-11,168,1.5546203691451277,42
+official,Caltech matched,1,Caltech,Caltech,Static optimized,18,2020-11-18,168,-4.921091969773602,51
+official,Caltech matched,1,Caltech,Caltech,Static optimized,19,2020-11-25,168,-1.1580684385587876,51
+official,Caltech matched,1,Caltech,Caltech,Static optimized,20,2020-12-02,23,-5.25173410035847,11
+official,Caltech matched,1,Caltech,Caltech,Rule gate,0,2020-07-15,168,3.964284244396188,10
+official,Caltech matched,1,Caltech,Caltech,Rule gate,1,2020-07-22,168,2.6360652725670537,0
+official,Caltech matched,1,Caltech,Caltech,Rule gate,2,2020-07-29,168,0.6281988642965507,19
+official,Caltech matched,1,Caltech,Caltech,Rule gate,3,2020-08-05,168,1.3151727340462198,23
+official,Caltech matched,1,Caltech,Caltech,Rule gate,4,2020-08-12,168,0.18902956293565742,23
+official,Caltech matched,1,Caltech,Caltech,Rule gate,5,2020-08-19,168,3.0896223018510582,32
+official,Caltech matched,1,Caltech,Caltech,Rule gate,6,2020-08-26,168,2.251858861459622,39
+official,Caltech matched,1,Caltech,Caltech,Rule gate,7,2020-09-02,168,2.580782522486298,23
+official,Caltech matched,1,Caltech,Caltech,Rule gate,8,2020-09-09,168,-7.141249792985513,60
+official,Caltech matched,1,Caltech,Caltech,Rule gate,9,2020-09-16,168,3.1762849275844802,36
+official,Caltech matched,1,Caltech,Caltech,Rule gate,10,2020-09-23,168,1.9108742013019722,29
+official,Caltech matched,1,Caltech,Caltech,Rule gate,11,2020-09-30,168,1.040386108703795,12
+official,Caltech matched,1,Caltech,Caltech,Rule gate,12,2020-10-07,168,-4.905891047250261,10
+official,Caltech matched,1,Caltech,Caltech,Rule gate,13,2020-10-14,168,4.616482796682866,39
+official,Caltech matched,1,Caltech,Caltech,Rule gate,14,2020-10-21,168,1.3397689247271256,62
+official,Caltech matched,1,Caltech,Caltech,Rule gate,15,2020-10-28,168,5.39145335311998,49
+official,Caltech matched,1,Caltech,Caltech,Rule gate,16,2020-11-04,168,5.521397231099408,39
+official,Caltech matched,1,Caltech,Caltech,Rule gate,17,2020-11-11,168,0.17136883409719517,42
+official,Caltech matched,1,Caltech,Caltech,Rule gate,18,2020-11-18,168,-3.8773496838588364,51
+official,Caltech matched,1,Caltech,Caltech,Rule gate,19,2020-11-25,168,-4.485716322432724,51
+official,Caltech matched,1,Caltech,Caltech,Rule gate,20,2020-12-02,23,-5.867277648235812,11
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,0,2020-07-15,168,1.6124367585855246,10
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,1,2020-07-22,168,1.3343992381182173,0
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,2,2020-07-29,168,0.38854018101725507,18
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,3,2020-08-05,168,0.25643301577254285,22
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,4,2020-08-12,168,-0.7816940673788644,23
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,5,2020-08-19,168,-1.5195840073604696,30
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,6,2020-08-26,168,-2.037918315834861,36
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,7,2020-09-02,168,9.277419855297834,22
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,8,2020-09-09,168,3.902575842011485,58
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,9,2020-09-16,168,-0.48801455348388717,33
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,10,2020-09-23,168,0.7778522420138586,27
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,11,2020-09-30,168,0.7784442804223518,11
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-7.507389911689794,10
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,13,2020-10-14,168,5.29570203877393,38
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,14,2020-10-21,168,3.1418163787950837,59
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,15,2020-10-28,168,1.8598646374762118,54
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,16,2020-11-04,168,6.8060036659329555,36
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,17,2020-11-11,168,10.055484699538521,42
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,18,2020-11-18,168,4.059057914861439,48
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,19,2020-11-25,168,2.5611970169951834,47
+official,Caltech matched,3,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-2.1680749684698775,9
+official,Caltech matched,3,Caltech,Caltech,Static optimized,0,2020-07-15,168,11.767130968354447,10
+official,Caltech matched,3,Caltech,Caltech,Static optimized,1,2020-07-22,168,7.2839223448447425,0
+official,Caltech matched,3,Caltech,Caltech,Static optimized,2,2020-07-29,168,4.745393085332023,19
+official,Caltech matched,3,Caltech,Caltech,Static optimized,3,2020-08-05,168,4.4033288286484025,23
+official,Caltech matched,3,Caltech,Caltech,Static optimized,4,2020-08-12,168,1.8234005629383925,23
+official,Caltech matched,3,Caltech,Caltech,Static optimized,5,2020-08-19,168,3.1239526695539777,31
+official,Caltech matched,3,Caltech,Caltech,Static optimized,6,2020-08-26,168,3.4792583139162643,39
+official,Caltech matched,3,Caltech,Caltech,Static optimized,7,2020-09-02,168,22.676180616922363,23
+official,Caltech matched,3,Caltech,Caltech,Static optimized,8,2020-09-09,168,20.460733120596338,58
+official,Caltech matched,3,Caltech,Caltech,Static optimized,9,2020-09-16,168,11.843353085998361,34
+official,Caltech matched,3,Caltech,Caltech,Static optimized,10,2020-09-23,168,10.867397600268651,27
+official,Caltech matched,3,Caltech,Caltech,Static optimized,11,2020-09-30,168,5.372612368499014,12
+official,Caltech matched,3,Caltech,Caltech,Static optimized,12,2020-10-07,168,2.240541644873525,10
+official,Caltech matched,3,Caltech,Caltech,Static optimized,13,2020-10-14,168,19.096749830760015,38
+official,Caltech matched,3,Caltech,Caltech,Static optimized,14,2020-10-21,168,14.689169994992426,59
+official,Caltech matched,3,Caltech,Caltech,Static optimized,15,2020-10-28,168,17.80797709177462,53
+official,Caltech matched,3,Caltech,Caltech,Static optimized,16,2020-11-04,168,31.757439627716664,35
+official,Caltech matched,3,Caltech,Caltech,Static optimized,17,2020-11-11,168,28.358581901876747,42
+official,Caltech matched,3,Caltech,Caltech,Static optimized,18,2020-11-18,168,14.831766315079129,48
+official,Caltech matched,3,Caltech,Caltech,Static optimized,19,2020-11-25,168,19.18196371224967,46
+official,Caltech matched,3,Caltech,Caltech,Static optimized,20,2020-12-02,23,1.171989997916827,7
+official,Caltech matched,3,Caltech,Caltech,Rule gate,0,2020-07-15,168,7.8045629274874075,9
+official,Caltech matched,3,Caltech,Caltech,Rule gate,1,2020-07-22,168,5.446332076285573,0
+official,Caltech matched,3,Caltech,Caltech,Rule gate,2,2020-07-29,168,3.4292802592398144,19
+official,Caltech matched,3,Caltech,Caltech,Rule gate,3,2020-08-05,168,3.0769520804375063,23
+official,Caltech matched,3,Caltech,Caltech,Rule gate,4,2020-08-12,168,1.5624424972811346,23
+official,Caltech matched,3,Caltech,Caltech,Rule gate,5,2020-08-19,168,2.758026945814154,31
+official,Caltech matched,3,Caltech,Caltech,Rule gate,6,2020-08-26,168,3.0911775655892715,37
+official,Caltech matched,3,Caltech,Caltech,Rule gate,7,2020-09-02,168,20.613388212547733,23
+official,Caltech matched,3,Caltech,Caltech,Rule gate,8,2020-09-09,168,25.29507066209665,56
+official,Caltech matched,3,Caltech,Caltech,Rule gate,9,2020-09-16,168,9.385660683264248,33
+official,Caltech matched,3,Caltech,Caltech,Rule gate,10,2020-09-23,168,6.606012618856227,27
+official,Caltech matched,3,Caltech,Caltech,Rule gate,11,2020-09-30,168,4.049408510227555,12
+official,Caltech matched,3,Caltech,Caltech,Rule gate,12,2020-10-07,168,2.3969634156728703,10
+official,Caltech matched,3,Caltech,Caltech,Rule gate,13,2020-10-14,168,14.851443177233794,38
+official,Caltech matched,3,Caltech,Caltech,Rule gate,14,2020-10-21,168,12.779195061296672,58
+official,Caltech matched,3,Caltech,Caltech,Rule gate,15,2020-10-28,168,14.070704566709365,53
+official,Caltech matched,3,Caltech,Caltech,Rule gate,16,2020-11-04,168,24.304870659244692,35
+official,Caltech matched,3,Caltech,Caltech,Rule gate,17,2020-11-11,168,27.056326141164703,42
+official,Caltech matched,3,Caltech,Caltech,Rule gate,18,2020-11-18,168,13.523494331780345,48
+official,Caltech matched,3,Caltech,Caltech,Rule gate,19,2020-11-25,168,17.811593831381657,46
+official,Caltech matched,3,Caltech,Caltech,Rule gate,20,2020-12-02,23,1.4773419278023612,8
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,0,2020-07-15,168,6.6781102999557795,9
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,1,2020-07-22,168,8.093020899421525,0
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,2,2020-07-29,168,3.3907837167889925,18
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,3,2020-08-05,168,4.836576721875566,22
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,4,2020-08-12,168,3.358162313366131,20
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,5,2020-08-19,168,2.3530620307480863,30
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,6,2020-08-26,168,2.29980901680301,35
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,7,2020-09-02,168,15.441445404406428,21
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,8,2020-09-09,168,3.948168620331918,56
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,9,2020-09-16,168,1.8997596016123364,33
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,10,2020-09-23,168,6.160434560544745,27
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,11,2020-09-30,168,7.378556378432531,12
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-2.8157707240103753,10
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,13,2020-10-14,168,10.053217705592253,38
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,14,2020-10-21,168,1.272158738215426,59
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-3.42768582290883,51
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,16,2020-11-04,168,5.44302131891728,35
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,17,2020-11-11,168,12.846560834924516,42
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,18,2020-11-18,168,8.0706672700912,45
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,19,2020-11-25,168,-0.47306101748080087,46
+official,Caltech matched,6,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-1.809606351384105,9
+official,Caltech matched,6,Caltech,Caltech,Static optimized,0,2020-07-15,168,21.761281709372405,9
+official,Caltech matched,6,Caltech,Caltech,Static optimized,1,2020-07-22,168,26.540786954039284,0
+official,Caltech matched,6,Caltech,Caltech,Static optimized,2,2020-07-29,168,15.258827175987598,18
+official,Caltech matched,6,Caltech,Caltech,Static optimized,3,2020-08-05,168,13.537432967233777,22
+official,Caltech matched,6,Caltech,Caltech,Static optimized,4,2020-08-12,168,12.216187762477443,20
+official,Caltech matched,6,Caltech,Caltech,Static optimized,5,2020-08-19,168,9.369058922938056,30
+official,Caltech matched,6,Caltech,Caltech,Static optimized,6,2020-08-26,168,9.704895680391719,35
+official,Caltech matched,6,Caltech,Caltech,Static optimized,7,2020-09-02,168,26.29341761872923,22
+official,Caltech matched,6,Caltech,Caltech,Static optimized,8,2020-09-09,168,18.16505479291615,54
+official,Caltech matched,6,Caltech,Caltech,Static optimized,9,2020-09-16,168,15.243942238827032,33
+official,Caltech matched,6,Caltech,Caltech,Static optimized,10,2020-09-23,168,15.961967824654682,27
+official,Caltech matched,6,Caltech,Caltech,Static optimized,11,2020-09-30,168,21.105250756002313,12
+official,Caltech matched,6,Caltech,Caltech,Static optimized,12,2020-10-07,168,17.445254693691957,10
+official,Caltech matched,6,Caltech,Caltech,Static optimized,13,2020-10-14,168,23.497914660464552,37
+official,Caltech matched,6,Caltech,Caltech,Static optimized,14,2020-10-21,168,12.976427049384665,59
+official,Caltech matched,6,Caltech,Caltech,Static optimized,15,2020-10-28,168,8.939964790945279,49
+official,Caltech matched,6,Caltech,Caltech,Static optimized,16,2020-11-04,168,26.121048128929168,35
+official,Caltech matched,6,Caltech,Caltech,Static optimized,17,2020-11-11,168,27.858769929743065,42
+official,Caltech matched,6,Caltech,Caltech,Static optimized,18,2020-11-18,168,15.085341817061323,45
+official,Caltech matched,6,Caltech,Caltech,Static optimized,19,2020-11-25,168,11.457016830906216,46
+official,Caltech matched,6,Caltech,Caltech,Static optimized,20,2020-12-02,23,-0.16870687456589684,8
+official,Caltech matched,6,Caltech,Caltech,Rule gate,0,2020-07-15,168,12.404464393586009,9
+official,Caltech matched,6,Caltech,Caltech,Rule gate,1,2020-07-22,168,15.137544126532458,0
+official,Caltech matched,6,Caltech,Caltech,Rule gate,2,2020-07-29,168,8.224599109911916,18
+official,Caltech matched,6,Caltech,Caltech,Rule gate,3,2020-08-05,168,7.708376641567382,22
+official,Caltech matched,6,Caltech,Caltech,Rule gate,4,2020-08-12,168,6.973502769894561,20
+official,Caltech matched,6,Caltech,Caltech,Rule gate,5,2020-08-19,168,5.65548237001885,29
+official,Caltech matched,6,Caltech,Caltech,Rule gate,6,2020-08-26,168,5.466587891015354,35
+official,Caltech matched,6,Caltech,Caltech,Rule gate,7,2020-09-02,168,22.982168410094364,22
+official,Caltech matched,6,Caltech,Caltech,Rule gate,8,2020-09-09,168,12.878432595951505,55
+official,Caltech matched,6,Caltech,Caltech,Rule gate,9,2020-09-16,168,9.026680341080024,33
+official,Caltech matched,6,Caltech,Caltech,Rule gate,10,2020-09-23,168,9.091437324075047,27
+official,Caltech matched,6,Caltech,Caltech,Rule gate,11,2020-09-30,168,12.10966313183909,12
+official,Caltech matched,6,Caltech,Caltech,Rule gate,12,2020-10-07,168,10.121636648272315,10
+official,Caltech matched,6,Caltech,Caltech,Rule gate,13,2020-10-14,168,18.50896066330197,38
+official,Caltech matched,6,Caltech,Caltech,Rule gate,14,2020-10-21,168,8.823633220472605,58
+official,Caltech matched,6,Caltech,Caltech,Rule gate,15,2020-10-28,168,3.274494055293069,50
+official,Caltech matched,6,Caltech,Caltech,Rule gate,16,2020-11-04,168,18.348628326610424,35
+official,Caltech matched,6,Caltech,Caltech,Rule gate,17,2020-11-11,168,26.190817302188584,42
+official,Caltech matched,6,Caltech,Caltech,Rule gate,18,2020-11-18,168,15.249616595840406,45
+official,Caltech matched,6,Caltech,Caltech,Rule gate,19,2020-11-25,168,6.9659874733842155,46
+official,Caltech matched,6,Caltech,Caltech,Rule gate,20,2020-12-02,23,-1.978004628711618,9
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,0,2020-07-15,168,2.6149589456550846,10
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,1,2020-07-22,168,4.311385550309364,0
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,2,2020-07-29,168,2.0354495530549093,17
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,3,2020-08-05,168,2.1752672338744716,22
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,4,2020-08-12,168,2.423676306991095,20
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,5,2020-08-19,168,4.884566490100015,23
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,6,2020-08-26,168,4.890091490913942,31
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,7,2020-09-02,168,0.12259853944193377,20
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,8,2020-09-09,168,1.9579542990032732,52
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,9,2020-09-16,168,2.063167073010279,28
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,10,2020-09-23,168,3.0925554299793454,22
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,11,2020-09-30,168,3.293517694161949,11
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,12,2020-10-07,168,-4.587897457588513,9
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,13,2020-10-14,168,2.4198128597281516,37
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,14,2020-10-21,168,4.083072523137453,44
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,15,2020-10-28,168,-1.1627664177509718,46
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,16,2020-11-04,168,0.16586019340175584,30
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,17,2020-11-11,168,2.989922684584623,34
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,18,2020-11-18,168,1.2854476785070057,44
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,19,2020-11-25,168,4.696185339765806,40
+official,Caltech matched,24,Caltech,Caltech,Adaptive full,20,2020-12-02,23,-1.4718044490357163,9
+official,Caltech matched,24,Caltech,Caltech,Static optimized,0,2020-07-15,168,15.552069955582565,10
+official,Caltech matched,24,Caltech,Caltech,Static optimized,1,2020-07-22,168,13.909522989629274,0
+official,Caltech matched,24,Caltech,Caltech,Static optimized,2,2020-07-29,168,6.941522744212835,19
+official,Caltech matched,24,Caltech,Caltech,Static optimized,3,2020-08-05,168,8.703685522323656,22
+official,Caltech matched,24,Caltech,Caltech,Static optimized,4,2020-08-12,168,8.887811941184701,21
+official,Caltech matched,24,Caltech,Caltech,Static optimized,5,2020-08-19,168,16.07559916578692,27
+official,Caltech matched,24,Caltech,Caltech,Static optimized,6,2020-08-26,168,16.298051771546703,33
+official,Caltech matched,24,Caltech,Caltech,Static optimized,7,2020-09-02,168,11.74842671081473,20
+official,Caltech matched,24,Caltech,Caltech,Static optimized,8,2020-09-09,168,8.969978297633457,52
+official,Caltech matched,24,Caltech,Caltech,Static optimized,9,2020-09-16,168,16.525654127763868,32
+official,Caltech matched,24,Caltech,Caltech,Static optimized,10,2020-09-23,168,16.316991245693764,24
+official,Caltech matched,24,Caltech,Caltech,Static optimized,11,2020-09-30,168,11.889824855308786,12
+official,Caltech matched,24,Caltech,Caltech,Static optimized,12,2020-10-07,168,6.439989248188802,9
+official,Caltech matched,24,Caltech,Caltech,Static optimized,13,2020-10-14,168,10.678227680395429,38
+official,Caltech matched,24,Caltech,Caltech,Static optimized,14,2020-10-21,168,15.011328790787816,48
+official,Caltech matched,24,Caltech,Caltech,Static optimized,15,2020-10-28,168,12.928141533734788,46
+official,Caltech matched,24,Caltech,Caltech,Static optimized,16,2020-11-04,168,21.275621035225033,32
+official,Caltech matched,24,Caltech,Caltech,Static optimized,17,2020-11-11,168,18.98873869058705,35
+official,Caltech matched,24,Caltech,Caltech,Static optimized,18,2020-11-18,168,15.744345188468394,42
+official,Caltech matched,24,Caltech,Caltech,Static optimized,19,2020-11-25,168,21.000922653157883,40
+official,Caltech matched,24,Caltech,Caltech,Static optimized,20,2020-12-02,23,-1.5059801089326732,8
+official,Caltech matched,24,Caltech,Caltech,Rule gate,0,2020-07-15,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,1,2020-07-22,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,2,2020-07-29,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,3,2020-08-05,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,4,2020-08-12,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,5,2020-08-19,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,6,2020-08-26,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,7,2020-09-02,168,-2.857254238479981,2
+official,Caltech matched,24,Caltech,Caltech,Rule gate,8,2020-09-09,168,0.8569414201750205,3
+official,Caltech matched,24,Caltech,Caltech,Rule gate,9,2020-09-16,168,-0.9216496967605587,2
+official,Caltech matched,24,Caltech,Caltech,Rule gate,10,2020-09-23,168,1.0053212765680106,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,11,2020-09-30,168,0.0,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,12,2020-10-07,168,0.27939923396067134,0
+official,Caltech matched,24,Caltech,Caltech,Rule gate,13,2020-10-14,168,3.648163885470269,1
+official,Caltech matched,24,Caltech,Caltech,Rule gate,14,2020-10-21,168,-0.1403758293320867,2
+official,Caltech matched,24,Caltech,Caltech,Rule gate,15,2020-10-28,168,-0.8439933639888674,3
+official,Caltech matched,24,Caltech,Caltech,Rule gate,16,2020-11-04,168,-0.5510360172339532,5
+official,Caltech matched,24,Caltech,Caltech,Rule gate,17,2020-11-11,168,-1.8449140296796018,4
+official,Caltech matched,24,Caltech,Caltech,Rule gate,18,2020-11-18,168,2.750068620647728,2
+official,Caltech matched,24,Caltech,Caltech,Rule gate,19,2020-11-25,168,1.6783766001598401,2
+official,Caltech matched,24,Caltech,Caltech,Rule gate,20,2020-12-02,23,0.19348302705192344,1
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,0,2020-07-15,168,-8.575684668298772,40
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,1,2020-07-22,168,-12.452916657032386,45
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,2,2020-07-29,168,-19.623538351672934,44
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,3,2020-08-05,168,-17.843834642111656,49
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,4,2020-08-12,168,-20.69284490235497,46
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,5,2020-08-19,168,-24.202253955826237,43
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,6,2020-08-26,168,-14.555907049551923,48
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,7,2020-09-02,168,-24.437552883583038,48
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,8,2020-09-09,168,-2.5279440443344625,35
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,9,2020-09-16,168,-13.443762952738878,49
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,10,2020-09-23,168,-19.531961790652453,47
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,11,2020-09-30,168,-19.34450863253126,52
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,12,2020-10-07,168,-3.5446935331275062,41
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,13,2020-10-14,168,-38.05742132540416,53
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,14,2020-10-21,168,-14.987019209927405,53
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,15,2020-10-28,168,-24.834563918678043,49
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,16,2020-11-04,168,-20.927667313860837,53
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,17,2020-11-11,168,-10.515015445347387,45
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,18,2020-11-18,168,-31.967857225179515,48
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,19,2020-11-25,168,-6.607885773873061,38
+official,Caltech->JPL,1,Caltech,JPL,Adaptive full,20,2020-12-02,23,0.8813336821106383,3
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,0,2020-07-15,168,-3.4106535820207053,42
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,1,2020-07-22,168,-11.283306059382639,44
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,2,2020-07-29,168,-15.796649154001848,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,3,2020-08-05,168,-15.750991701785996,49
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,4,2020-08-12,168,-17.06642767230179,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,5,2020-08-19,168,-21.524490988520423,46
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,6,2020-08-26,168,-11.244371057843637,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,7,2020-09-02,168,-18.354950826286114,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,8,2020-09-09,168,2.455689696657751,35
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,9,2020-09-16,168,-8.283951174667196,49
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,10,2020-09-23,168,-16.597608586751626,47
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,11,2020-09-30,168,-17.20951576766843,53
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,12,2020-10-07,168,-1.2630143096562678,42
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,13,2020-10-14,168,-28.64678003772854,53
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,14,2020-10-21,168,-10.660632190943264,54
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,15,2020-10-28,168,-16.68081249042194,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,16,2020-11-04,168,-17.08300715423709,55
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,17,2020-11-11,168,-2.422875863883895,45
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,18,2020-11-18,168,-24.817074229840415,48
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,19,2020-11-25,168,-0.8840070554735391,38
+official,Caltech->JPL,1,Caltech,JPL,Static optimized,20,2020-12-02,23,2.413159005781459,4
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,0,2020-07-15,168,-5.420357240848405,40
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,1,2020-07-22,168,-10.371666596660605,44
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,2,2020-07-29,168,-16.544880937736366,46
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,3,2020-08-05,168,-17.22930764450805,49
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,4,2020-08-12,168,-19.52518346487726,48
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,5,2020-08-19,168,-21.092660263921857,45
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,6,2020-08-26,168,-13.014925762939525,48
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,7,2020-09-02,168,-20.34927553091278,47
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,8,2020-09-09,168,2.657094315556157,35
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,9,2020-09-16,168,-11.289272569505847,49
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,10,2020-09-23,168,-17.853151916613477,47
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,11,2020-09-30,168,-16.78513751249961,53
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,12,2020-10-07,168,-2.1763862599270922,41
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,13,2020-10-14,168,-32.86624037533235,53
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,14,2020-10-21,168,-12.562885079253833,54
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,15,2020-10-28,168,-19.506688847820715,49
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,16,2020-11-04,168,-18.136751969502367,54
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,17,2020-11-11,168,-5.153515682468656,45
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,18,2020-11-18,168,-28.212196271683474,48
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,19,2020-11-25,168,-0.8964064535353149,36
+official,Caltech->JPL,1,Caltech,JPL,Rule gate,20,2020-12-02,23,1.8883745587517697,4
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,0,2020-07-15,168,35.25865931871584,37
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,1,2020-07-22,168,8.458763575076286,42
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,2,2020-07-29,168,18.949177820654626,38
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,3,2020-08-05,168,6.359118530032159,41
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,4,2020-08-12,168,7.19934530035316,44
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,5,2020-08-19,168,8.508393415650495,41
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,6,2020-08-26,168,27.920165720933632,50
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,7,2020-09-02,168,10.192014147227434,42
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,8,2020-09-09,168,37.59694591000414,27
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,9,2020-09-16,168,11.613003670630626,43
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,10,2020-09-23,168,2.8162030517780643,44
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,11,2020-09-30,168,19.948961868581794,49
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,12,2020-10-07,168,39.09227513094985,39
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,13,2020-10-14,168,-2.8761147760237087,49
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,14,2020-10-21,168,21.097797769825956,41
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,15,2020-10-28,168,4.673636388740189,43
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,16,2020-11-04,168,8.814204383847159,48
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,17,2020-11-11,168,15.19802656254106,41
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,18,2020-11-18,168,-10.490115058175629,47
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,19,2020-11-25,168,12.319370473482865,35
+official,Caltech->JPL,3,Caltech,JPL,Adaptive full,20,2020-12-02,23,6.429974597668862,2
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,0,2020-07-15,168,35.975030481188256,37
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,1,2020-07-22,168,5.778377389008876,44
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,2,2020-07-29,168,17.245679094282902,37
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,3,2020-08-05,168,14.207362796805159,42
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,4,2020-08-12,168,12.65262716414555,43
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,5,2020-08-19,168,17.700084579689246,42
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,6,2020-08-26,168,24.26217463558985,49
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,7,2020-09-02,168,18.273087406750854,44
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,8,2020-09-09,168,44.136276249047285,27
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,9,2020-09-16,168,23.62036813047611,44
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,10,2020-09-23,168,13.118276868927676,42
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,11,2020-09-30,168,29.497580340602195,49
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,12,2020-10-07,168,39.435447726576086,37
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,13,2020-10-14,168,5.551040659855762,49
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,14,2020-10-21,168,23.959020958820354,40
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,15,2020-10-28,168,12.717595030016696,42
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,16,2020-11-04,168,8.130983753143871,49
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,17,2020-11-11,168,20.143440765913645,42
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,18,2020-11-18,168,-11.8654350718784,50
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,19,2020-11-25,168,15.858388405982538,35
+official,Caltech->JPL,3,Caltech,JPL,Static optimized,20,2020-12-02,23,8.107539784174014,3
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,0,2020-07-15,168,39.44870768046601,38
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,1,2020-07-22,168,15.29513562824607,43
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,2,2020-07-29,168,14.222309827616435,37
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,3,2020-08-05,168,10.961427936022076,42
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,4,2020-08-12,168,13.048836472295276,44
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,5,2020-08-19,168,19.784831706821965,41
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,6,2020-08-26,168,31.73994463522401,49
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,7,2020-09-02,168,18.399022734221504,44
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,8,2020-09-09,168,42.01695888676588,28
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,9,2020-09-16,168,20.908645766607975,43
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,10,2020-09-23,168,12.294085653163219,41
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,11,2020-09-30,168,33.060564161864065,49
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,12,2020-10-07,168,44.295042882175,37
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,13,2020-10-14,168,8.78144248868461,49
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,14,2020-10-21,168,23.29697818260194,41
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,15,2020-10-28,168,18.325271334707164,42
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,16,2020-11-04,168,9.02628933360289,49
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,17,2020-11-11,168,20.351519284958624,41
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,18,2020-11-18,168,-9.466532491257308,50
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,19,2020-11-25,168,14.386131423518682,35
+official,Caltech->JPL,3,Caltech,JPL,Rule gate,20,2020-12-02,23,6.699164289733646,3
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,0,2020-07-15,168,15.023065558911863,39
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,1,2020-07-22,168,-2.5148354774078623,45
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,2,2020-07-29,168,1.062963873962183,42
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,3,2020-08-05,168,-3.5488293716555486,45
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,4,2020-08-12,168,-4.897019999102712,44
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,5,2020-08-19,168,1.095168651519982,46
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,6,2020-08-26,168,0.8703384128217238,52
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,7,2020-09-02,168,3.2756663520341505,46
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,8,2020-09-09,168,17.838329982475457,31
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,9,2020-09-16,168,0.2324945959416982,44
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,10,2020-09-23,168,-5.399280438590035,46
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,11,2020-09-30,168,-6.860099817809175,53
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,12,2020-10-07,168,18.441346711399497,41
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,13,2020-10-14,168,-13.656354550898842,50
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,14,2020-10-21,168,2.1243900879330067,45
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,15,2020-10-28,168,-10.504345367743229,47
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,16,2020-11-04,168,-1.3218808846115668,49
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,17,2020-11-11,168,2.209977956966731,45
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,18,2020-11-18,168,-16.08193373310958,50
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,19,2020-11-25,168,11.428551905648359,36
+official,Caltech->JPL,6,Caltech,JPL,Adaptive full,20,2020-12-02,23,4.407995611881853,3
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,0,2020-07-15,168,22.842998851730854,40
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,1,2020-07-22,168,2.2243565435055785,44
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,2,2020-07-29,168,6.41923181032,40
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,3,2020-08-05,168,6.049460359784659,43
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,4,2020-08-12,168,2.97140358082311,44
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,5,2020-08-19,168,9.40959865338182,46
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,6,2020-08-26,168,3.8303693311529887,52
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,7,2020-09-02,168,7.6314520089687115,47
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,8,2020-09-09,168,31.347857372993474,29
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,9,2020-09-16,168,6.6628453553367555,45
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,10,2020-09-23,168,5.020670420141216,44
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,11,2020-09-30,168,-0.9953800038701281,55
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,12,2020-10-07,168,19.12836711158831,41
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,13,2020-10-14,168,-5.555289945573438,48
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,14,2020-10-21,168,4.278869084667409,43
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,15,2020-10-28,168,-0.7428913225896356,46
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,16,2020-11-04,168,2.104185060704164,50
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,17,2020-11-11,168,8.258051357300648,47
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,18,2020-11-18,168,-16.807849869350065,52
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,19,2020-11-25,168,17.521806176896277,37
+official,Caltech->JPL,6,Caltech,JPL,Static optimized,20,2020-12-02,23,5.522988147733734,3
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,0,2020-07-15,168,20.205133689847813,39
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,1,2020-07-22,168,9.68591347177728,42
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,2,2020-07-29,168,3.9081954519374382,40
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,3,2020-08-05,168,9.072435361649127,43
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,4,2020-08-12,168,1.0810773147101003,45
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,5,2020-08-19,168,7.564018010464347,47
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,6,2020-08-26,168,5.648441110870706,52
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,7,2020-09-02,168,6.392609188548317,47
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,8,2020-09-09,168,22.039895931656098,29
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,9,2020-09-16,168,4.5919835903359285,43
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,10,2020-09-23,168,1.08863752576021,45
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,11,2020-09-30,168,-4.338501954357877,54
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,12,2020-10-07,168,18.115777381974503,41
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,13,2020-10-14,168,-4.215032923618141,49
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,14,2020-10-21,168,2.952865309567806,45
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,15,2020-10-28,168,3.797950010180374,47
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,16,2020-11-04,168,5.980556212847644,49
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,17,2020-11-11,168,9.454744082151404,46
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,18,2020-11-18,168,-10.13464112022984,52
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,19,2020-11-25,168,14.713525895810104,37
+official,Caltech->JPL,6,Caltech,JPL,Rule gate,20,2020-12-02,23,3.185145879646673,3
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,0,2020-07-15,168,5.094799053800424,40
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,1,2020-07-22,168,-10.37224055900624,43
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,2,2020-07-29,168,-5.33046218615531,44
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,3,2020-08-05,168,-8.155330785707683,47
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,4,2020-08-12,168,-5.911544975381236,44
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,5,2020-08-19,168,-9.101873829252261,47
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,6,2020-08-26,168,-1.8878600375998937,49
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,7,2020-09-02,168,1.1039370036785554,43
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,8,2020-09-09,168,5.505325910800612,30
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,9,2020-09-16,168,-0.8808787348956746,41
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,10,2020-09-23,168,-3.149501736429112,44
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,11,2020-09-30,168,-11.498875439705365,51
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,12,2020-10-07,168,13.079456627839557,39
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,13,2020-10-14,168,-16.47270018823189,51
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,14,2020-10-21,168,-3.4575995532511206,47
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,15,2020-10-28,168,-13.398020334092603,44
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,16,2020-11-04,168,-6.454524275477322,52
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,17,2020-11-11,168,-5.807502824006716,47
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,18,2020-11-18,168,-9.771321303046237,46
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,19,2020-11-25,168,9.349965098542784,32
+official,Caltech->JPL,24,Caltech,JPL,Adaptive full,20,2020-12-02,23,0.48520103178138957,4
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,0,2020-07-15,168,17.10191570474049,40
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,1,2020-07-22,168,-0.22261046194758194,44
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,2,2020-07-29,168,3.899247843033975,42
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,3,2020-08-05,168,1.4867523935756441,46
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,4,2020-08-12,168,2.7348206226521903,43
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,5,2020-08-19,168,2.683975567847467,47
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,6,2020-08-26,168,4.995532799389347,49
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,7,2020-09-02,168,7.798093902132255,43
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,8,2020-09-09,168,18.231743028335867,28
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,9,2020-09-16,168,7.497759412352962,41
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,10,2020-09-23,168,5.593771073219041,45
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,11,2020-09-30,168,-2.2956267787867937,52
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,12,2020-10-07,168,22.083092026677065,40
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,13,2020-10-14,168,-5.426046108710999,51
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,14,2020-10-21,168,7.678377078233468,46
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,15,2020-10-28,168,-2.08371126622285,42
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,16,2020-11-04,168,2.7572245037793475,52
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,17,2020-11-11,168,7.5985269424850905,47
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,18,2020-11-18,168,-3.841943521617579,50
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,19,2020-11-25,168,24.870344985186144,32
+official,Caltech->JPL,24,Caltech,JPL,Static optimized,20,2020-12-02,23,4.967409520190413,4
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,0,2020-07-15,168,5.2958726009121335,18
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,1,2020-07-22,168,-8.272283344560359,19
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,2,2020-07-29,168,-9.85177170656658,19
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,3,2020-08-05,168,-3.0414722202655327,20
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,4,2020-08-12,168,-8.022117866615968,19
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,5,2020-08-19,168,-10.321294436438073,27
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,6,2020-08-26,168,-3.927684314495763,20
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,7,2020-09-02,168,-0.5971715634830697,14
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,8,2020-09-09,168,5.449346872907208,12
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,9,2020-09-16,168,6.070976734577888,4
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,10,2020-09-23,168,-2.5115100946602795,19
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,11,2020-09-30,168,-12.275318473956483,22
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,12,2020-10-07,168,6.0739019412159845,16
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,13,2020-10-14,168,-19.148106805920825,25
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,14,2020-10-21,168,-6.514335809065943,23
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,15,2020-10-28,168,-10.31936120898456,20
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,16,2020-11-04,168,-6.0454071113981485,18
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,17,2020-11-11,168,-2.585012513418909,22
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,18,2020-11-18,168,-14.69426778096084,23
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,19,2020-11-25,168,2.5022634526102183,11
+official,Caltech->JPL,24,Caltech,JPL,Rule gate,20,2020-12-02,23,-1.1389287165207231,4
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,0,2020-07-15,168,10.781124658904883,10
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,1,2020-07-22,168,15.505089665366675,0
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,2,2020-07-29,168,8.602499606492785,19
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,3,2020-08-05,168,9.009996374836149,22
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,4,2020-08-12,168,9.575932738138922,23
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,5,2020-08-19,168,6.404407924289041,32
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,6,2020-08-26,168,4.004626206537052,39
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,7,2020-09-02,168,8.192823066082926,21
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,8,2020-09-09,168,-4.313347040714443,61
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,9,2020-09-16,168,2.9376559297903144,36
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,10,2020-09-23,168,5.955658019002932,29
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,11,2020-09-30,168,11.005314015802274,12
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,12,2020-10-07,168,5.390430243285176,10
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,13,2020-10-14,168,9.041128961430664,37
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,14,2020-10-21,168,-7.120072140845794,62
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,15,2020-10-28,168,-0.1770844048217557,49
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,16,2020-11-04,168,-1.4388504744880932,38
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,17,2020-11-11,168,2.115834113528896,42
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,18,2020-11-18,168,-6.018585002187018,53
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,19,2020-11-25,168,-3.362360630247888,52
+official,JPL->Caltech,1,JPL,Caltech,Adaptive full,20,2020-12-02,23,-2.6473861286200835,9
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,0,2020-07-15,168,19.267300947709025,10
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,1,2020-07-22,168,22.751853736857065,0
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,2,2020-07-29,168,14.832342909350167,19
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,3,2020-08-05,168,13.744704270084437,22
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,4,2020-08-12,168,14.802315639817689,23
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,5,2020-08-19,168,10.541633387972485,32
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,6,2020-08-26,168,8.03150814548214,39
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,7,2020-09-02,168,12.281826852473856,21
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,8,2020-09-09,168,-2.378226768255294,61
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,9,2020-09-16,168,10.313384189347191,35
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,10,2020-09-23,168,11.33196960749762,28
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,11,2020-09-30,168,17.026628335385112,12
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,12,2020-10-07,168,13.599960159281899,10
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,13,2020-10-14,168,15.083087533093709,37
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,14,2020-10-21,168,-2.467639636350565,62
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,15,2020-10-28,168,7.521457367917215,49
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,16,2020-11-04,168,8.663626470094016,38
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,17,2020-11-11,168,11.151859816547734,42
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,18,2020-11-18,168,-5.067171276775621,53
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,19,2020-11-25,168,0.74610342118747,51
+official,JPL->Caltech,1,JPL,Caltech,Static optimized,20,2020-12-02,23,-1.7990133448644674,9
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,0,2020-07-15,168,14.837177449563434,10
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,1,2020-07-22,168,21.204630441838518,0
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,2,2020-07-29,168,12.287739311423518,19
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,3,2020-08-05,168,8.620786437372868,22
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,4,2020-08-12,168,8.36083986432068,23
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,5,2020-08-19,168,5.19281740837395,32
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,6,2020-08-26,168,1.1193676241240471,39
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,7,2020-09-02,168,5.052401292950842,21
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,8,2020-09-09,168,-11.76875444384188,60
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,9,2020-09-16,168,1.6811351411736704,35
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,10,2020-09-23,168,4.090377739585513,29
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,11,2020-09-30,168,13.628395166270321,12
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,12,2020-10-07,168,7.9858533545880555,10
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,13,2020-10-14,168,10.978271148883099,37
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,14,2020-10-21,168,-14.398984685256321,61
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,15,2020-10-28,168,-4.726250787866343,49
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,16,2020-11-04,168,-4.9592984502043285,39
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,17,2020-11-11,168,1.3150380803758543,42
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,18,2020-11-18,168,-12.755301949135816,53
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,19,2020-11-25,168,-8.30601029253055,52
+official,JPL->Caltech,1,JPL,Caltech,Rule gate,20,2020-12-02,23,-3.4292791731056598,9
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,0,2020-07-15,168,34.1481951866709,10
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,1,2020-07-22,168,39.60549886261579,0
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,2,2020-07-29,168,26.70547727903284,15
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,3,2020-08-05,168,28.94312777945076,20
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,4,2020-08-12,168,28.3402959272223,18
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,5,2020-08-19,168,26.609128405733017,21
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,6,2020-08-26,168,21.706612653735874,32
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,7,2020-09-02,168,27.917873647728467,21
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,8,2020-09-09,168,9.373877735741493,57
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,9,2020-09-16,168,21.422565901415048,29
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,10,2020-09-23,168,23.94208719561731,23
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,11,2020-09-30,168,33.60841596975027,10
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,12,2020-10-07,168,23.013041701058647,10
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,13,2020-10-14,168,22.220884298281383,37
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,14,2020-10-21,168,3.1132482960505783,51
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,15,2020-10-28,168,9.468816662541226,44
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,16,2020-11-04,168,14.449694653928288,34
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,17,2020-11-11,168,16.331111095620606,41
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,18,2020-11-18,168,7.557048189657155,48
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,19,2020-11-25,168,10.598422853394101,46
+official,JPL->Caltech,3,JPL,Caltech,Adaptive full,20,2020-12-02,23,-0.14740197742712619,9
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,0,2020-07-15,168,78.59718181616812,10
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,1,2020-07-22,168,77.8196913479526,0
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,2,2020-07-29,168,68.11621703976283,12
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,3,2020-08-05,168,66.54342803019227,17
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,4,2020-08-12,168,70.43814909322715,14
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,5,2020-08-19,168,69.12426198148667,20
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,6,2020-08-26,168,62.53888392916738,29
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,7,2020-09-02,168,58.27082442218901,21
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,8,2020-09-09,168,48.46860021293669,54
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,9,2020-09-16,168,63.98525459075485,25
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,10,2020-09-23,168,69.95377061988529,19
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,11,2020-09-30,168,73.33699023294503,8
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,12,2020-10-07,168,71.02737011357524,10
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,13,2020-10-14,168,59.283120857298215,35
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,14,2020-10-21,168,44.35654843297894,45
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,15,2020-10-28,168,44.987320934028524,39
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,16,2020-11-04,168,58.27516937956492,31
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,17,2020-11-11,168,51.95771592987022,37
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,18,2020-11-18,168,37.834473119277035,47
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,19,2020-11-25,168,56.72667288716387,43
+official,JPL->Caltech,3,JPL,Caltech,Static optimized,20,2020-12-02,23,2.6780970037000897,7
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,0,2020-07-15,168,55.848391790973125,11
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,1,2020-07-22,168,56.901521399571465,0
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,2,2020-07-29,168,46.9776632295321,12
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,3,2020-08-05,168,46.52044485476367,18
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,4,2020-08-12,168,49.99587051841257,15
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,5,2020-08-19,168,46.80187983294755,23
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,6,2020-08-26,168,38.374485376486234,30
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,7,2020-09-02,168,35.330683829904586,20
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,8,2020-09-09,168,23.62084226773338,54
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,9,2020-09-16,168,40.30992262333953,26
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,10,2020-09-23,168,47.917788629412996,20
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,11,2020-09-30,168,51.63237206778858,7
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,12,2020-10-07,168,42.370010991530904,10
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,13,2020-10-14,168,45.002542588546056,34
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,14,2020-10-21,168,18.94316379292731,46
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,15,2020-10-28,168,23.192387875195642,44
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,16,2020-11-04,168,28.446149307837825,32
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,17,2020-11-11,168,34.88840204500314,38
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,18,2020-11-18,168,17.11795652513114,46
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,19,2020-11-25,168,30.5242866861206,46
+official,JPL->Caltech,3,JPL,Caltech,Rule gate,20,2020-12-02,23,0.38050480954112864,7
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,0,2020-07-15,168,28.47646499563116,10
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,1,2020-07-22,168,35.454427011483666,0
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,2,2020-07-29,168,24.054043965937442,15
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,3,2020-08-05,168,26.466119540768013,20
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,4,2020-08-12,168,27.140819958453278,19
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,5,2020-08-19,168,24.381275955431867,22
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,6,2020-08-26,168,19.277904220646192,32
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,7,2020-09-02,168,23.322445644150818,19
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,8,2020-09-09,168,5.650585174575253,57
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,9,2020-09-16,168,16.38364261803995,29
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,10,2020-09-23,168,20.26847155746502,23
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,11,2020-09-30,168,29.69387136472516,10
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,12,2020-10-07,168,17.37500464389525,10
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,13,2020-10-14,168,17.46805006590655,36
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,14,2020-10-21,168,-0.48440441799258793,52
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,15,2020-10-28,168,6.328574232910567,44
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,16,2020-11-04,168,9.22356901002823,33
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,17,2020-11-11,168,10.59895283988541,41
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,18,2020-11-18,168,5.136134642052989,45
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,19,2020-11-25,168,5.476916507602934,46
+official,JPL->Caltech,6,JPL,Caltech,Adaptive full,20,2020-12-02,23,0.2750301414665284,10
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,0,2020-07-15,168,78.7352606715159,11
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,1,2020-07-22,168,78.50568004281182,0
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,2,2020-07-29,168,71.73121956698407,12
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,3,2020-08-05,168,70.74426749644257,16
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,4,2020-08-12,168,72.54779549433428,14
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,5,2020-08-19,168,69.81833660647345,19
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,6,2020-08-26,168,63.097883509455784,27
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,7,2020-09-02,168,56.83777524040475,20
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,8,2020-09-09,168,44.33997545638817,56
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,9,2020-09-16,168,63.64134663292393,26
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,10,2020-09-23,168,68.58179681564481,18
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,11,2020-09-30,168,73.74034984848939,6
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,12,2020-10-07,168,71.89894279529452,10
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,13,2020-10-14,168,56.1291811281594,34
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,14,2020-10-21,168,43.173411824401065,43
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,15,2020-10-28,168,42.43610554249442,41
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,16,2020-11-04,168,54.76996160096966,32
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,17,2020-11-11,168,45.97870859848809,36
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,18,2020-11-18,168,32.67252569066356,49
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,19,2020-11-25,168,52.56306821099479,43
+official,JPL->Caltech,6,JPL,Caltech,Static optimized,20,2020-12-02,23,2.5510330649455906,7
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,0,2020-07-15,168,67.74105007154782,11
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,1,2020-07-22,168,69.37998768660864,0
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,2,2020-07-29,168,61.4416330711332,12
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,3,2020-08-05,168,59.99478036463226,18
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,4,2020-08-12,168,61.497290205244326,20
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,5,2020-08-19,168,57.07837738492812,24
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,6,2020-08-26,168,51.19758196842976,29
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,7,2020-09-02,168,46.76833548878248,22
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,8,2020-09-09,168,32.470828214088,56
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,9,2020-09-16,168,51.9060951987352,27
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,10,2020-09-23,168,56.97177111244184,24
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,11,2020-09-30,168,63.91795451964137,8
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,12,2020-10-07,168,59.62184857007688,9
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,13,2020-10-14,168,48.54447313424807,33
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,14,2020-10-21,168,30.600993801415022,49
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,15,2020-10-28,168,33.504207896184106,43
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,16,2020-11-04,168,42.06750984160942,35
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,17,2020-11-11,168,37.16976687692197,36
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,18,2020-11-18,168,23.195818876475467,50
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,19,2020-11-25,168,41.71930958865932,44
+official,JPL->Caltech,6,JPL,Caltech,Rule gate,20,2020-12-02,23,2.0134719527579206,7
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,0,2020-07-15,168,43.56351858506629,10
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,1,2020-07-22,168,39.87703131728542,0
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,2,2020-07-29,168,33.07294364581599,13
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,3,2020-08-05,168,39.277099678482315,15
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,4,2020-08-12,168,42.35369362204776,14
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,5,2020-08-19,168,41.42021838529023,17
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,6,2020-08-26,168,34.24104937100538,25
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,7,2020-09-02,168,34.85356318967341,18
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,8,2020-09-09,168,20.966949820829836,49
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,9,2020-09-16,168,34.34978050645527,24
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,10,2020-09-23,168,38.78033994469496,16
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,11,2020-09-30,168,41.33975264587546,5
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,12,2020-10-07,168,29.16031966485761,9
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,13,2020-10-14,168,30.24990017583052,32
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,14,2020-10-21,168,17.6518440512534,42
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,15,2020-10-28,168,23.465233092287228,39
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,16,2020-11-04,168,26.800421643181394,29
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,17,2020-11-11,168,29.12978444820638,32
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,18,2020-11-18,168,24.63324076648394,42
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,19,2020-11-25,168,27.83612095338463,36
+official,JPL->Caltech,24,JPL,Caltech,Adaptive full,20,2020-12-02,23,4.539730549875528,7
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,0,2020-07-15,168,116.6869810427242,8
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,1,2020-07-22,168,95.26395073319588,0
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,2,2020-07-29,168,86.27397105027919,12
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,3,2020-08-05,168,97.84667796604754,13
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,4,2020-08-12,168,102.33660982544228,13
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,5,2020-08-19,168,100.4318405678014,17
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,6,2020-08-26,168,96.41797453735907,24
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,7,2020-09-02,168,86.50478657067961,18
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,8,2020-09-09,168,62.15767015095519,48
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,9,2020-09-16,168,94.55081188795953,23
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,10,2020-09-23,168,100.45689419689802,16
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,11,2020-09-30,168,103.39437365709671,3
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,12,2020-10-07,168,85.62105046095417,9
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,13,2020-10-14,168,78.36850631990875,31
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,14,2020-10-21,168,64.35946830132339,40
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,15,2020-10-28,168,62.54460743665666,40
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,16,2020-11-04,168,73.38123308732654,26
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,17,2020-11-11,168,71.23958500103934,33
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,18,2020-11-18,168,55.395905767458146,44
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,19,2020-11-25,168,71.7829927966267,35
+official,JPL->Caltech,24,JPL,Caltech,Static optimized,20,2020-12-02,23,7.881839268709587,7
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,0,2020-07-15,168,106.08140876505085,8
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,1,2020-07-22,168,68.39471798275355,0
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,2,2020-07-29,168,65.7706220445614,12
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,3,2020-08-05,168,88.14624946702575,13
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,4,2020-08-12,168,93.65991992983115,12
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,5,2020-08-19,168,93.33266530283322,17
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,6,2020-08-26,168,89.494428602392,24
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,7,2020-09-02,168,75.08322110288611,18
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,8,2020-09-09,168,58.605264665034895,48
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,9,2020-09-16,168,84.96305011557708,23
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,10,2020-09-23,168,89.6440679249417,16
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,11,2020-09-30,168,86.24103048492844,3
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,12,2020-10-07,168,66.30117483852709,9
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,13,2020-10-14,168,71.32961778457545,31
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,14,2020-10-21,168,59.17779913709625,40
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,15,2020-10-28,168,57.792550872064545,40
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,16,2020-11-04,168,65.64552486907527,26
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,17,2020-11-11,168,65.5245953109276,33
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,18,2020-11-18,168,50.16546405362271,44
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,19,2020-11-25,168,65.61680351728418,35
+official,JPL->Caltech,24,JPL,Caltech,Rule gate,20,2020-12-02,23,6.323220617532683,7
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,0,2020-01-04,168,-24.29567957035178,55
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,1,2020-01-11,168,-54.1722076423512,65
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,2,2020-01-18,168,-64.26546367741796,70
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,3,2020-01-25,168,-76.63834077039189,70
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,4,2020-02-01,168,-0.7768739069280812,28
+R1,Caltech full,1,Caltech,Caltech,Adaptive full,5,2020-02-08,168,-1.8422220405893774,58
+R1,Caltech full,1,Caltech,Caltech,Static optimized,0,2020-01-04,168,-19.2450573441934,56
+R1,Caltech full,1,Caltech,Caltech,Static optimized,1,2020-01-11,168,-45.318367666777746,65
+R1,Caltech full,1,Caltech,Caltech,Static optimized,2,2020-01-18,168,-52.99875604001596,70
+R1,Caltech full,1,Caltech,Caltech,Static optimized,3,2020-01-25,168,-64.13102699703086,71
+R1,Caltech full,1,Caltech,Caltech,Static optimized,4,2020-02-01,168,14.776112872519732,28
+R1,Caltech full,1,Caltech,Caltech,Static optimized,5,2020-02-08,168,3.234580490410744,58
+R1,Caltech full,1,Caltech,Caltech,Rule gate,0,2020-01-04,168,-27.476043073594774,56
+R1,Caltech full,1,Caltech,Caltech,Rule gate,1,2020-01-11,168,-53.23360770853315,65
+R1,Caltech full,1,Caltech,Caltech,Rule gate,2,2020-01-18,168,-60.731704381747505,70
+R1,Caltech full,1,Caltech,Caltech,Rule gate,3,2020-01-25,168,-71.16441252973175,71
+R1,Caltech full,1,Caltech,Caltech,Rule gate,4,2020-02-01,168,-8.255303226471447,28
+R1,Caltech full,1,Caltech,Caltech,Rule gate,5,2020-02-08,168,-2.4532858189972133,57
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,0,2020-01-04,168,-24.42058113534742,57
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,1,2020-01-11,168,-51.133425829512525,67
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,2,2020-01-18,168,-56.287972972457595,72
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,3,2020-01-25,168,-73.14971328274225,69
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,4,2020-02-01,168,33.04332616640268,24
+R1,Caltech full,3,Caltech,Caltech,Adaptive full,5,2020-02-08,168,-14.809817450749106,59
+R1,Caltech full,3,Caltech,Caltech,Static optimized,0,2020-01-04,168,-17.984016045175636,57
+R1,Caltech full,3,Caltech,Caltech,Static optimized,1,2020-01-11,168,-42.189988080239225,67
+R1,Caltech full,3,Caltech,Caltech,Static optimized,2,2020-01-18,168,-44.9312277222787,71
+R1,Caltech full,3,Caltech,Caltech,Static optimized,3,2020-01-25,168,-58.06749756988931,68
+R1,Caltech full,3,Caltech,Caltech,Static optimized,4,2020-02-01,168,54.91581545072003,25
+R1,Caltech full,3,Caltech,Caltech,Static optimized,5,2020-02-08,168,-12.547735886950129,60
+R1,Caltech full,3,Caltech,Caltech,Rule gate,0,2020-01-04,168,-21.28852548858928,57
+R1,Caltech full,3,Caltech,Caltech,Rule gate,1,2020-01-11,168,-46.36930024891856,66
+R1,Caltech full,3,Caltech,Caltech,Rule gate,2,2020-01-18,168,-48.132426361460254,71
+R1,Caltech full,3,Caltech,Caltech,Rule gate,3,2020-01-25,168,-63.62184882078834,68
+R1,Caltech full,3,Caltech,Caltech,Rule gate,4,2020-02-01,168,54.055356150054195,25
+R1,Caltech full,3,Caltech,Caltech,Rule gate,5,2020-02-08,168,-14.09426940781828,60
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,0,2020-01-04,168,-29.741184040490072,61
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,1,2020-01-11,168,-43.53360678648526,65
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,2,2020-01-18,168,-46.95607679126875,69
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,3,2020-01-25,168,-67.0792495197675,69
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,4,2020-02-01,168,39.364865839261995,23
+R1,Caltech full,6,Caltech,Caltech,Adaptive full,5,2020-02-08,168,-12.033294165100074,60
+R1,Caltech full,6,Caltech,Caltech,Static optimized,0,2020-01-04,168,-19.378029122145364,59
+R1,Caltech full,6,Caltech,Caltech,Static optimized,1,2020-01-11,168,-23.383932278481872,63
+R1,Caltech full,6,Caltech,Caltech,Static optimized,2,2020-01-18,168,-30.88589811853582,71
+R1,Caltech full,6,Caltech,Caltech,Static optimized,3,2020-01-25,168,-45.4865728762644,67
+R1,Caltech full,6,Caltech,Caltech,Static optimized,4,2020-02-01,168,67.66844766157118,23
+R1,Caltech full,6,Caltech,Caltech,Static optimized,5,2020-02-08,168,-5.438958675448129,59
+R1,Caltech full,6,Caltech,Caltech,Rule gate,0,2020-01-04,168,-21.92135747081548,59
+R1,Caltech full,6,Caltech,Caltech,Rule gate,1,2020-01-11,168,-28.402461493461608,64
+R1,Caltech full,6,Caltech,Caltech,Rule gate,2,2020-01-18,168,-30.32950485627223,71
+R1,Caltech full,6,Caltech,Caltech,Rule gate,3,2020-01-25,168,-50.58406146865177,67
+R1,Caltech full,6,Caltech,Caltech,Rule gate,4,2020-02-01,168,57.871292147073746,22
+R1,Caltech full,6,Caltech,Caltech,Rule gate,5,2020-02-08,168,-7.011999619545238,58
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,0,2020-01-04,168,-27.309779541338997,57
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,1,2020-01-11,168,-46.35603783795565,67
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,2,2020-01-18,168,-41.26089062602462,69
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,3,2020-01-25,168,-56.35115308250377,71
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,4,2020-02-01,168,33.82701882453511,23
+R1,Caltech full,24,Caltech,Caltech,Adaptive full,5,2020-02-08,168,-11.36689263702096,56
+R1,Caltech full,24,Caltech,Caltech,Static optimized,0,2020-01-04,168,-19.47641548207348,57
+R1,Caltech full,24,Caltech,Caltech,Static optimized,1,2020-01-11,168,-32.24905576952311,67
+R1,Caltech full,24,Caltech,Caltech,Static optimized,2,2020-01-18,168,-26.350468739129262,69
+R1,Caltech full,24,Caltech,Caltech,Static optimized,3,2020-01-25,168,-32.84165310536065,71
+R1,Caltech full,24,Caltech,Caltech,Static optimized,4,2020-02-01,168,48.96460535558765,22
+R1,Caltech full,24,Caltech,Caltech,Static optimized,5,2020-02-08,168,-8.76167578605061,57
+R1,Caltech full,24,Caltech,Caltech,Rule gate,0,2020-01-04,168,-24.824623459984064,57
+R1,Caltech full,24,Caltech,Caltech,Rule gate,1,2020-01-11,168,-41.97710757200824,67
+R1,Caltech full,24,Caltech,Caltech,Rule gate,2,2020-01-18,168,-33.4422104680853,69
+R1,Caltech full,24,Caltech,Caltech,Rule gate,3,2020-01-25,168,-45.00148275038286,71
+R1,Caltech full,24,Caltech,Caltech,Rule gate,4,2020-02-01,168,24.721509003524996,23
+R1,Caltech full,24,Caltech,Caltech,Rule gate,5,2020-02-08,168,-10.2411310845084,56
+R1,JPL matched,1,JPL,JPL,Adaptive full,0,2020-01-04,168,-28.8751351352335,52
+R1,JPL matched,1,JPL,JPL,Adaptive full,1,2020-01-11,168,-156.29278928102622,67
+R1,JPL matched,1,JPL,JPL,Adaptive full,2,2020-01-18,168,-64.35877888817241,60
+R1,JPL matched,1,JPL,JPL,Adaptive full,3,2020-01-25,168,-140.81104761407258,77
+R1,JPL matched,1,JPL,JPL,Adaptive full,4,2020-02-01,168,-88.31765660908695,68
+R1,JPL matched,1,JPL,JPL,Adaptive full,5,2020-02-08,168,-152.77498749747332,60
+R1,JPL matched,1,JPL,JPL,Static optimized,0,2020-01-04,168,-16.681287820719636,52
+R1,JPL matched,1,JPL,JPL,Static optimized,1,2020-01-11,168,-151.51355801799193,66
+R1,JPL matched,1,JPL,JPL,Static optimized,2,2020-01-18,168,-57.976903629970614,61
+R1,JPL matched,1,JPL,JPL,Static optimized,3,2020-01-25,168,-144.54603371269832,77
+R1,JPL matched,1,JPL,JPL,Static optimized,4,2020-02-01,168,-85.7589885404427,68
+R1,JPL matched,1,JPL,JPL,Static optimized,5,2020-02-08,168,-146.56493383903432,60
+R1,JPL matched,1,JPL,JPL,Rule gate,0,2020-01-04,168,-16.83040254491993,52
+R1,JPL matched,1,JPL,JPL,Rule gate,1,2020-01-11,168,-152.52205367601573,66
+R1,JPL matched,1,JPL,JPL,Rule gate,2,2020-01-18,168,-56.31726833868377,61
+R1,JPL matched,1,JPL,JPL,Rule gate,3,2020-01-25,168,-144.50630119196228,77
+R1,JPL matched,1,JPL,JPL,Rule gate,4,2020-02-01,168,-85.81303272311322,69
+R1,JPL matched,1,JPL,JPL,Rule gate,5,2020-02-08,168,-146.4015025699275,60
+R1,JPL matched,3,JPL,JPL,Adaptive full,0,2020-01-04,168,-23.43173688181648,50
+R1,JPL matched,3,JPL,JPL,Adaptive full,1,2020-01-11,168,-110.01708776340759,66
+R1,JPL matched,3,JPL,JPL,Adaptive full,2,2020-01-18,168,-7.422354162969096,58
+R1,JPL matched,3,JPL,JPL,Adaptive full,3,2020-01-25,168,-125.87195816926844,76
+R1,JPL matched,3,JPL,JPL,Adaptive full,4,2020-02-01,168,-73.00735709459241,65
+R1,JPL matched,3,JPL,JPL,Adaptive full,5,2020-02-08,168,-117.39504517905115,55
+R1,JPL matched,3,JPL,JPL,Static optimized,0,2020-01-04,168,-19.581429759373513,50
+R1,JPL matched,3,JPL,JPL,Static optimized,1,2020-01-11,168,-103.59675841205444,69
+R1,JPL matched,3,JPL,JPL,Static optimized,2,2020-01-18,168,2.263560139627092,60
+R1,JPL matched,3,JPL,JPL,Static optimized,3,2020-01-25,168,-119.16547108588126,79
+R1,JPL matched,3,JPL,JPL,Static optimized,4,2020-02-01,168,-61.7112927735914,65
+R1,JPL matched,3,JPL,JPL,Static optimized,5,2020-02-08,168,-105.35188844216341,58
+R1,JPL matched,3,JPL,JPL,Rule gate,0,2020-01-04,168,-19.484936897487632,51
+R1,JPL matched,3,JPL,JPL,Rule gate,1,2020-01-11,168,-104.23364374227454,69
+R1,JPL matched,3,JPL,JPL,Rule gate,2,2020-01-18,168,-5.440411787708763,60
+R1,JPL matched,3,JPL,JPL,Rule gate,3,2020-01-25,168,-123.12454639934015,79
+R1,JPL matched,3,JPL,JPL,Rule gate,4,2020-02-01,168,-64.33393561983034,65
+R1,JPL matched,3,JPL,JPL,Rule gate,5,2020-02-08,168,-108.12642420623963,58
+R1,JPL matched,6,JPL,JPL,Adaptive full,0,2020-01-04,168,-27.260865189985804,53
+R1,JPL matched,6,JPL,JPL,Adaptive full,1,2020-01-11,168,-95.79666784495846,66
+R1,JPL matched,6,JPL,JPL,Adaptive full,2,2020-01-18,168,-19.401095275482906,61
+R1,JPL matched,6,JPL,JPL,Adaptive full,3,2020-01-25,168,-107.07861856615907,78
+R1,JPL matched,6,JPL,JPL,Adaptive full,4,2020-02-01,168,-74.50788321596646,65
+R1,JPL matched,6,JPL,JPL,Adaptive full,5,2020-02-08,168,-101.81946346579319,60
+R1,JPL matched,6,JPL,JPL,Static optimized,0,2020-01-04,168,-6.166997656096466,51
+R1,JPL matched,6,JPL,JPL,Static optimized,1,2020-01-11,168,-78.88046391059879,63
+R1,JPL matched,6,JPL,JPL,Static optimized,2,2020-01-18,168,5.1564965893775625,62
+R1,JPL matched,6,JPL,JPL,Static optimized,3,2020-01-25,168,-108.03960032279149,77
+R1,JPL matched,6,JPL,JPL,Static optimized,4,2020-02-01,168,-53.75498461264702,66
+R1,JPL matched,6,JPL,JPL,Static optimized,5,2020-02-08,168,-93.55386127285236,58
+R1,JPL matched,6,JPL,JPL,Rule gate,0,2020-01-04,168,-9.56152728713852,52
+R1,JPL matched,6,JPL,JPL,Rule gate,1,2020-01-11,168,-80.89662097413871,63
+R1,JPL matched,6,JPL,JPL,Rule gate,2,2020-01-18,168,2.0689595330270176,61
+R1,JPL matched,6,JPL,JPL,Rule gate,3,2020-01-25,168,-109.77481351036592,77
+R1,JPL matched,6,JPL,JPL,Rule gate,4,2020-02-01,168,-56.9958217744375,66
+R1,JPL matched,6,JPL,JPL,Rule gate,5,2020-02-08,168,-96.3369781034182,59
+R1,JPL matched,24,JPL,JPL,Adaptive full,0,2020-01-04,168,-13.22854342047328,55
+R1,JPL matched,24,JPL,JPL,Adaptive full,1,2020-01-11,168,-92.213603002122,65
+R1,JPL matched,24,JPL,JPL,Adaptive full,2,2020-01-18,168,-15.219575126461791,61
+R1,JPL matched,24,JPL,JPL,Adaptive full,3,2020-01-25,168,-119.70377164769998,78
+R1,JPL matched,24,JPL,JPL,Adaptive full,4,2020-02-01,168,-55.662643192729426,66
+R1,JPL matched,24,JPL,JPL,Adaptive full,5,2020-02-08,168,-98.18149171823333,59
+R1,JPL matched,24,JPL,JPL,Static optimized,0,2020-01-04,168,-11.139347364419564,54
+R1,JPL matched,24,JPL,JPL,Static optimized,1,2020-01-11,168,-99.7529144046576,65
+R1,JPL matched,24,JPL,JPL,Static optimized,2,2020-01-18,168,-8.212663761276723,60
+R1,JPL matched,24,JPL,JPL,Static optimized,3,2020-01-25,168,-131.4339995559283,77
+R1,JPL matched,24,JPL,JPL,Static optimized,4,2020-02-01,168,-54.01037605013765,66
+R1,JPL matched,24,JPL,JPL,Static optimized,5,2020-02-08,168,-101.91336352033765,58
+R1,JPL matched,24,JPL,JPL,Rule gate,0,2020-01-04,168,-11.936420815120641,54
+R1,JPL matched,24,JPL,JPL,Rule gate,1,2020-01-11,168,-100.41951308231137,65
+R1,JPL matched,24,JPL,JPL,Rule gate,2,2020-01-18,168,-5.642351442531194,61
+R1,JPL matched,24,JPL,JPL,Rule gate,3,2020-01-25,168,-131.24744405836444,77
+R1,JPL matched,24,JPL,JPL,Rule gate,4,2020-02-01,168,-54.138455231531324,66
+R1,JPL matched,24,JPL,JPL,Rule gate,5,2020-02-08,168,-103.56735557164927,59
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,0,2020-02-15,168,-54.892230531732594,62
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,1,2020-02-22,168,-59.70731315222061,71
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,2,2020-02-29,168,-62.01256205579763,66
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,3,2020-03-07,168,-36.1290121269273,56
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,4,2020-03-14,168,1.1689489089510157,48
+R2,Caltech full,1,Caltech,Caltech,Adaptive full,5,2020-03-21,168,7.329460118823739,19
+R2,Caltech full,1,Caltech,Caltech,Static optimized,0,2020-02-15,168,-50.22795699933742,62
+R2,Caltech full,1,Caltech,Caltech,Static optimized,1,2020-02-22,168,-58.58756846929175,71
+R2,Caltech full,1,Caltech,Caltech,Static optimized,2,2020-02-29,168,-56.24488559235044,65
+R2,Caltech full,1,Caltech,Caltech,Static optimized,3,2020-03-07,168,-30.640951241903853,56
+R2,Caltech full,1,Caltech,Caltech,Static optimized,4,2020-03-14,168,20.187939776402647,47
+R2,Caltech full,1,Caltech,Caltech,Static optimized,5,2020-03-21,168,26.97716772252731,19
+R2,Caltech full,1,Caltech,Caltech,Rule gate,0,2020-02-15,168,-52.202159329919205,52
+R2,Caltech full,1,Caltech,Caltech,Rule gate,1,2020-02-22,168,-62.30264568739096,60
+R2,Caltech full,1,Caltech,Caltech,Rule gate,2,2020-02-29,168,-60.62696973893627,58
+R2,Caltech full,1,Caltech,Caltech,Rule gate,3,2020-03-07,168,-32.83547712461045,45
+R2,Caltech full,1,Caltech,Caltech,Rule gate,4,2020-03-14,168,17.922111758272774,26
+R2,Caltech full,1,Caltech,Caltech,Rule gate,5,2020-03-21,168,11.50461598755048,5
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,0,2020-02-15,168,-48.65327392922508,61
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,1,2020-02-22,168,-47.41728075827146,66
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,2,2020-02-29,168,-60.141023540268705,65
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,3,2020-03-07,168,-49.184988833589976,62
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,4,2020-03-14,168,14.450102399321572,43
+R2,Caltech full,3,Caltech,Caltech,Adaptive full,5,2020-03-21,168,23.28420682170389,16
+R2,Caltech full,3,Caltech,Caltech,Static optimized,0,2020-02-15,168,-39.34487597136042,61
+R2,Caltech full,3,Caltech,Caltech,Static optimized,1,2020-02-22,168,-54.04416442737238,64
+R2,Caltech full,3,Caltech,Caltech,Static optimized,2,2020-02-29,168,-51.709514497066195,65
+R2,Caltech full,3,Caltech,Caltech,Static optimized,3,2020-03-07,168,-49.59943602673706,63
+R2,Caltech full,3,Caltech,Caltech,Static optimized,4,2020-03-14,168,45.566288470402064,42
+R2,Caltech full,3,Caltech,Caltech,Static optimized,5,2020-03-21,168,70.54611215649452,15
+R2,Caltech full,3,Caltech,Caltech,Rule gate,0,2020-02-15,168,-38.44066331469041,48
+R2,Caltech full,3,Caltech,Caltech,Rule gate,1,2020-02-22,168,-55.30972931489665,53
+R2,Caltech full,3,Caltech,Caltech,Rule gate,2,2020-02-29,168,-58.06767667689324,59
+R2,Caltech full,3,Caltech,Caltech,Rule gate,3,2020-03-07,168,-52.69773184660831,54
+R2,Caltech full,3,Caltech,Caltech,Rule gate,4,2020-03-14,168,45.84319011645923,22
+R2,Caltech full,3,Caltech,Caltech,Rule gate,5,2020-03-21,168,61.47183249626396,7
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,0,2020-02-15,168,-43.018517504585745,62
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,1,2020-02-22,168,-56.83359917396058,69
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,2,2020-02-29,168,-51.96808356926977,65
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,3,2020-03-07,168,-49.63152958427348,60
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,4,2020-03-14,168,12.429526930210523,42
+R2,Caltech full,6,Caltech,Caltech,Adaptive full,5,2020-03-21,168,28.156473405180726,15
+R2,Caltech full,6,Caltech,Caltech,Static optimized,0,2020-02-15,168,-30.328023487928796,61
+R2,Caltech full,6,Caltech,Caltech,Static optimized,1,2020-02-22,168,-55.16591862796598,68
+R2,Caltech full,6,Caltech,Caltech,Static optimized,2,2020-02-29,168,-39.93078716489373,63
+R2,Caltech full,6,Caltech,Caltech,Static optimized,3,2020-03-07,168,-45.76613448778614,61
+R2,Caltech full,6,Caltech,Caltech,Static optimized,4,2020-03-14,168,43.19466677789666,38
+R2,Caltech full,6,Caltech,Caltech,Static optimized,5,2020-03-21,168,67.83747525176756,14
+R2,Caltech full,6,Caltech,Caltech,Rule gate,0,2020-02-15,168,-32.80231754362605,60
+R2,Caltech full,6,Caltech,Caltech,Rule gate,1,2020-02-22,168,-56.84372083818212,69
+R2,Caltech full,6,Caltech,Caltech,Rule gate,2,2020-02-29,168,-43.558204170410264,64
+R2,Caltech full,6,Caltech,Caltech,Rule gate,3,2020-03-07,168,-45.244610703648526,61
+R2,Caltech full,6,Caltech,Caltech,Rule gate,4,2020-03-14,168,38.99653941356977,39
+R2,Caltech full,6,Caltech,Caltech,Rule gate,5,2020-03-21,168,53.81785306773051,15
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,0,2020-02-15,168,-35.42157830845132,59
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,1,2020-02-22,168,-60.10377176300931,65
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,2,2020-02-29,168,-45.476652898582586,63
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,3,2020-03-07,168,-46.89976296466721,66
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,4,2020-03-14,168,18.2690813686131,35
+R2,Caltech full,24,Caltech,Caltech,Adaptive full,5,2020-03-21,168,27.284536654870465,13
+R2,Caltech full,24,Caltech,Caltech,Static optimized,0,2020-02-15,168,-32.34709630367835,59
+R2,Caltech full,24,Caltech,Caltech,Static optimized,1,2020-02-22,168,-56.51649329772329,66
+R2,Caltech full,24,Caltech,Caltech,Static optimized,2,2020-02-29,168,-40.850083301169335,63
+R2,Caltech full,24,Caltech,Caltech,Static optimized,3,2020-03-07,168,-38.80403691624507,63
+R2,Caltech full,24,Caltech,Caltech,Static optimized,4,2020-03-14,168,59.67841996015956,37
+R2,Caltech full,24,Caltech,Caltech,Static optimized,5,2020-03-21,168,68.45853292432446,12
+R2,Caltech full,24,Caltech,Caltech,Rule gate,0,2020-02-15,168,-39.74763759328607,38
+R2,Caltech full,24,Caltech,Caltech,Rule gate,1,2020-02-22,168,-63.74312393785313,48
+R2,Caltech full,24,Caltech,Caltech,Rule gate,2,2020-02-29,168,-42.92349537739334,48
+R2,Caltech full,24,Caltech,Caltech,Rule gate,3,2020-03-07,168,-42.60873355635843,41
+R2,Caltech full,24,Caltech,Caltech,Rule gate,4,2020-03-14,168,45.70877666688796,15
+R2,Caltech full,24,Caltech,Caltech,Rule gate,5,2020-03-21,168,26.26944105796215,3
+R2,JPL matched,1,JPL,JPL,Adaptive full,0,2020-02-15,168,-61.70900934646028,55
+R2,JPL matched,1,JPL,JPL,Adaptive full,1,2020-02-22,168,-118.32650529866419,63
+R2,JPL matched,1,JPL,JPL,Adaptive full,2,2020-02-29,168,-76.7435244365459,58
+R2,JPL matched,1,JPL,JPL,Adaptive full,3,2020-03-07,168,-116.95833219030891,75
+R2,JPL matched,1,JPL,JPL,Adaptive full,4,2020-03-14,168,-11.700029316927072,50
+R2,JPL matched,1,JPL,JPL,Adaptive full,5,2020-03-21,168,47.6671111018452,22
+R2,JPL matched,1,JPL,JPL,Static optimized,0,2020-02-15,168,-57.22160186077488,55
+R2,JPL matched,1,JPL,JPL,Static optimized,1,2020-02-22,168,-114.77459325535412,63
+R2,JPL matched,1,JPL,JPL,Static optimized,2,2020-02-29,168,-71.03166690076917,57
+R2,JPL matched,1,JPL,JPL,Static optimized,3,2020-03-07,168,-109.79677672137062,75
+R2,JPL matched,1,JPL,JPL,Static optimized,4,2020-03-14,168,-0.026405129722562037,50
+R2,JPL matched,1,JPL,JPL,Static optimized,5,2020-03-21,168,65.13281303423419,21
+R2,JPL matched,1,JPL,JPL,Rule gate,0,2020-02-15,168,-57.07151451118518,55
+R2,JPL matched,1,JPL,JPL,Rule gate,1,2020-02-22,168,-116.90593651739042,63
+R2,JPL matched,1,JPL,JPL,Rule gate,2,2020-02-29,168,-72.60868083460913,57
+R2,JPL matched,1,JPL,JPL,Rule gate,3,2020-03-07,168,-111.62604128089546,75
+R2,JPL matched,1,JPL,JPL,Rule gate,4,2020-03-14,168,-0.36442097144982455,50
+R2,JPL matched,1,JPL,JPL,Rule gate,5,2020-03-21,168,62.98034315398643,21
+R2,JPL matched,3,JPL,JPL,Adaptive full,0,2020-02-15,168,-10.158055760452225,54
+R2,JPL matched,3,JPL,JPL,Adaptive full,1,2020-02-22,168,-117.55581284265732,64
+R2,JPL matched,3,JPL,JPL,Adaptive full,2,2020-02-29,168,-83.69839901086057,63
+R2,JPL matched,3,JPL,JPL,Adaptive full,3,2020-03-07,168,-117.81051497192689,77
+R2,JPL matched,3,JPL,JPL,Adaptive full,4,2020-03-14,168,-22.460848589790302,46
+R2,JPL matched,3,JPL,JPL,Adaptive full,5,2020-03-21,168,104.64425489296855,13
+R2,JPL matched,3,JPL,JPL,Static optimized,0,2020-02-15,168,-1.917860656260089,54
+R2,JPL matched,3,JPL,JPL,Static optimized,1,2020-02-22,168,-101.88473420300839,65
+R2,JPL matched,3,JPL,JPL,Static optimized,2,2020-02-29,168,-51.047474852011604,57
+R2,JPL matched,3,JPL,JPL,Static optimized,3,2020-03-07,168,-99.1773754409201,75
+R2,JPL matched,3,JPL,JPL,Static optimized,4,2020-03-14,168,-1.5667864958719306,47
+R2,JPL matched,3,JPL,JPL,Static optimized,5,2020-03-21,168,154.73826229313676,12
+R2,JPL matched,3,JPL,JPL,Rule gate,0,2020-02-15,168,-2.769726538669456,53
+R2,JPL matched,3,JPL,JPL,Rule gate,1,2020-02-22,168,-104.32888440611141,63
+R2,JPL matched,3,JPL,JPL,Rule gate,2,2020-02-29,168,-50.78787490518528,55
+R2,JPL matched,3,JPL,JPL,Rule gate,3,2020-03-07,168,-102.1236245328582,75
+R2,JPL matched,3,JPL,JPL,Rule gate,4,2020-03-14,168,-0.11817089993709828,48
+R2,JPL matched,3,JPL,JPL,Rule gate,5,2020-03-21,168,158.7710471668869,12
+R2,JPL matched,6,JPL,JPL,Adaptive full,0,2020-02-15,168,-7.919774855877494,55
+R2,JPL matched,6,JPL,JPL,Adaptive full,1,2020-02-22,168,-88.62913181784388,62
+R2,JPL matched,6,JPL,JPL,Adaptive full,2,2020-02-29,168,-61.27864225216644,63
+R2,JPL matched,6,JPL,JPL,Adaptive full,3,2020-03-07,168,-111.37435352339284,74
+R2,JPL matched,6,JPL,JPL,Adaptive full,4,2020-03-14,168,-35.43165708054264,54
+R2,JPL matched,6,JPL,JPL,Adaptive full,5,2020-03-21,168,58.32646533287353,14
+R2,JPL matched,6,JPL,JPL,Static optimized,0,2020-02-15,168,6.020365702018381,51
+R2,JPL matched,6,JPL,JPL,Static optimized,1,2020-02-22,168,-89.68889632701348,62
+R2,JPL matched,6,JPL,JPL,Static optimized,2,2020-02-29,168,-41.21764880308337,57
+R2,JPL matched,6,JPL,JPL,Static optimized,3,2020-03-07,168,-92.32870453613941,72
+R2,JPL matched,6,JPL,JPL,Static optimized,4,2020-03-14,168,-22.544611911159265,52
+R2,JPL matched,6,JPL,JPL,Static optimized,5,2020-03-21,168,143.18454474251902,13
+R2,JPL matched,6,JPL,JPL,Rule gate,0,2020-02-15,168,4.552968954525639,51
+R2,JPL matched,6,JPL,JPL,Rule gate,1,2020-02-22,168,-89.36786742355204,62
+R2,JPL matched,6,JPL,JPL,Rule gate,2,2020-02-29,168,-40.44468523515145,57
+R2,JPL matched,6,JPL,JPL,Rule gate,3,2020-03-07,168,-96.24176725808081,72
+R2,JPL matched,6,JPL,JPL,Rule gate,4,2020-03-14,168,-15.58602892477943,52
+R2,JPL matched,6,JPL,JPL,Rule gate,5,2020-03-21,168,144.30766293863348,14
+R2,JPL matched,24,JPL,JPL,Adaptive full,0,2020-02-15,168,-8.09155933782195,53
+R2,JPL matched,24,JPL,JPL,Adaptive full,1,2020-02-22,168,-91.5249267300331,64
+R2,JPL matched,24,JPL,JPL,Adaptive full,2,2020-02-29,168,-54.951912515688534,63
+R2,JPL matched,24,JPL,JPL,Adaptive full,3,2020-03-07,168,-93.2040151971349,73
+R2,JPL matched,24,JPL,JPL,Adaptive full,4,2020-03-14,168,-28.620204785775982,50
+R2,JPL matched,24,JPL,JPL,Adaptive full,5,2020-03-21,168,123.92807206626956,13
+R2,JPL matched,24,JPL,JPL,Static optimized,0,2020-02-15,168,-2.3245801128184773,53
+R2,JPL matched,24,JPL,JPL,Static optimized,1,2020-02-22,168,-91.70599828994207,64
+R2,JPL matched,24,JPL,JPL,Static optimized,2,2020-02-29,168,-53.74097016649025,60
+R2,JPL matched,24,JPL,JPL,Static optimized,3,2020-03-07,168,-88.98744418696232,73
+R2,JPL matched,24,JPL,JPL,Static optimized,4,2020-03-14,168,-12.824671279649131,49
+R2,JPL matched,24,JPL,JPL,Static optimized,5,2020-03-21,168,197.20504355100766,13
+R2,JPL matched,24,JPL,JPL,Rule gate,0,2020-02-15,168,-2.6800133456760378,53
+R2,JPL matched,24,JPL,JPL,Rule gate,1,2020-02-22,168,-91.56123723429883,60
+R2,JPL matched,24,JPL,JPL,Rule gate,2,2020-02-29,168,-59.203729301073274,60
+R2,JPL matched,24,JPL,JPL,Rule gate,3,2020-03-07,168,-98.88382609974593,72
+R2,JPL matched,24,JPL,JPL,Rule gate,4,2020-03-14,168,-21.53919111853109,48
+R2,JPL matched,24,JPL,JPL,Rule gate,5,2020-03-21,168,198.26860612884488,12
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,0,2020-03-28,168,4.715604068383161,5
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,1,2020-04-04,168,4.450657938816518,12
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,2,2020-04-11,168,4.243791042645217,10
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,3,2020-04-18,168,4.188207214964327,9
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,4,2020-04-25,168,-1.3392824460197492,15
+R3,Caltech full,1,Caltech,Caltech,Adaptive full,5,2020-05-02,168,3.4188262570859074,4
+R3,Caltech full,1,Caltech,Caltech,Static optimized,0,2020-03-28,168,23.284370035189415,5
+R3,Caltech full,1,Caltech,Caltech,Static optimized,1,2020-04-04,168,20.051463810311006,12
+R3,Caltech full,1,Caltech,Caltech,Static optimized,2,2020-04-11,168,20.49340150247081,10
+R3,Caltech full,1,Caltech,Caltech,Static optimized,3,2020-04-18,168,21.941633442800637,9
+R3,Caltech full,1,Caltech,Caltech,Static optimized,4,2020-04-25,168,13.664112657155476,15
+R3,Caltech full,1,Caltech,Caltech,Static optimized,5,2020-05-02,168,22.20864533968151,4
+R3,Caltech full,1,Caltech,Caltech,Rule gate,0,2020-03-28,168,4.763587826998119,3
+R3,Caltech full,1,Caltech,Caltech,Rule gate,1,2020-04-04,168,4.36977178554464,7
+R3,Caltech full,1,Caltech,Caltech,Rule gate,2,2020-04-11,168,2.6271339761907235,7
+R3,Caltech full,1,Caltech,Caltech,Rule gate,3,2020-04-18,168,5.0971333691578025,5
+R3,Caltech full,1,Caltech,Caltech,Rule gate,4,2020-04-25,168,-2.7847613212551448,11
+R3,Caltech full,1,Caltech,Caltech,Rule gate,5,2020-05-02,168,3.2484111426210465,3
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,0,2020-03-28,168,6.792164792957578,4
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,1,2020-04-04,168,6.144075809084162,11
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,2,2020-04-11,168,5.590607899474049,8
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,3,2020-04-18,168,7.981551944686692,8
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,4,2020-04-25,168,5.886038841702453,15
+R3,Caltech full,3,Caltech,Caltech,Adaptive full,5,2020-05-02,168,6.339446006340505,4
+R3,Caltech full,3,Caltech,Caltech,Static optimized,0,2020-03-28,168,30.25074495887522,4
+R3,Caltech full,3,Caltech,Caltech,Static optimized,1,2020-04-04,168,26.41601041854751,11
+R3,Caltech full,3,Caltech,Caltech,Static optimized,2,2020-04-11,168,28.021910437319686,8
+R3,Caltech full,3,Caltech,Caltech,Static optimized,3,2020-04-18,168,32.883405458530035,8
+R3,Caltech full,3,Caltech,Caltech,Static optimized,4,2020-04-25,168,29.95218894952391,15
+R3,Caltech full,3,Caltech,Caltech,Static optimized,5,2020-05-02,168,32.78297505416944,4
+R3,Caltech full,3,Caltech,Caltech,Rule gate,0,2020-03-28,168,22.515075793450464,4
+R3,Caltech full,3,Caltech,Caltech,Rule gate,1,2020-04-04,168,20.65935338769285,11
+R3,Caltech full,3,Caltech,Caltech,Rule gate,2,2020-04-11,168,20.954635875994324,8
+R3,Caltech full,3,Caltech,Caltech,Rule gate,3,2020-04-18,168,26.222651233260116,8
+R3,Caltech full,3,Caltech,Caltech,Rule gate,4,2020-04-25,168,26.04384463390564,15
+R3,Caltech full,3,Caltech,Caltech,Rule gate,5,2020-05-02,168,26.130528089549482,4
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,0,2020-03-28,168,16.369220167949386,4
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,1,2020-04-04,168,14.755308987472887,9
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,2,2020-04-11,168,15.722426565354938,8
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,3,2020-04-18,168,17.939295999920144,7
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,4,2020-04-25,168,14.859191285807523,14
+R3,Caltech full,6,Caltech,Caltech,Adaptive full,5,2020-05-02,168,16.94664949542397,4
+R3,Caltech full,6,Caltech,Caltech,Static optimized,0,2020-03-28,168,59.37752132520727,3
+R3,Caltech full,6,Caltech,Caltech,Static optimized,1,2020-04-04,168,52.290606865348906,8
+R3,Caltech full,6,Caltech,Caltech,Static optimized,2,2020-04-11,168,56.57618725693704,7
+R3,Caltech full,6,Caltech,Caltech,Static optimized,3,2020-04-18,168,59.34997703606779,6
+R3,Caltech full,6,Caltech,Caltech,Static optimized,4,2020-04-25,168,55.29889948648933,13
+R3,Caltech full,6,Caltech,Caltech,Static optimized,5,2020-05-02,168,61.48271998669133,4
+R3,Caltech full,6,Caltech,Caltech,Rule gate,0,2020-03-28,168,44.1831125367726,4
+R3,Caltech full,6,Caltech,Caltech,Rule gate,1,2020-04-04,168,38.01560886041315,9
+R3,Caltech full,6,Caltech,Caltech,Rule gate,2,2020-04-11,168,42.10640929228718,8
+R3,Caltech full,6,Caltech,Caltech,Rule gate,3,2020-04-18,168,44.109376879647876,7
+R3,Caltech full,6,Caltech,Caltech,Rule gate,4,2020-04-25,168,43.5950003627636,13
+R3,Caltech full,6,Caltech,Caltech,Rule gate,5,2020-05-02,168,46.30763515884955,4
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,0,2020-03-28,168,14.921034110857608,3
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,1,2020-04-04,168,12.551193325938428,9
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,2,2020-04-11,168,14.72506117416782,6
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,3,2020-04-18,168,12.735139429854591,7
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,4,2020-04-25,168,11.270337750793576,13
+R3,Caltech full,24,Caltech,Caltech,Adaptive full,5,2020-05-02,168,11.396806218750651,4
+R3,Caltech full,24,Caltech,Caltech,Static optimized,0,2020-03-28,168,46.507657658544474,3
+R3,Caltech full,24,Caltech,Caltech,Static optimized,1,2020-04-04,168,40.168261055301684,9
+R3,Caltech full,24,Caltech,Caltech,Static optimized,2,2020-04-11,168,46.817760081585234,7
+R3,Caltech full,24,Caltech,Caltech,Static optimized,3,2020-04-18,168,40.72658694530559,7
+R3,Caltech full,24,Caltech,Caltech,Static optimized,4,2020-04-25,168,39.93523776581616,13
+R3,Caltech full,24,Caltech,Caltech,Static optimized,5,2020-05-02,168,40.58756447069416,4
+R3,Caltech full,24,Caltech,Caltech,Rule gate,0,2020-03-28,168,10.878788301608903,3
+R3,Caltech full,24,Caltech,Caltech,Rule gate,1,2020-04-04,168,5.788233635768897,9
+R3,Caltech full,24,Caltech,Caltech,Rule gate,2,2020-04-11,168,11.17846799342278,7
+R3,Caltech full,24,Caltech,Caltech,Rule gate,3,2020-04-18,168,5.440510289062979,7
+R3,Caltech full,24,Caltech,Caltech,Rule gate,4,2020-04-25,168,9.24843180297222,13
+R3,Caltech full,24,Caltech,Caltech,Rule gate,5,2020-05-02,168,4.09858495718591,4
+R3,JPL matched,1,JPL,JPL,Adaptive full,0,2020-03-28,168,33.86432121976145,20
+R3,JPL matched,1,JPL,JPL,Adaptive full,1,2020-04-04,168,23.44884188328628,18
+R3,JPL matched,1,JPL,JPL,Adaptive full,2,2020-04-11,168,28.43743862351661,0
+R3,JPL matched,1,JPL,JPL,Adaptive full,3,2020-04-18,168,23.107139036420083,0
+R3,JPL matched,1,JPL,JPL,Adaptive full,4,2020-04-25,168,22.492273445124173,4
+R3,JPL matched,1,JPL,JPL,Adaptive full,5,2020-05-02,168,15.219815363816114,37
+R3,JPL matched,1,JPL,JPL,Static optimized,0,2020-03-28,168,39.55602494642932,20
+R3,JPL matched,1,JPL,JPL,Static optimized,1,2020-04-04,168,29.189773495655132,18
+R3,JPL matched,1,JPL,JPL,Static optimized,2,2020-04-11,168,39.51632432149314,0
+R3,JPL matched,1,JPL,JPL,Static optimized,3,2020-04-18,168,33.8141014637836,0
+R3,JPL matched,1,JPL,JPL,Static optimized,4,2020-04-25,168,32.5612785179522,4
+R3,JPL matched,1,JPL,JPL,Static optimized,5,2020-05-02,168,19.373462902526697,34
+R3,JPL matched,1,JPL,JPL,Rule gate,0,2020-03-28,168,24.63553543485837,21
+R3,JPL matched,1,JPL,JPL,Rule gate,1,2020-04-04,168,23.16900221081056,18
+R3,JPL matched,1,JPL,JPL,Rule gate,2,2020-04-11,168,41.16677019029046,0
+R3,JPL matched,1,JPL,JPL,Rule gate,3,2020-04-18,168,36.775780723420866,0
+R3,JPL matched,1,JPL,JPL,Rule gate,4,2020-04-25,168,32.62207712566488,5
+R3,JPL matched,1,JPL,JPL,Rule gate,5,2020-05-02,168,8.251494095148207,39
+R3,JPL matched,3,JPL,JPL,Adaptive full,0,2020-03-28,168,94.05218962373408,15
+R3,JPL matched,3,JPL,JPL,Adaptive full,1,2020-04-04,168,95.3762151932654,14
+R3,JPL matched,3,JPL,JPL,Adaptive full,2,2020-04-11,168,117.74887897594897,0
+R3,JPL matched,3,JPL,JPL,Adaptive full,3,2020-04-18,168,114.95581064349133,0
+R3,JPL matched,3,JPL,JPL,Adaptive full,4,2020-04-25,168,102.63536388692877,4
+R3,JPL matched,3,JPL,JPL,Adaptive full,5,2020-05-02,168,41.247922243164545,30
+R3,JPL matched,3,JPL,JPL,Static optimized,0,2020-03-28,168,111.3029257609657,14
+R3,JPL matched,3,JPL,JPL,Static optimized,1,2020-04-04,168,125.45118507691828,11
+R3,JPL matched,3,JPL,JPL,Static optimized,2,2020-04-11,168,144.22132159403938,0
+R3,JPL matched,3,JPL,JPL,Static optimized,3,2020-04-18,168,143.0873014803996,0
+R3,JPL matched,3,JPL,JPL,Static optimized,4,2020-04-25,168,129.77315722161484,2
+R3,JPL matched,3,JPL,JPL,Static optimized,5,2020-05-02,168,66.72161342849114,29
+R3,JPL matched,3,JPL,JPL,Rule gate,0,2020-03-28,168,92.2297558274013,14
+R3,JPL matched,3,JPL,JPL,Rule gate,1,2020-04-04,168,109.28340785963229,11
+R3,JPL matched,3,JPL,JPL,Rule gate,2,2020-04-11,168,130.7823410773951,0
+R3,JPL matched,3,JPL,JPL,Rule gate,3,2020-04-18,168,130.20811221981006,0
+R3,JPL matched,3,JPL,JPL,Rule gate,4,2020-04-25,168,116.5917883735616,3
+R3,JPL matched,3,JPL,JPL,Rule gate,5,2020-05-02,168,59.57747491302063,30
+R3,JPL matched,6,JPL,JPL,Adaptive full,0,2020-03-28,168,70.45836161029064,17
+R3,JPL matched,6,JPL,JPL,Adaptive full,1,2020-04-04,168,78.60367751475752,14
+R3,JPL matched,6,JPL,JPL,Adaptive full,2,2020-04-11,168,96.22064228058694,0
+R3,JPL matched,6,JPL,JPL,Adaptive full,3,2020-04-18,168,96.31954320881151,0
+R3,JPL matched,6,JPL,JPL,Adaptive full,4,2020-04-25,168,82.3838930456665,4
+R3,JPL matched,6,JPL,JPL,Adaptive full,5,2020-05-02,168,27.529384717161147,35
+R3,JPL matched,6,JPL,JPL,Static optimized,0,2020-03-28,168,105.39528381612612,16
+R3,JPL matched,6,JPL,JPL,Static optimized,1,2020-04-04,168,128.89278044857895,13
+R3,JPL matched,6,JPL,JPL,Static optimized,2,2020-04-11,168,143.3899545596082,0
+R3,JPL matched,6,JPL,JPL,Static optimized,3,2020-04-18,168,143.49893637220546,0
+R3,JPL matched,6,JPL,JPL,Static optimized,4,2020-04-25,168,129.63187873252457,2
+R3,JPL matched,6,JPL,JPL,Static optimized,5,2020-05-02,168,51.26194073047586,30
+R3,JPL matched,6,JPL,JPL,Rule gate,0,2020-03-28,168,101.39092753704337,16
+R3,JPL matched,6,JPL,JPL,Rule gate,1,2020-04-04,168,120.27186306873492,14
+R3,JPL matched,6,JPL,JPL,Rule gate,2,2020-04-11,168,130.447971494927,0
+R3,JPL matched,6,JPL,JPL,Rule gate,3,2020-04-18,168,130.5608295350615,0
+R3,JPL matched,6,JPL,JPL,Rule gate,4,2020-04-25,168,116.50375322678283,3
+R3,JPL matched,6,JPL,JPL,Rule gate,5,2020-05-02,168,53.13832706671539,32
+R3,JPL matched,24,JPL,JPL,Adaptive full,0,2020-03-28,168,93.78787631558296,13
+R3,JPL matched,24,JPL,JPL,Adaptive full,1,2020-04-04,168,110.7376156733491,12
+R3,JPL matched,24,JPL,JPL,Adaptive full,2,2020-04-11,168,116.68213785947815,0
+R3,JPL matched,24,JPL,JPL,Adaptive full,3,2020-04-18,168,117.32210147086155,0
+R3,JPL matched,24,JPL,JPL,Adaptive full,4,2020-04-25,168,106.27249704187369,4
+R3,JPL matched,24,JPL,JPL,Adaptive full,5,2020-05-02,168,66.59089782741489,29
+R3,JPL matched,24,JPL,JPL,Static optimized,0,2020-03-28,168,166.90737888644844,12
+R3,JPL matched,24,JPL,JPL,Static optimized,1,2020-04-04,168,195.82487741699464,9
+R3,JPL matched,24,JPL,JPL,Static optimized,2,2020-04-11,168,219.49718055290862,0
+R3,JPL matched,24,JPL,JPL,Static optimized,3,2020-04-18,168,221.89727093263383,0
+R3,JPL matched,24,JPL,JPL,Static optimized,4,2020-04-25,168,206.0818638610416,2
+R3,JPL matched,24,JPL,JPL,Static optimized,5,2020-05-02,168,114.85563036823602,26
+R3,JPL matched,24,JPL,JPL,Rule gate,0,2020-03-28,168,172.1477013057991,10
+R3,JPL matched,24,JPL,JPL,Rule gate,1,2020-04-04,168,199.29725668527706,10
+R3,JPL matched,24,JPL,JPL,Rule gate,2,2020-04-11,168,217.4143119165638,0
+R3,JPL matched,24,JPL,JPL,Rule gate,3,2020-04-18,168,220.20871485648928,0
+R3,JPL matched,24,JPL,JPL,Rule gate,4,2020-04-25,168,204.24168510228253,2
+R3,JPL matched,24,JPL,JPL,Rule gate,5,2020-05-02,168,117.9377818824189,27

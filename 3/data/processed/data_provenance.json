@@ -1,7 +1,7 @@
 {
   "view_version": "v1",
   "schema_version": 1,
-  "source_root": "C:\\Users\\Vicky\\Desktop\\ML project\\2",
+  "source_root": "legacy-stage2-inputs (original private workstation path omitted)",
   "inputs": {
     "sessions": {
       "path": "member1_outputs/session_start_times.csv",

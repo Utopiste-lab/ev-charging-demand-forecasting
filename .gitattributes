@@ -1,0 +1,5 @@
+# Stage 3 frozen research artifacts are byte-hashed. Preserve original bytes
+# on all platforms, including repositories with core.autocrlf=true.
+3/** -text whitespace=cr-at-eol
+docs/artifact-index.csv -text
+docs/external-artifacts.csv -text

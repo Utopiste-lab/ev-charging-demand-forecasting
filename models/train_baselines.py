@@ -46,13 +46,22 @@ def zero_runs(frame):
     return pd.DataFrame(rows, columns=['site', 'start_hour', 'end_hour', 'hours'])
 
 
-def audit_inputs(root):
-    paths = [root/'member1_outputs'/name for name in
+def audit_inputs(root, input_layout='auto'):
+    component = [root/'member1_outputs'/name for name in
              ['session_start_times.csv', 'data_summary.csv', 'unparsed_files.csv']]
-    paths += [root/'member2_outputs'/name for name in
+    component += [root/'member2_outputs'/name for name in
               ['hourly_counts.csv', 'hourly_summary.csv', 'long_zero_runs.csv']]
-    for path in paths:
-        require(path.is_file(), f'Missing required input: {path}')
+    flat = [root / path.name for path in component]
+    if input_layout == 'auto':
+        has_component = any(path.is_file() for path in component)
+        has_flat = any(path.is_file() for path in flat)
+        require(not (has_component and has_flat),
+                'Both layouts found; select --input-layout component or flat explicitly')
+        paths = flat if has_flat else component
+    else:
+        paths = component if input_layout == 'component' else flat
+    missing = [str(path) for path in paths if not path.is_file()]
+    require(not missing, 'Missing required inputs:\n' + '\n'.join(missing))
     tables = {p.name: pd.read_csv(p) for p in paths}
     audit = {'files': {p.name: {'rows': len(tables[p.name]),
              'columns': list(tables[p.name].columns),
@@ -153,11 +162,12 @@ def make_features(series):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--data-root', type=Path, required=True,
-                        help='Folder containing member1_outputs and member2_outputs')
+                        help='Folder containing component subdirectories or the six flat CSV inputs')
+    parser.add_argument('--input-layout', choices=['auto', 'component', 'flat'], default='auto')
     parser.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument('--site', default='Caltech')
     args = parser.parse_args()
-    h, runs, audit = audit_inputs(args.data_root)
+    h, runs, audit = audit_inputs(args.data_root, args.input_layout)
     require(args.site in h.site.unique(), f'Unknown site {args.site}')
     series = h[h.site.eq(args.site)].set_index('hour').session_starts
     x = make_features(series).dropna()
